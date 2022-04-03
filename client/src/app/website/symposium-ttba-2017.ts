@@ -5,14 +5,14 @@ import { commiteesObj } from './commitees-array';
 
 export const ttbaSymposium2017 = {
     'symposiumInfo': {
-        'name': 'BTBA Symposium 2021',
+        'name': 'BTBA Symposium 2022',
         'location': 'Virtual',
         'time': {
-            'from': new Date('2021/07/10'),
-            'to': new Date('2021/07/11')
+            'from': new Date('2022/07/23'),
+            'to': new Date('2022/07/24')
 		},
 		'timeZone': 'America/New_York',
-        'year': '2021',
+        'year': '2022',
         'title': 'HUSTLING IN THE ERA OF BIOTECH',
         'showPageLink': false,
         'registrationLink': 'https://www.eventbrite.com/e/2021-btba-virtual-annual-symposium-registration-155894517699'
@@ -27,24 +27,18 @@ export const ttbaSymposium2017 = {
 		'supportLink': 'https://www.btbatw.org/support.html'
     },
     'about': {
-        'title': '2021 BTBA Virtual Symposium',
+        'title': '2022 BTBA Annual Symposium',
         'showPageLink': true,
         'subjects': [{
             'title': '',
-            'description': `<p>Boston Taiwanese Biotechnology Association (BTBA) will hold the 2021 BTBA Virtual Annual Symposium from 12:50 pm to 6:30 pm EDT on July 10 & 11 (Saturday and Sunday) 2021.</p>
-
-			<p>This online symposium will bring experts from academia and industry to share their experiences and knowledge on their research/responsibility, personal career development, and lessons learned for young scientists. This year, we are honored to have Dr. Herren Wu, Ph.D., the Senior Vice President of AstraZeneca, and Dr. Jeannie T. Lee, M.D., Ph.D., Professor of Genetics of Harvard Medical School.</p>
-
-			<p>This event is free. Please <a href="https://www.eventbrite.com/e/2021-btba-virtual-annual-symposium-registration-155894517699" target="_blank">register on Eventbrite</a>, and you will receive information on how to join the meeting virtually.</p>
-
-			<p>As a non-profit organization, we appreciate your consideration of giving a small gift to support BTBA! Your donation qualifies for tax-exemption and grants you guaranteed access to the 2021 BTBA Virtual Symposium meeting rooms.</p>`
+            'description': `<p>The Boston Taiwanese Biotechnology Association (BTBA) will hold its 10th BTBA Annual Symposium on July 23 and 24, 2022. There will be keynote speeches, career development workshops, poster presentations, and networking sessions at the event. We cordially invite you to attend our annual symposium to share, learn, and network. Early bird registration will open soon. Please stay tuned and follow our social media for further announcements. We look forward to seeing you this summer in Boston! <a href="https://btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'About BTBA',
-            'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities.</p>'
+            'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
         }]
     },
-    'talk': {
-        'title': 'Talks',
+    'programme': {
+        'title': 'Programme',
         'showPageLink': true,
         'schedules': [{
             'from': new Date('2021/07/10 12:30 EDT'),
@@ -347,11 +341,11 @@ export const ttbaSymposium2017 = {
             ]
         }]
     },
-    'elevatorPitch': {
-        'title': 'Elevator Pitch & Poster Session',
-        'showPageLink': false,
+    'submission': {
+        'title': 'Call for Submissions',
+        'showPageLink': true,
         'text': '',
-        'link': 'http://abstract2017.ttbatw.org/'
+        'link': 'https://easychair.org/conferences/?conf=btba2022'
     },
     'location': {
         'title': 'Location',
