@@ -1,58 +1,42 @@
 <h2 class="mat-display-1 vertical-bullet-text border-color-of-theme">
-	{{ symposium.elevatorPitch.title | uppercase }}
+	{{ symposium.submission.title | uppercase }}
 </h2>
-<div class="mat-typography" id="elevator">
-	<h4>
-		We are accepting abstracts for the Elevator Pitch (Saturday 12:15-13:45, August 3) and the Poster Session
-		(Saturday 15:40-17:00) at the 2019 BTBA Annual Symposium. Please register before submitting your abstract.
-	</h4>
-	<h4>
-		Submission deadline: 07/20/2019 (Sat) 12:00AM (EST)
-	</h4>
-	<div fxLayoutAlign="center" style="margin-bottom: 1.5em">
-		<!-- <button md-raised-button color="accent"
-			(click)="goToLink('https://docs.google.com/forms/d/e/1FAIpQLSfEQbS58WH9bK6oL_9tX6Vn0U795QOCOqmN5M1fDNX7dkvPAA/viewform?usp=sf_link')">{{'submit abstract' | uppercase}}</button> -->
-	</div>
-	<h2 class="mat-headline">Abstract format</h2>
-	<ol style="margin-bottom: 1.8em">
-		<li>A single-page PDF file with filesize smaller than 10 MB</li>
-		<li>The abstract should include Title, Authors, Affiliations, Main Text and References. Figures are optional.</li>
-		<li>
-			Layout - <a href="assets/files/Abstract_template.docx" class="href">{{ 'download Word template' }}</a>:
-			<ul>
-				<li>Margin: 1-inch; Font: Times New Roman</li>
-				<li>Title: 12 pt bold; Other text: 10 pt</li>
-				<li>1.5-lines spacing, but single line spacing for reference and figure caption</li>
-				<li>
-					Reference format: Number, Authors (abbreviated first and flil last name), Journal, Issue, Page,
-					Year. <br>
-					Reference example: 1. M. Casalino, L. Sirleto, L. Moretti, and I. Rendina, Semicond, Sci. Technol.
-					23,075001 (2008)
-				</li>
-			</ul>
-		</li>
+<div class="" id="elevator">
 
-	</ol>
-	<h2 class="mat-headline">Elevator Pitch</h2>
-	<p style="margin-bottom: 1.8em">
-		8 participants will be selected for presenting their work. Each presentation is restricted to 150 seconds with
-		no more than 3 slides. 2 best speakers will be awarded with $50 Amazon gift card in the Closing Remarks & Award
-		Ceremony on Sunday, August 4.
+
+	<h3 class="mat-headline" style="margin-top:1.5em">Abstracts – Talks and Posters</h3>
+	<p class="mat-subheading-1">
+		We welcome everyone in the broadly defined fields of biomedical studies, life sciences, biology, and biotechnology to present their work. Each year, the symposium brings together people from a variety of different professional backgrounds and bridges expertise across biotech subfields. This would be an excellent venue for you to share your research beeyond your specific scope of study, to discuss and brainstorm with other young professionals, and to establish potential collaborations.
 	</p>
-	<h2 class="mat-headline">Poster setup</h2>
-	<ul>
-		<li>
-			Poster size: 47 inches (or less) in width and 35.5 inches (or less) in length.
-		</li>
-		<li>
-			Please setup up your poster between 8:15AM and 8:45AM on Saturday, Aug 3 and keep
-			it until 5PM the same day.
-		</li>
-		<li>
-			The judges will score and the 3 best posters will receive certificate/prize/reward ($25
-			Amazon gift card) in the Closing Remarks &amp; Award Ceremony on Sunday, Aug 4.
-		</li>
+	<p class="mat-subheading-1">
+		In addition to a poster presentation, you will also have the opportunity to give a 20-minute oral presentation (15-minute talk plus 5-minute QA) in the annual symposium. Please indicate your interest in giving a talk in your abstract submission. We will select 3 speakers from the pool of poster applications to give a talk. The selected presenters will be awarded a gift card ($30 in value) and their registration fee will be waived.
+	</p>
+	<p class="mat-subheading-1">
+		We will also select one poster for a most popular poster award based on the votes of the audience.
+	</p>
+	<p class="mat-subheading-1">
+		Please note: due to space limitations, a person can only submit one poster abstract and be the main presenting author on one poster. (You can be co-authors on multiple posters but can only be the main presenter of ONE poster.)
+	</p>
+
+	<h3 class="mat-headline" style="margin-top:1.5em">Abstract Submission</h3>
+	<p class="mat-subheading-1">
+		Abstract should be 500 words or less in a single page. A complete abstract should include background, methods, results, and conclusions. <a href="https://docs.google.com/document/d/1F-SX60c_j48KQLdWI8Sna4KN2bPuuxfv/">MS-Word Template</a>
+	</p>
+
+	<div fxLayoutAlign="center" style="margin: 1.5em 0em">
+		<button md-raised-button color="accent" (click)="goToLink(symposium.submission.link)">{{'Abstract Submission Site' | uppercase}}</button>
+	</div>
+
+	<h3 class="mat-headline" style="margin-top:1.5em">Abstract Submission Key Dates</h3>
+	<ul class="mat-subheading-1">
+		<li>April 2, 2022: Abstracts Submission Open</li>
+		<li>June 1, 2022: Abstracts Submission Deadline (closes at 11:59 p.m. EDT)</li>
+		<li>June 1, 2022: Abstracts Submission Deadline (closes at 11:59 p.m. EDT)</li>
+		<li>June 15, 2022: Talk Acceptance (oral presenters) Notifications</li>
+		<li>July 23, 2022: Time of poster session and oral presentation (first day of the BTBA Annual Symposium)</li>
 	</ul>
-	<!-- <div fxLayoutAlign="center">
-		<button md-raised-button color="accent" (click)="goToLink(symposium.elevatorTalk.link)">{{'Submit Abstract' | uppercase}}</button>
-	</div> -->
+	<p class="mat-subheading-1">
+		<em>Date and time are based on eastern daylight saving time zone (EDT).</em>
+	</p>
+
+</div>
