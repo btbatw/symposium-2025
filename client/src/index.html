@@ -3,10 +3,17 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>BTBA SYMPOSIUM 2021</title>
+	<title>BTBA SYMPOSIUM 2022</title>
 	<base href="/">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		var baseHref = document.location.href
+			.replace(document.location.origin, "")
+			.replace("index.html", "");
+		document.head.getElementsByTagName('base')[0]
+			.setAttribute('href', baseHref);
+	</script>
 	<script>
 		(function () {
 			var redirect = sessionStorage.redirect;
