@@ -1,4 +1,14 @@
 Create a conda environment and install node.js v6 and git
+- M1 macs
+```bash
+CONDA_SUBDIR=osx-64 conda create -n node6 python
+conda activate node6
+conda env config vars set CONDA_SUBDIR=osx-64
+conda deactivate node6
+conda activate node6
+```
+
+- Other platform
 ```bash
 # omit git if it's already installed globally
 conda create -n node6 -c conda-forge nodejs=6 git
