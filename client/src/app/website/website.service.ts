@@ -47,7 +47,7 @@ export class WebsiteService {
 
 	private parseSpeakers(data) {
 		let allSpeakers = [];
-		data.talk.schedules
+		data.programme.schedules
 			.forEach(element => {
 				if (!element.speakers[0] || !element.speakers[0].name) { return; }
 				let schedule = { ...element };
@@ -100,7 +100,7 @@ export class WebsiteService {
 	}
 
 	private parseInfoSessionSpeakersGroups(data) {
-		let infoSession = data.talk.schedules.find(element => element.title === 'Information session');
+		let infoSession = data.programme.schedules.find(element => element.title === 'Information session');
 		if (!infoSession) { return; }
 		let infoSessionSpeakers = [ ...this.speakers ];
 		infoSession.speakers = infoSessionSpeakers

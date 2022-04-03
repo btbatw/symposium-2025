@@ -82,7 +82,7 @@ export class WebsiteTalkComponent {
 		this.tabIndex = (this.tabIndex + 1) % 2;
 	}
 
-	scrollTo(link = 'talk') {
+	scrollTo(link = 'programme') {
 		// document.getElementById(link).scrollIntoView({ behavior: 'smooth' });
 		const stickyNavEl = <HTMLElement> document.querySelector('.nav-content');
 		const navHeight = stickyNavEl.offsetHeight;
