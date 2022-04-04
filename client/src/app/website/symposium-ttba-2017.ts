@@ -15,7 +15,7 @@ export const ttbaSymposium2017 = {
         'year': '2022',
         'title': 'HUSTLING IN THE ERA OF BIOTECH',
         'showPageLink': false,
-        'registrationLink': 'https://www.eventbrite.com/e/2021-btba-virtual-annual-symposium-registration-155894517699'
+        'registrationLink': ''
     },
     'host': {
         'name': 'Boston Taiwanese Biotechnology Association',
@@ -32,6 +32,9 @@ export const ttbaSymposium2017 = {
         'subjects': [{
             'title': '',
             'description': `<p>The Boston Taiwanese Biotechnology Association (BTBA) will hold its 10th BTBA Annual Symposium on July 23 and 24, 2022. There will be keynote speeches, career development workshops, poster presentations, and networking sessions at the event. We cordially invite you to attend our annual symposium to share, learn, and network. Early bird registration will open soon. Please stay tuned and follow our social media for further announcements. We look forward to seeing you this summer in Boston! <a href="https://btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
+        }, {
+            'title': 'Registration',
+            'description': '<p>Early bird registration will be open in early May. Please stay tuned and follow our social media and this website for further announcements.</p>'
         }, {
             'title': 'About BTBA',
             'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
