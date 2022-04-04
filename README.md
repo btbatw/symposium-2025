@@ -38,3 +38,16 @@ Build for production
 # in .../tba-symposium/client directory
 ng build --prod --output-path 2020  --base-href /2020/
 ```
+
+Use github pages to serve the `website` branch
+
+1. create `website` branch on github
+2. configure github pages pointing to root of the `website` branch
+```bash
+# in .../tba-symposium/client directory
+git submodule add -b website https://github.com/btbatw/symposium-2022.git website
+ng build --prod --output-path website  --base-href /2020/
+
+# make changes and update submodule and main git repo by referencing to
+# https://www.activestate.com/blog/getting-git-submodule-track-branch/
+```
