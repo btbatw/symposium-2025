@@ -1,0 +1,4 @@
+[submodule "client/website"]
+	path = client/website
+	url = https://github.com/btbatw/symposium-2022.git
+	branch = website
