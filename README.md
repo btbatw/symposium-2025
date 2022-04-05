@@ -25,7 +25,7 @@ npm install -g @angular/cli@1.3.2
 
 Serve locally during development
 ```bash
-# in .../tba-symposium/client directory
+# in .../symposium-2022/client directory
 ng serve
 ```
 
