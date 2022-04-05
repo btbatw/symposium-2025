@@ -15,10 +15,10 @@ conda create -n node6 -c conda-forge nodejs=6 git
 conda activate node6
 ```
 
-Clone repo from github and change directory into `./tba-symposium/client`
+Clone repo from github and change directory into `./symposium-2022/client`
 ```bash
-git clone https://github.com/Yu-AnChen/tba-symposium
-cd tba-symposium/client
+git clone https://github.com/btbatw/symposium-2022.git
+cd symposium-2022/client
 npm install
 npm install -g @angular/cli@1.3.2
 ```
@@ -35,8 +35,11 @@ Build for production
 # in the following example, the symposium site lives under
 # https://main-site.org/2020
 
-# in .../tba-symposium/client directory
+# in .../symposium-2022/client directory
 ng build --prod --output-path 2020  --base-href /2020/
+
+# for local repo freshedly cloned and has submodule
+git submodule update --init
 ```
 
 Use github pages to serve the `website` branch
@@ -46,7 +49,8 @@ Use github pages to serve the `website` branch
 ```bash
 # in .../tba-symposium/client directory
 git submodule add -b website https://github.com/btbatw/symposium-2022.git website
-ng build --prod --output-path website  --base-href /2020/
+ng build --prod --output-path website  --base-href /2022/
+
 
 # make changes and update submodule and main git repo by referencing to
 # https://www.activestate.com/blog/getting-git-submodule-track-branch/
