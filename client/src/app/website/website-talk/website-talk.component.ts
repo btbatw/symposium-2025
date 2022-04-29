@@ -16,7 +16,8 @@ import {
 
 @Component({
 	selector: 'app-website-talk',
-	templateUrl: './website-talk.component.html',
+	//templateUrl: './website-talk.component.html',
+	templateUrl: './website-talk-component-full.html',
 	styleUrls: ['./website-talk.component.scss'],
 	animations: [
 		trigger('itemAnim', [

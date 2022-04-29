@@ -44,303 +44,234 @@ export const ttbaSymposium2017 = {
         'title': 'Programme',
         'showPageLink': true,
         'schedules': [{
-            'from': new Date('2021/07/10 12:30 EDT'),
-            'to': new Date('2021/07/10 12:45 EDT'),
-            'title': 'Meeting room opens for attendees',
+            'from': new Date('2022/07/23 08:00 EDT'),
+            'to': new Date('2022/07/23 09:00 EDT'),
+            'title': 'Registration',
             'topic': null,
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
-        }, {
-            'from': new Date('2021/07/10 12:45 EDT'),
-            'to': new Date('22021/07/10 12:50 EDT'),
-            'title': 'Message from the Minister of Science and Technology of Taiwan',
-            'topic': null,
-            'sessionDescription': '',
-            'tags': [],
-            'rooms': [],
-            'speakers': [
-                speakersObj['Tsung-Tsong Wu']
-            ]
+            'speakers': []
         },{
-            'from': new Date('2021/07/10 12:50 EDT'),
-            'to': new Date('22021/07/10 13:00 EDT'),
+            'from': new Date('2022/07/23 09:00 EDT'),
+            'to': new Date('2022/07/23 09:10 EDT'),
             'title': 'Opening Remarks',
             'topic': null,
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
             'speakers': [
-                commiteesObj['Erica P. Cai'],
-                commiteesObj['Hsien-Wei Yvonne Meng'],
+                commiteesObj['Yu-Tien Hsu'],
+                commiteesObj['Chih-Hung Chou']
+            ]
+        }, {
+            'from': new Date('2022/07/23 09:10 EDT'),
+            'to': new Date('2022/07/23 10:10 EDT'),
+            'title': 'Keynote Speech I',
+            'topic': "Keynote by Robert S. Langer, Professor at MIT",
+            'sessionDescription': '',
+            'tags': [],
+            'rooms': [],
+            'speakers': [
+                speakersObj['Robert Langer']
             ]
         },{
-            'from': new Date('2021/07/10 13:00 EDT'),
-            'to': new Date('2021/07/10 14:10 EDT'),
-            'title': 'Opening Keynote',
-            'topic': "Keynote by Dr. Herren Wu: Transforming patients’ lives: A story of innovation, strategy and resilience",
-            'sessionDescription': '',
-            'tags': [],
-            'rooms': [],
-            'speakers': [
-				speakersObj['Herren Wu'],
-			]
-        }, {
-            'from': new Date('2021/07/10 14:10 EDT'),
-            'to': new Date('22021/07/10 14:20 EDT'),
-            'title': 'Short Break',
+            'from': new Date('2022/07/23 10:10 EDT'),
+            'to': new Date('2022/07/23 10:30 EDT'),
+            'title': 'Coffee Break',
             'topic': null,
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
-        }, {
-            'from': new Date('2021/07/10 14:20 EDT'),
-            'to': new Date('2021/07/10 15:50 EDT'),
-            'title': 'Academia to Industry I: Bench to Bedside',
-            'topic': 'How do you evaluate biotechnology',
+            'speakers': [
+                
+            ]
+        },{
+            'from': new Date('2022/07/23 10:30 EDT'),
+            'to': new Date('2022/07/23 12:00 EDT'),
+            'title': 'Trending Topic',
+            'topic': "Data-driven innovation in healthcare industry: drug discovery and clinical trial (Panel discussion)",
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
             'speakers': [
-				speakersObj['Gautam Rajpal'],
-				speakersObj['Jeremy Chang'],
-				speakersObj['Ying-Li Chen'],
-				// speakersObj['Han-Yu Shih'],
-				// speakersObj['Yu-Chen Tony Tsai']
+				//speakersObj['Herren Wu'],
 			]
         }, {
-            'from': new Date('2021/07/10 15:50 EDT'),
-            'to': new Date('2021/07/10 16:00 EDT'),
-            'title': 'Short Break',
+            'from': new Date('2022/07/23 12:00 EDT'),
+            'to': new Date('2022/07/23 13:40 EDT'),
+            'title': 'Lunch & Round Table with Speakers',
             'topic': null,
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
+            'speakers': []
         }, {
-            'from': new Date('2021/07/10 16:00 EDT'),
-            'to': new Date('2021/07/10 17:20 EDT'),
-            'title': 'Trending Topic I: Real World Evidence',
-            'topic': 'Real World Evidence: Trends and Application of Real-World Data in Drug Development and Safety',
+            'from': new Date('2022/07/23 13:50 EDT'),
+            'to': new Date('2022/07/23 14:50 EDT'),
+            'title': 'Special Talk',
+            'topic': 'Special Talk by Timothy Yu, Associate Professor at Harvard Medical School',
+            'sessionDescription': '',
+            'tags': [],
+            'rooms': [],
+            'speakers': [
+				speakersObj['Timothy Yu']
+			]
+        }, {
+            'from': new Date('2022/07/23 14:50 EDT'),
+            'to': new Date('2022/07/23 15:00 EDT'),
+            'title': 'Coffee Break',
+            'topic': null,
+            'sessionDescription': '',
+            'tags': [],
+            'rooms': [],
+            'speakers': []
+        }, {
+            'from': new Date('2022/07/23 15:00 EDT'),
+            'to': new Date('2022/07/23 16:30 EDT'),
+            'numOfParallelSessions': 2,
+            'title': 'Workshop 1',
+            'topic': 'How to Sail Smoothly from School to Industry',
 			'sessionDescription': null,
             'tags': [],
             'rooms': [],
             'speakers': [
-				speakersObj['Sengwee Darren Toh'],
-				speakersObj['Lina Titievsky'],
-				speakersObj['Liz Garry'],
+                speakersObj['Jason Lin'],
+                speakersObj['Michael Dubrosky']
+			]
+        }, {
+            'from': new Date('2022/07/23 15:00 EDT'),
+            'to': new Date('2022/07/23 16:30 EDT'),
+			'numOfParallelSessions': 2,
+            'title': 'Workshop 2',
+            'topic': 'Careers in Biotech Industry (Panel discussion)',
+			'sessionDescription': '',
+            'tags': [],
+            'rooms': ['Room B103'],
+            'speakers': [
+                //commiteesObj['Szu-Ta Chen'],
+                //speakersObj['Hsiao-Ling Hung'],
+                //speakersObj['Allen Chia-En Lien'],
+                //speakersObj['Dajun Sun'],
+                //speakersObj['Rosa Wang'],
+                //commiteesObj['Margaret (Chia-Ying) Wey'],
+            ]
+        }, {
+            'from': new Date('2022/07/23 16:30 EDT'),
+            'to': new Date('2022/07/23 17:30 EDT'),
+            'numOfParallelSessions': 2,
+            'title': 'Poster session',
+            'topic': '',
+			'sessionDescription': null,
+            'tags': [],
+            'rooms': [],
+            'speakers': [
+				//speakersObj['Sengwee Darren Toh'],
+				//speakersObj['Lina Titievsky'],
+				//speakersObj['Liz Garry'],
 				// speakersObj['Shianhuey Chiang'],
 			]
         }, {
-            'from': new Date('2021/07/10 17:20 EDT'),
-            'to': new Date('2021/07/10 17:30 EDT'),
-            'title': 'Short Break',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B101'],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
-        }, {
-            'from': new Date('2021/07/10 17:30 EDT'),
-            'to': new Date('2021/07/10 18:30 EDT'),
+            'from': new Date('2022/07/23 16:30 EDT'),
+            'to': new Date('2022/07/23 17:30 EDT'),
 			'numOfParallelSessions': 2,
-            'title': 'Networking - Clinical Research',
+            'title': 'Oral Presentation',
             'topic': '',
 			'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
-                commiteesObj['Szu-Ta Chen'],
-                speakersObj['Hsiao-Ling Hung'],
-                speakersObj['Allen Chia-En Lien'],
-                speakersObj['Dajun Sun'],
-                speakersObj['Rosa Wang'],
-                commiteesObj['Margaret (Chia-Ying) Wey'],
+                //commiteesObj['Szu-Ta Chen'],
+                //speakersObj['Hsiao-Ling Hung'],
+                //speakersObj['Allen Chia-En Lien'],
+                //speakersObj['Dajun Sun'],
+                //speakersObj['Rosa Wang'],
+                //commiteesObj['Margaret (Chia-Ying) Wey'],
             ]
         }, {
-            'from': new Date('2021/07/10 17:30 EDT'),
-            'to': new Date('2021/07/10 18:30 EDT'),
-			'numOfParallelSessions': 2,
-            'title': 'Networking - Start-ups & VC',
+            'from': new Date('2022/07/23 18:30 EDT'),
+            'to': new Date('2022/07/23 20:30 EDT'),
+            'title': 'BTBA 10th Annual Symposium Gala',
             'topic': '',
-			'sessionDescription': 'zzz',
+			'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
-				speakersObj['Shaoyu Chang'],
-                speakersObj['Yi-Kai Lo'],
-                speakersObj['Ting-Hui Wu'],
+                //commiteesObj['Szu-Ta Chen'],
+                //speakersObj['Hsiao-Ling Hung'],
+                //speakersObj['Allen Chia-En Lien'],
+                //speakersObj['Dajun Sun'],
+                //speakersObj['Rosa Wang'],
+                //commiteesObj['Margaret (Chia-Ying) Wey'],
             ]
+        },{
+            'from': new Date('2022/07/24 08:00 EDT'),
+            'to': new Date('2022/07/24 09:30 EDT'),
+            'title': 'Breakfast and Meeting with Experts',
+            'topic': null,
+			'sessionDescription': '',
+            'tags': [],
+            'rooms': ['Room B103'],
+            'speakers': []
+        },{
+            'from': new Date('2022/07/24 09:40 EDT'),
+            'to': new Date('2022/07/24 10:40 EDT'),
+            'title': 'Keynote Speech II',
+            'topic': "Keynote by Jo Vincey, CEO at Seismic Therapeutic",
+			'sessionDescription': '',
+            'tags': [],
+            'rooms': ['Room B103'],
+            'speakers': [
+                //speakersObj['Jeannie Lee'],
+                speakersObj['Jo Viney']
+            ]
+        },{
+            'from': new Date('2022/07/24 10:40 EDT'),
+            'to': new Date('2022/07/24 10:50 EDT'),
+            'title': 'Coffee Break',
+            'topic': null,
+			'sessionDescription': '',
+            'tags': [],
+            'rooms': ['Room B103'],
+            'speakers': []
+        },{
+            'from': new Date('2022/07/24 10:50 EDT'),
+            'to': new Date('2022/07/24 12:20 EDT'),
+            'numOfParallelSessions': 2,
+            'title': 'Workshop 3',
+            'topic': 'Academic Panel Discussion, The Academic Roadmap',
+			'sessionDescription': null,
+            'tags': [],
+            'rooms': [],
+            'speakers': [
+				speakersObj['Chia-Wei Cheng'],
+				speakersObj['Erica Cai'],
+				speakersObj['Chih-Chun Lin'],
+				speakersObj['Morgan Sheng'],
+			]
         }, {
-            'from': new Date('2021/07/11 12:50 EDT'),
-            'to': new Date('2021/07/11 13:00 EDT'),
-            'title': 'Virtual Lunch ',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
-        },{
-            'from': new Date('2021/07/11 13:00 EDT'),
-            'to': new Date('2021/07/11 14:10 EDT'),
-            'title': 'Closing Keynote ',
-            'topic': "Keynote by Jeannie T. Lee, M.D., Ph.D. : Reactivating a sex chromosome to treat Rett syndrome and other X-linked disorders",
+            'from': new Date('2022/07/24 10:50 EDT'),
+            'to': new Date('2022/07/24 12:20 EDT'),
+			'numOfParallelSessions': 2,
+            'title': 'Workshop 4',
+            'topic': 'Startup Panel',
 			'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
-                speakersObj['Jeannie Lee'],
+                speakersObj['Robert Schultz']
             ]
         },{
-            'from': new Date('2021/07/11 14:10 EDT'),
-            'to': new Date('2021/07/11 14:20 EDT'),
-            'title': 'Short Break ',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
-        },{
-            'from': new Date('2021/07/11 14:20 EDT'),
-            'to': new Date('2021/07/11 15:50 EDT'),
-            'title': 'Trending Topic II: RNA Technology & Application ',
+            'from': new Date('2022/07/24 12:20 EDT'),
+            'to': new Date('2022/07/24 12:40 EDT'),
+            'title': 'Closing Remarks & Award Ceremony',
             'topic': null,
 			'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
-                speakersObj['Tasuku Kitada'],
-                speakersObj['Allen Horhota'],
-                speakersObj['Ho-Chou Tu']
-            ]
-        },{
-            'from': new Date('2021/07/11 15:50 EDT'),
-            'to': new Date('2021/07/11 16:00 EDT'),
-            'title': 'Short Break ',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [{
-                'name': null,
-                'nameCh': null,
-                'affiliations': [],
-                'imgFileName': '',
-                'links': [],
-                'description': ''
-            }]
-        },{
-            'from': new Date('2021/07/11 16:00 EDT'),
-            'to': new Date('2021/07/11 17:20 EDT'),
-            'title': 'Academia to Industry II: Ways to Gene Therapy',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                speakersObj['Ariel (Wei-His) Yeh'],
-                speakersObj['Yi-Li Min']
-            ]
-        },{
-            'from': new Date('2021/07/11 17:20 EDT'),
-            'to': new Date('2021/07/11 17:30 EDT'),
-            'title': 'Closing Remarks ',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                commiteesObj['Erica P. Cai'],
-                commiteesObj['Hsien-Wei Yvonne Meng'],
-            ]
-        }, {
-            'from': new Date('2021/07/11 17:30 EDT'),
-            'to': new Date('2021/07/11 18:30 EDT'),
-			'numOfParallelSessions': 3,
-            'title': 'Networking - Academia',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                commiteesObj['Erica P. Cai'],
-                speakersObj['Chia-Wei Cheng'],
-                speakersObj['Meng-Chuan Lai'],
-                commiteesObj['Sheng Chih (Peter) Jin'],
-                speakersObj['Hsiao-Ying (Monica) Wey']
-            ]
-        }, {
-            'from': new Date('2021/07/11 17:30 EDT'),
-            'to': new Date('2021/07/11 18:30 EDT'),
-			'numOfParallelSessions': 3,
-            'title': 'Networking - Preclinical and R&D',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                speakersObj['Shian-Huey Chiang'],
-                speakersObj['Meredith Kuo'],
-                commiteesObj['Richard Liang'],
-                commiteesObj['Hsien-Wei Yvonne Meng']
-            ]
-        }, {
-            'from': new Date('2021/07/11 17:30 EDT'),
-            'to': new Date('2021/07/11 18:30 EDT'),
-			'numOfParallelSessions': 3,
-            'title': 'Networking - AI & Machine Learning ',
-            'topic': null,
-			'sessionDescription': '',
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                commiteesObj['Pin-Kuang Lai'],
-                speakersObj['Ching-Yung Lin'],
-                speakersObj['Michael Shih']
+                commiteesObj['Yu-Tien Hsu'],
+                commiteesObj['Chih-Hung Chou']
             ]
         }]
     },

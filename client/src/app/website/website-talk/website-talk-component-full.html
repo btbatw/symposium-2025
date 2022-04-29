@@ -2,7 +2,7 @@
 <h3 class="mat-headline">More information coming soon!</h3>
 
 <md-tab-group [selectedIndex]="tabIndex" dynamicHeight="true" (selectedIndexChange)="onSelectedIndexChange($event)">
-	<span *ngFor="let date of [10, 11]; index as idx">
+	<span *ngFor="let date of [23, 24]; index as idx">
 		<md-tab label="7/{{date}}">
 			<div fxLayout fxLayoutGap="0%" fxLayoutWrap fxLayoutAlign="space-between">
 
@@ -12,7 +12,7 @@
 					fxFlex.xs="100%" fxLayoutAlign="space-between baseline"
 					*ngFor="let schedule of filterDate(symposium.programme.schedules, date)" style="margin: 0em 0;">
 					<div>
-						<h4 class="mat-subheading-2 margin-b-0-xs">{{ formatTimeFromSetting(schedule.from, 'HH:mm') }}</h4>
+						<h4 class="mat-subheading-2 margin-b-0-xs">{{ formatTimeFromSetting(schedule.from, 'h:mm A') }}</h4>
 						<!-- <p class="mat-subheading-1">({{ formatTimeFromSetting(schedule.from, 'z') }})</p> -->
 					</div>
 					<div>
@@ -57,7 +57,7 @@
 							</div>
 						</div>
 						<div fxLayout fxLayoutWrap fxLayoutGap.xs="5px" fxLayoutGap="10px"
-							*ngIf="schedule.speakers.length && schedule.speakers[0].name && schedule.title !== 'Information session'"
+							*ngIf="schedule.speakers.length && schedule.speakers[0]?.name && schedule.title !== 'Information session'"
 							class="container-avatar">
 							<div *ngFor="let speaker of schedule.speakers, index as idx">
 								<!-- <div *ngIf="schedule.title === 'Information session'" [style.width]="'20px'">
