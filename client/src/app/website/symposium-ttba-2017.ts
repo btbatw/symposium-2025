@@ -27,14 +27,19 @@ export const ttbaSymposium2017 = {
 		'supportLink': 'https://www.btbatw.org/support.html'
     },
     'about': {
-        'title': '2022 BTBA Annual Symposium',
+        'title': 'BTBA 2022 Annual Symposium',
         'showPageLink': true,
         'subjects': [{
             'title': '',
-            'description': `<p>The Boston Taiwanese Biotechnology Association (BTBA) will hold its 10th BTBA Annual Symposium (in-person) on July 23 and 24, 2022 in Boston. There will be keynote speeches, career development workshops, poster presentations, and networking sessions at the event. We cordially invite you to attend our annual symposium to share, learn, and network. Early bird registration will open soon. Please stay tuned and follow our social media for further announcements. We look forward to seeing you this summer in Boston! <a href="https://btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
+            'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on July 23-24, at the Harvard University Northwest Science Building, in Cambridge, MA. Limited early bird tickets are now on sale till 5/31. To register, go to: <a href="https://www.tickettailor.com/events/btba/676096">https://www.tickettailor.com/events/btba/676096</a></p>
+            <p>Featured keynote speakers at the symposium include Prof. Robert Langer, David H. Koch Institute Professor at MIT, and Dr. Jo Viney, founder, President, and CEO of Seismic Therapeutics. Furthermore, Dr. Timothy Yu, a world-leading expert in personalized medicine at Harvard Medical School, will be our speaker of special talk.
+            </p>
+            <p>2022 Symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, internship and co-op opportunities, and networking sessions.
+            </p>
+            <p>Boston Taiwanese Biotechnology Association (BTBA) will hold its 10th BTBA Annual Symposium (in-person) on July 23 and 24, Northwest Building at Harvard University. Featured keynote speakers at the symposium include Prof. Robert Langer, Professor at MIT, and Dr. Jo Viney, founder, President, and CEO of Seismic Therapeutics. Dr. Timothy Yu, Associate Professor at Harvard Medical School, will be our speaker of special talk. In addition to the keynote/talk sessions, 2022 symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, how to land a job in industry from academia, and networking sessions. To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. We are looking forward to seeing you in Boston this summer! <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'Registration',
-            'description': '<p>Early bird registration will be open in early May. Please stay tuned and follow our social media and this website for further announcements.</p>'
+            'description': '<p>Registration is now open. Limited early bird tickets are now on sale till 5/31.</p>'
         }, {
             'title': 'About BTBA',
             'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
@@ -68,7 +73,7 @@ export const ttbaSymposium2017 = {
             'from': new Date('2022/07/23 09:10 EDT'),
             'to': new Date('2022/07/23 10:10 EDT'),
             'title': 'Keynote Speech I',
-            'topic': "Keynote by Robert S. Langer, Professor at MIT",
+            'topic': "Keynote by Robert S. Langer, Professor at MIT (Dr. Langer will join us virtually)",
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
