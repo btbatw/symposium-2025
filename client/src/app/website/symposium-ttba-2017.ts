@@ -15,7 +15,7 @@ export const ttbaSymposium2017 = {
         'year': '2022',
         'title': 'HUSTLING IN THE ERA OF BIOTECH',
         'showPageLink': false,
-        'registrationLink': ''
+        'registrationLink': 'https://www.tickettailor.com/events/btba/676096'
     },
     'host': {
         'name': 'Boston Taiwanese Biotechnology Association',

@@ -8,7 +8,7 @@
 			{{'support' | uppercase}}
 		</button>
 		<!-- <button md-raised-button color="accent" (click)="goToLink('https://github.com/Yu-AnChen/tba-symposium/raw/master/client/src/app/website/assets/pdf/TTBA_2017_Symposium_program.pdf')">PROGRAM BOOK</button> -->
-		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.registrationLink)" *ngIf="symposium.symposiumInfo.registrationLink">REGISTER</button>
+		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.registrationLink)">REGISTER</button>
 	</nav>
 	<nav fxHide fxShow.xs="true" class="nav-xs" *ngIf="!isSticky">
 		<button md-fab color="accent" [mdMenuTriggerFor]="menu">
@@ -28,7 +28,7 @@
 			<!-- <button md-menu-item (click)="goToLink('https://github.com/Yu-AnChen/tba-symposium/raw/master/client/src/app/website/assets/pdf/TTBA_2017_Symposium_program.pdf')">
 				<span>PROGRAM BOOK</span>
 			</button> -->
-			<button md-menu-item (click)="goToLink(symposium.symposiumInfo.registrationLink)" *ngIf="symposium.symposiumInfo.registrationLink">
+			<button md-menu-item (click)="goToLink(symposium.symposiumInfo.registrationLink)">
 				<span>REGISTER</span>
 			</button>
 		</md-menu>
