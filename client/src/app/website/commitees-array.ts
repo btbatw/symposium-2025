@@ -2,7 +2,7 @@ import { Placeholder } from "@angular/compiler/src/i18n/i18n_ast";
 
 const tsv_str = `Role	Name	Position	Image filename	Links
 Co-President	Yu-Tien Hsu	PhD candidate, Harvard University	Yu-Tien_Hsu.jpg 	https://www.linkedin.com/in/yu-tien-hsu-04043241/
-Co-President	Chih-Hung Chou	Postdoc, Broad Institute of MIT and Harvard	Chih-Hung_Chou.jpg	https://www.linkedin.com/in/chchou23/`;
+Co-President	Chih-Hung Chou	Postdoc, Broad Institute of MIT and Harvard	Chih-Hung_Chou.jpg	https://www.linkedin.com/in/chih-hung-chou/`;
 
 const tsv_array = tsv_str
 	.split('\n')
