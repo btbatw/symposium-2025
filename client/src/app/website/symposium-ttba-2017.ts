@@ -23,7 +23,7 @@ export const ttbaSymposium2017 = {
         'nameCh': '波士頓臺灣人生物科技協會',
         'webLink': 'https://www.btbatw.org/',
 		'logoSmall': 'logo-ttba-small.png',
-		'email': 'btba.tw@gmail.com',
+		'email': 'btba@btbatw.org',
 		'supportLink': 'https://www.btbatw.org/support.html'
     },
     'about': {
@@ -31,15 +31,14 @@ export const ttbaSymposium2017 = {
         'showPageLink': true,
         'subjects': [{
             'title': '',
-            'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on July 23-24, at the Harvard University Northwest Science Building, in Cambridge, MA. Limited early bird tickets are now on sale till 5/31. To register, go to: <a href="https://www.tickettailor.com/events/btba/676096">https://www.tickettailor.com/events/btba/676096</a></p>
-            <p>Featured keynote speakers at the symposium include Prof. Robert Langer, David H. Koch Institute Professor at MIT, and Dr. Jo Viney, founder, President, and CEO of Seismic Therapeutics. Furthermore, Dr. Timothy Yu, a world-leading expert in personalized medicine at Harvard Medical School, will be our speaker of special talk.
-            </p>
-            <p>2022 Symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, internship and co-op opportunities, and networking sessions.
-            </p>
-            <p>Boston Taiwanese Biotechnology Association (BTBA) will hold its 10th BTBA Annual Symposium (in-person) on July 23 and 24, Northwest Building at Harvard University. Featured keynote speakers at the symposium include Prof. Robert Langer, Professor at MIT, and Dr. Jo Viney, founder, President, and CEO of Seismic Therapeutics. Dr. Timothy Yu, Associate Professor at Harvard Medical School, will be our speaker of special talk. In addition to the keynote/talk sessions, 2022 symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, how to land a job in industry from academia, and networking sessions. To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. We are looking forward to seeing you in Boston this summer! <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
+            'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on <b>July 23-24</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA.</b></p>
+            <p>Featured keynote speakers at the symposium include <b>Prof. Robert Langer</b>, David H. Koch Institute Professor at MIT, and <b>Dr. Jo Viney</b>, founder, President, and CEO of Seismic Therapeutics. Furthermore, <b>Dr. Timothy Yu</b>, a world-leading expert in personalized medicine at Harvard Medical School, will be our speaker of special talk.</p>
+            <p>2022 Symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, internship and co-op opportunities, and networking sessions.</p>
+            <p>To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees.<a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'Registration',
-            'description': '<p>Registration is now open. Limited early bird tickets are now on sale till 5/31.</p>'
+            'description': `<p>Registration is now open. <b>Limited early bird tickets are now on sale till 5/31.</b></p>
+            <a href="https://www.tickettailor.com/events/btba/676096"><b>Register Now</b></a>`
         }, {
             'title': 'About BTBA',
             'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
