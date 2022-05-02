@@ -13,7 +13,9 @@ export class WebsiteSponsorComponent {
 	displayedColumns = ['package', 'price', 'programBook', 'onlineMedia*', 'slideShow', 'booth', 'registration**'];
 	referenceColumns = ['package', 'price', 'programBook', 'onlineMedia', 'slideShow', 'booth', 'registration'];
 	sponsorTabledataSource = new SponsorTableDataSource();
-
+	packageImgs = [
+		'Sponsorship_Packages.png'
+	];
 	sponsorImgs = [
 		'taiwan_ministry_of_science_and_technology.png',
 		'teco_S_and_T_logo.png',

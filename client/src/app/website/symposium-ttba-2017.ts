@@ -141,7 +141,7 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
                 speakersObj['Jason Lin'],
-                speakersObj['Michael Dubrosky']
+                speakersObj['Michael Dubrovsky']
 			]
         }, {
             'from': new Date('2022/07/23 15:00 EDT'),
