@@ -21,6 +21,7 @@ import { WebsiteHeaderStaticComponent } from './website-header-static/website-he
 import { WebsiteAcknowledgementComponent } from './website-acknowledgement/website-acknowledgement.component';
 import { WebsiteAcknowledgementCommiteeComponent } from './website-acknowledgement/website-acknowledgement-commitee/website-acknowledgement-commitee.component';
 
+import { nl2brPipe } from './nl2br.pipe';
 
 @NgModule({
 	imports: [SharedModule, WebsiteRoutingModule, AgmCoreModule.forRoot({ apiKey: 'AIzaSyALqtOO3Dgdao-2ISlW1auWqzkzIABjwoM' })],
@@ -40,7 +41,8 @@ import { WebsiteAcknowledgementCommiteeComponent } from './website-acknowledgeme
 		WebsiteNavComponent,
 		WebsiteHeaderStaticComponent,
 		WebsiteAcknowledgementComponent,
-		WebsiteAcknowledgementCommiteeComponent
+		WebsiteAcknowledgementCommiteeComponent,
+		nl2brPipe
 	],
 	providers: [WebsiteService],
 	entryComponents: [SpeakerDetailDialog, HotelDetailDialog]
