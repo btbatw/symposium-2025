@@ -19,8 +19,8 @@ export class WebsiteSponsorComponent {
 	sponsorImgs = [
 		'taiwan_ministry_of_science_and_technology.png',
 		'teco_S_and_T_logo.png',
-		//'OCAC.png',
-		//'iHisto.jpeg'
+		'OCAC.png',
+		'ihisto.png'
 		//'teco_houston_techno.png',
 		//'hsinchu_sci_park.png',
 		//'biovision.png'
@@ -43,16 +43,6 @@ export class WebsiteSponsorComponent {
 	// 	return str.replace(/\W+/g, '');
 	// }
 
-}
-
-export interface Element {
-	package: string;
-	price: number;
-	programBook: string;
-	onlineMedia: string;
-	slideShow: string;
-	booth: string;
-	registration: number;
 }
 
 const sponsorBenefits = [
@@ -94,7 +84,7 @@ const sponsorTypes = [
 		]
 	},
 	{
-		title: 'Silver\n$1,000',
+		title: 'Silver\n$1,500',
 		benefits: [
 			'',
 			'',
