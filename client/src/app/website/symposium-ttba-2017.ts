@@ -88,7 +88,7 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                
+
             ]
         },{
             'from': new Date('2022/07/23 10:30 EDT'),
@@ -342,13 +342,18 @@ export const ttbaSymposium2017 = {
         }, {
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'logo_teco_boston.png',
-            'link': 'https://www.roc-taiwan.org/usbos_en/'
+            'logoUrl': 'teco_S_and_T_logo.png',
+            'link': 'https://www.most.gov.tw/boston/en'
         }, {
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'lift_logo.png',
-            'link': 'https://lifttaiwan.stpi.narl.org.tw/en'
+            'logoUrl': 'ihisto.png',
+            'link': 'https://www.ihisto.io/'
+        }, {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'OCAC.png',
+            'link': 'https://english.ocac.gov.tw/ocac/eng/'
         }]
     },
     'imgs': [{
