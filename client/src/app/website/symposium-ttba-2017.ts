@@ -34,7 +34,7 @@ export const ttbaSymposium2017 = {
             'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on <b>July 23-24</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA.</b></p>
             <p>Featured keynote speakers at the symposium include <b>Prof. Robert Langer</b>, David H. Koch Institute Professor at MIT, and <b>Dr. Jo Viney</b>, founder, President, and CEO of Seismic Therapeutics. Furthermore, <b>Dr. Timothy Yu</b>, a world-leading expert in personalized medicine at Harvard Medical School, will be our speaker of special talk.</p>
             <p>2022 Symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, internship and co-op opportunities, and networking sessions.</p>
-            <p>To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees.<a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
+            <p>To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'Registration',
             'description': `<p>Registration is now open. <b>Limited early bird tickets are now on sale till 5/31.</b></p>
