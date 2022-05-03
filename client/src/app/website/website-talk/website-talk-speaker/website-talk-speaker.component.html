@@ -2,7 +2,7 @@
 	fxFlex="{{ speaker.title.toLowerCase().includes('keynote') ? '98%' : '48%'}}" fxFlex.xs="100%" fxLayout="column" fxLayoutAlign="space-between"
 	*ngFor="let speaker of speakers">
 	<div fxLayout fxLayoutAlign="space-between">
-		<div fxFlex="{{ speaker.title.toLowerCase().includes('keynote') ? '15%' : '30%'}}" fxFlex.xs="30%">
+		<div fxFlex="{{ speaker.title.toLowerCase().includes('keynote') ? '15%' : '30%'}}" fxFlex.xs="30%" class="avatar-container">
 			<img [style.width]="'100%'" src="{{speaker.imgFileName ? 'assets/img/speakers/' + speaker.imgFileName : 'assets/img/carousel_01.jpg'}}">
 		</div>
 		<div fxFlex="{{ speaker.title.toLowerCase().includes('keynote') ? '80%' : '65%'}}" fxFlex.xs="65%">

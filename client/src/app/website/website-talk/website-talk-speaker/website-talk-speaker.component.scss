@@ -8,4 +8,9 @@
 	margin-bottom: 10px;
 	padding: 1%;
 	background-color: lighten($bodyBgColor, 30%);
+
+	.avatar-container {
+		aspect-ratio: 1;
+		overflow: hidden;
+	}
 }
