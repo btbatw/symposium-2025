@@ -10,8 +10,8 @@ import 'rxjs/add/observable/of';
 })
 export class WebsiteSponsorComponent {
 	@Input() symposium;
-	displayedColumns = ['package', 'price', 'programBook', 'onlineMedia*', 'slideShow', 'booth', 'registration**'];
-	referenceColumns = ['package', 'price', 'programBook', 'onlineMedia', 'slideShow', 'booth', 'registration'];
+	displayedColumns = ['', ...sponsorTypes.map(el => el.title)];
+	referenceColumns = ['name', '0', '1', '2', '3'];
 	sponsorTabledataSource = new SponsorTableDataSource();
 	packageImgs = [
 		'Sponsorship_Packages.png'
@@ -55,56 +55,85 @@ export interface Element {
 	registration: number;
 }
 
-const data: Element[] = [
-	{
-		package: 'platinum',
-		price: 1000,
-		programBook: '1 page',
-		onlineMedia: 'V',
-		slideShow: 'V',
-		booth: 'V',
-		registration: 3
-	},
-	{
-		package: 'gold',
-		price: 800,
-		programBook: '1/2 page',
-		onlineMedia: 'V',
-		slideShow: 'V',
-		booth: 'V',
-		registration: 2
-	},
-	{
-		package: 'silver',
-		price: 250,
-		programBook: '1/4 page',
-		onlineMedia: 'V',
-		slideShow: 'V',
-		booth: '',
-		registration: 1
-	},
-	{
-		package: 'bronze',
-		price: 100,
-		programBook: 'logo',
-		onlineMedia: 'V',
-		slideShow: '',
-		booth: '',
-		registration: 0
-	},
-	{
-		package: 'booth-only',
-		price: 350,
-		programBook: '',
-		onlineMedia: '',
-		slideShow: '',
-		booth: 'V',
-		registration: 1
-	}
+const sponsorBenefits = [
+	'5-minute promotion at symposium venue',
+	'Exhibition space',
+	'Acknowledgement at symposium opening and closing',
+	'Slideshow (full page) to feature sponsor before and after sessions',
+	'Promotional material in program book',
+	'Promotional material in registration desk',
+	'Logo featured on event materials: slideshow, website & program book',
+	'VIP tickets at symposium and gala'
 ];
+
+const sponsorTypes = [
+	{
+		title: 'Platinum\n$5,000',
+		benefits: [
+			'V',
+			'V',
+			'V',
+			'V',
+			'V',
+			'V',
+			'V',
+			'5'
+		]
+	},
+	{
+		title: 'Gold\n$3,000',
+		benefits: [
+			'',
+			'V',
+			'V',
+			'V',
+			'V',
+			'V',
+			'V',
+			'3'
+		]
+	},
+	{
+		title: 'Silver\n$1,000',
+		benefits: [
+			'',
+			'',
+			'',
+			'V',
+			'V',
+			'V',
+			'V',
+			'2'
+		]
+	},
+	{
+		title: 'Bronze\n$500',
+		benefits: [
+			'',
+			'',
+			'',
+			'',
+			'',
+			'V',
+			'V',
+			'1'
+		]
+	},
+];
+
+const data = sponsorBenefits.map((el, idx) => {
+	return {
+		...{name: el},
+		...Array(4)
+			.fill(0)
+			.map((_, innerIdx) => sponsorTypes[innerIdx].benefits[idx])
+	}
+});
+
 export class SponsorTableDataSource extends DataSource<any> {
 	/** Connect function called by the table to retrieve one stream containing the data to render. */
-	connect(): Observable<Element[]> {
+	connect(): Observable<any[]> {
+		console.log(data)
 		return Observable.of(data);
 	}
 
