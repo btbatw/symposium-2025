@@ -71,7 +71,12 @@ export class WebsiteService {
 			.sort((a, b) => {
 				return a.title.includes('Keynote')
 					? -1
-					: new Date(a.from).getTime() - new Date(b.from).getTime();
+					: 1
+			})
+			.sort((a, b) => {
+				return a.title.includes('Keynote') || b.title.includes('Keynote')
+					? 0
+					: new Date(a.from).getTime() - new Date(b.from).getTime()
 			})
 			// sort parallel session by session title
 			.sort((a, b) => {
@@ -83,7 +88,7 @@ export class WebsiteService {
 			})
 			// sort by last name
 			.sort((a, b) => {
-				return a.title.includes('Keynote')
+				return a.title.includes('Keynote') || b.title.includes('Keynote')
 					? 0
 					: a.title.toUpperCase() !== b.title.toUpperCase()
 					? 0
