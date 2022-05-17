@@ -141,7 +141,9 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
                 speakersObj['Jason Lin'],
-                speakersObj['Michael Dubrovsky']
+                speakersObj['Michael Dubrovsky'],
+                speakersObj['Lo-I Cheng'],
+                speakersObj['Christina Haddad']
 			]
         }, {
             'from': new Date('2022/07/23 15:00 EDT'),
@@ -252,6 +254,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Erica Cai'],
 				speakersObj['Chih-Chun Lin'],
 				speakersObj['Morgan Sheng'],
+                speakersObj['Meng-Ju Wu']
 			]
         }, {
             'from': new Date('2022/07/24 10:50 EDT'),
@@ -263,7 +266,8 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
-                speakersObj['Robert Schultz']
+                speakersObj['Robert Schultz'],
+                speakersObj['Samuel Chen']
             ]
         },{
             'from': new Date('2022/07/24 12:20 EDT'),
