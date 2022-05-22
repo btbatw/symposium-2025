@@ -31,7 +31,7 @@ export const ttbaSymposium2017 = {
         'showPageLink': true,
         'subjects': [{
             'title': '',
-            'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on <b>July 23-24</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA.</b></p>
+            'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on <b>July 23-24</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA. </b>Since 2013, BTBA has hosted 9 annual symposiums, each attracting more than 300 attendees from across North America, Europe, and Asia each year.</p>
             <p>Featured keynote speakers at the symposium include <b>Prof. Robert Langer</b>, David H. Koch Institute Professor at MIT, and <b>Dr. Jo Viney</b>, founder, President, and CEO of Seismic Therapeutics. Furthermore, <b>Dr. Timothy Yu</b>, a world-leading expert in personalized medicine at Harvard Medical School, will be our speaker of special talk.</p>
             <p>2022 Symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, internship and co-op opportunities, and networking sessions.</p>
             <p>To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
@@ -71,8 +71,8 @@ export const ttbaSymposium2017 = {
         }, {
             'from': new Date('2022/07/23 09:10 EDT'),
             'to': new Date('2022/07/23 10:10 EDT'),
-            'title': 'Keynote Speech I',
-            'topic': "Keynote by Robert S. Langer, Professor at MIT (Dr. Langer will join us virtually)",
+            'title': 'Keynote Speech I: Robert S. Langer, Professor at MIT (Dr. Langer will join us virtually)',
+            'topic': "From nanotechnology to mRNA vaccines: How overcoming skepticism and barriers led to new cancer treatments and ways to tackle a global health challeng",
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
@@ -113,8 +113,8 @@ export const ttbaSymposium2017 = {
         }, {
             'from': new Date('2022/07/23 13:50 EDT'),
             'to': new Date('2022/07/23 14:50 EDT'),
-            'title': 'Special Talk',
-            'topic': 'Special Talk by Timothy Yu, Associate Professor at Harvard Medical School',
+            'title': 'Special Talk: Timothy Yu, Associate Professor at Harvard Medical School',
+            'topic': 'Advancing individualized therapies for orphan diseases',
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
@@ -143,7 +143,7 @@ export const ttbaSymposium2017 = {
                 speakersObj['Jason Lin'],
                 speakersObj['Michael Dubrovsky'],
                 speakersObj['Lo-I Cheng'],
-                speakersObj['Christina Haddad']
+                //speakersObj['Christina Haddad']
 			]
         }, {
             'from': new Date('2022/07/23 15:00 EDT'),
@@ -245,7 +245,7 @@ export const ttbaSymposium2017 = {
             'to': new Date('2022/07/24 12:20 EDT'),
             'numOfParallelSessions': 2,
             'title': 'Workshop 3',
-            'topic': 'Academic Panel Discussion, The Academic Roadmap',
+            'topic': 'A Bittersweet Journey - Climbing the Academic Ladder',
 			'sessionDescription': null,
             'tags': [],
             'rooms': [],
@@ -267,7 +267,8 @@ export const ttbaSymposium2017 = {
             'rooms': ['Room B103'],
             'speakers': [
                 speakersObj['Robert Schultz'],
-                speakersObj['Samuel Chen']
+                speakersObj['Samuel Chen'],
+                speakersObj['Will McLean']
             ]
         },{
             'from': new Date('2022/07/24 12:20 EDT'),
