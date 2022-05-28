@@ -352,14 +352,24 @@ export const ttbaSymposium2017 = {
         }, {
             'level': 'string',
             'name': 'string',
+            'logoUrl': 'OCAC.png',
+            'link': 'https://english.ocac.gov.tw/ocac/eng/'
+        }, {
+            'level': 'string',
+            'name': 'string',
             'logoUrl': 'ihisto.png',
             'link': 'https://www.ihisto.io/'
         }, {
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'OCAC.png',
-            'link': 'https://english.ocac.gov.tw/ocac/eng/'
-        }]
+            'logoUrl': 'ast.png',
+            'link': 'https://www.astp.com/'
+        }, {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'vizuro.png',
+            'link': 'https://www.vizuro.com/'
+        }, ]
     },
     'imgs': [{
         'usage': 'string',
