@@ -76,6 +76,24 @@
 							*ngIf="showing.includes(schedule.title) && schedule.sessionDescription && reRender"
 							[innerHTML]="schedule.sessionDescription" [@itemAnim] (click)="toggleShow(schedule.title)">
 						</p>
+						<div *ngIf="schedule.moderators">
+							<p class="mat-subheading-1 clickable" (click)="toggleShow(schedule.title)">
+								Moderator:
+								<span *ngFor="let moderator of schedule.moderators; let last=last">
+									<ng-container
+										*ngIf="moderator.link; then hasLink; else noLink">
+									</ng-container>
+									<span *ngIf="!last">& </span>
+
+									<ng-template #hasLink>
+										<a *ngIf="moderator.link" href="{{moderator.link}}">{{moderator.name}}</a>
+									</ng-template>
+									<ng-template #noLink>
+										<span>{{moderator.name}}</span>
+									</ng-template>
+								</span>
+							</p>
+						</div>
 					</div>
 					<div fxFlex="1 1 auto" (click)="toggleShow(schedule.title)" class="clickable"></div>
 				</div>

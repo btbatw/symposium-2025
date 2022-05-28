@@ -116,6 +116,10 @@ export const ttbaSymposium2017 = {
             'title': 'Special Talk: Timothy Yu, Associate Professor at Harvard Medical School',
             'topic': 'Advancing individualized therapies for orphan diseases',
             'sessionDescription': '',
+			'moderators': [
+				{'name': 'Chih-Fu Wei', 'link': ''},
+				{'name': 'Selina Lin', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -136,7 +140,10 @@ export const ttbaSymposium2017 = {
             'numOfParallelSessions': 2,
             'title': 'Workshop 1',
             'topic': 'How to Sail Smoothly from School to Industry',
-			'sessionDescription': null,
+			'sessionDescription': `
+			<p>Entering the biotech/pharmaceutical industry has been a dream job for many biomedical students after completing their degree. However, starting their first industrial career can be challenging. Therefore, putting your best foot forward and gaining industrial experience through internship/co-op while studying can be an important step.</p>
+			<p>Join us for an hour and a half with speakers including a former master's student, Ph.D. students, and a hiring manager! Learn how they prepare themselves from an internship application to launching their industry career! In this session, our speakers will share their internship/Co-op experiences and discuss how they benefit from them.</p>
+			`,
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -222,9 +229,13 @@ export const ttbaSymposium2017 = {
         },{
             'from': new Date('2022/07/24 09:40 EDT'),
             'to': new Date('2022/07/24 10:40 EDT'),
-            'title': 'Keynote Speech II',
-            'topic': "Keynote by Jo Vincey, CEO at Seismic Therapeutic",
+            'title': 'Keynote Speech II: Jo Vincey, CEO at Seismic Therapeutic',
+            'topic': null,
 			'sessionDescription': '',
+			'moderators': [
+				{'name': 'Yvonne Meng', 'link': ''},
+				{'name': 'Phoebe Tsai', 'link': ''}
+			],
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
@@ -246,7 +257,19 @@ export const ttbaSymposium2017 = {
             'numOfParallelSessions': 2,
             'title': 'Workshop 3',
             'topic': 'A Bittersweet Journey - Climbing the Academic Ladder',
-			'sessionDescription': null,
+			'sessionDescription': `
+			<p>Are you a Ph.D. scientist aspiring for an academia career?</p>
+			<p>Are you a physician-scientist who is juggling research and clinical responsibilities?</p>
+			<p>Are you an assistant professor suffering from grant writing and building up a functional lab?</p>
+
+			<p>While pursuing a career in academia, it is easy to come across hurdles or get overwhelmed by working in various roles. This panel presents a career map of what others could and have done at different points along their academia journey. Through shared discussion of different experiences, the panel would be particularly useful for jumpstarting your own climb on the academic ladder.</p>
+
+			<p>Come join us for a discussion with academic professionals at different career stages. We have invited a group of faculty at different stages in their academic careers (instructor, assistant professor, and full professor) and in various career tracks (Ph.D.-track, physician-scientist track, and a hybrid career in both academia and industry) to share their experiences. Find out more about their travels, challenges, and successes throughout their careers and find inspiration for your own career goals!</p>
+			`,
+			'moderators': [
+				{'name': 'Erica Cai', 'link': ''},
+				{'name': 'Meng-Ju Wu', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -262,7 +285,15 @@ export const ttbaSymposium2017 = {
 			'numOfParallelSessions': 2,
             'title': 'Workshop 4',
             'topic': 'Startup Panel',
-			'sessionDescription': '',
+			'sessionDescription': `
+			<p>Do you feel your research is so promising that it has the potential to become a good product and make some money (money sign)? Lots of people might already have a passion for a “startup” but don’t know how to actually “start it.” The saying “only 10% of startups can survive” is certainly intimidating. How might we be able to increase our success rate? You will find some answers in this workshop session with a range of panelists in startup-related fields.</p>
+
+			<p>This panel discussion is going to introduce you to the experiences of successful startups from three different founders/co-founders or CEOs who are currently heading the biotech companies they have built. No matter your question - whether it be related to the different stages of a startup, financial resources for the startup, or management skills - our panelists will provide invaluable insight and tips. What are you waiting for? If you are interested in creating and spearheading your own business, please come and join us for more information about launching and managing your startup!</p>
+			`,
+			'moderators': [
+				{'name': 'Chin-Ju (Ginnie) Hu', 'link': ''},
+				{'name': 'Yu-Yang (Will) Lin', 'link': ''}
+			],
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
