@@ -96,6 +96,10 @@ export const ttbaSymposium2017 = {
             'title': 'Trending Topic',
             'topic': "Data-driven innovation in healthcare industry: drug discovery and clinical trial (Panel discussion)",
             'sessionDescription': '',
+            'moderators': [
+				{'name': 'Fan-En Chen', 'link': ''},
+				{'name': 'Nae-Chyun Chen', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
             'speakers': [
