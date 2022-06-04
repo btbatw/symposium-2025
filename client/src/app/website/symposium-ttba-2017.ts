@@ -99,7 +99,8 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-				//speakersObj['Herren Wu'],
+				speakersObj['Ivy Weng'],
+                speakersObj['Yi-Hsiang Hsu']
 			]
         }, {
             'from': new Date('2022/07/23 12:00 EDT'),
@@ -138,7 +139,7 @@ export const ttbaSymposium2017 = {
             'from': new Date('2022/07/23 15:00 EDT'),
             'to': new Date('2022/07/23 16:30 EDT'),
             'numOfParallelSessions': 2,
-            'title': 'Workshop 1',
+            'title': 'Panel 1',
             'topic': 'How to Sail Smoothly from School to Industry',
 			'sessionDescription': `
 			<p>Entering the biotech/pharmaceutical industry has been a dream job for many biomedical students after completing their degree. However, starting their first industrial career can be challenging. Therefore, putting your best foot forward and gaining industrial experience through internship/co-op while studying can be an important step.</p>
@@ -150,24 +151,21 @@ export const ttbaSymposium2017 = {
                 speakersObj['Jason Lin'],
                 speakersObj['Michael Dubrovsky'],
                 speakersObj['Lo-I Cheng'],
+                speakersObj['Wan-Chih Su']
                 //speakersObj['Christina Haddad']
 			]
         }, {
             'from': new Date('2022/07/23 15:00 EDT'),
             'to': new Date('2022/07/23 16:30 EDT'),
 			'numOfParallelSessions': 2,
-            'title': 'Workshop 2',
+            'title': 'Panel 2',
             'topic': 'Careers in Biotech Industry (Panel discussion)',
 			'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
                 //commiteesObj['Szu-Ta Chen'],
-                //speakersObj['Hsiao-Ling Hung'],
-                //speakersObj['Allen Chia-En Lien'],
-                //speakersObj['Dajun Sun'],
-                //speakersObj['Rosa Wang'],
-                //commiteesObj['Margaret (Chia-Ying) Wey'],
+                speakersObj['I-hung Shih']
             ]
         }, {
             'from': new Date('2022/07/23 16:30 EDT'),
@@ -255,7 +253,7 @@ export const ttbaSymposium2017 = {
             'from': new Date('2022/07/24 10:50 EDT'),
             'to': new Date('2022/07/24 12:20 EDT'),
             'numOfParallelSessions': 2,
-            'title': 'Workshop 3',
+            'title': 'Panel 3',
             'topic': 'A Bittersweet Journey - Climbing the Academic Ladder',
 			'sessionDescription': `
 			<p>Are you a Ph.D. scientist aspiring for an academia career?</p>
@@ -283,7 +281,7 @@ export const ttbaSymposium2017 = {
             'from': new Date('2022/07/24 10:50 EDT'),
             'to': new Date('2022/07/24 12:20 EDT'),
 			'numOfParallelSessions': 2,
-            'title': 'Workshop 4',
+            'title': 'Panel 4',
             'topic': 'Startup Panel',
 			'sessionDescription': `
 			<p>Do you feel your research is so promising that it has the potential to become a good product and make some money (money sign)? Lots of people might already have a passion for a “startup” but don’t know how to actually “start it.” The saying “only 10% of startups can survive” is certainly intimidating. How might we be able to increase our success rate? You will find some answers in this workshop session with a range of panelists in startup-related fields.</p>
