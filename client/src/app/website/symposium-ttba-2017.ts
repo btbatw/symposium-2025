@@ -37,7 +37,7 @@ export const ttbaSymposium2017 = {
             <p>To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'Registration',
-            'description': `<p>Registration is now open. <b>Limited early bird tickets are now on sale till 5/31.</b></p>
+            'description': `<p>Registration is now open in-person and virtually. Registration for in-person is limited.</p>
             <a href="https://www.tickettailor.com/events/btba/676096"><b>Register Now</b></a>`
         }, {
             'title': 'About BTBA',
@@ -74,6 +74,9 @@ export const ttbaSymposium2017 = {
             'title': 'Keynote Speech I: Robert S. Langer, Professor at MIT (Dr. Langer will join us virtually)',
             'topic': "From nanotechnology to mRNA vaccines: How overcoming skepticism and barriers led to new cancer treatments and ways to tackle a global health challeng",
             'sessionDescription': '',
+            'moderators': [
+				{'name': 'Yen-Chun Lu', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -95,7 +98,8 @@ export const ttbaSymposium2017 = {
             'to': new Date('2022/07/23 12:00 EDT'),
             'title': 'Trending Topic',
             'topic': "Data-driven innovation in healthcare industry: drug discovery and clinical trial (Panel discussion)",
-            'sessionDescription': '',
+            'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p> 
+            <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, clinical development, and post-market real world evidence research. Please join us to learn how data and digital solutions enable patients to access effective therapies faster and at a lower cost!</p>`,
             'moderators': [
 				{'name': 'Fan-En Chen', 'link': ''},
 				{'name': 'Nae-Chyun Chen', 'link': ''}
@@ -104,7 +108,8 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
 				speakersObj['Ivy Weng'],
-                speakersObj['Yi-Hsiang Hsu']
+                speakersObj['Yi-Hsiang Hsu'],
+                speakersObj['Dejan Maglic']
 			]
         }, {
             'from': new Date('2022/07/23 12:00 EDT'),
@@ -112,9 +117,32 @@ export const ttbaSymposium2017 = {
             'title': 'Lunch & Round Table with Speakers',
             'topic': null,
             'sessionDescription': '',
+            'moderators': [
+				{'name': 'Chun Liu', 'link': ''},
+                {'name': 'Yi-Jung Shen', 'link': ''},
+                {'name': 'Chun Mei Su', 'link': ''},
+                {'name': 'Hsiao-Ying Wey', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
-            'speakers': []
+            'speakers': [
+                speakersObj['Chia-Wei Cheng'],
+                speakersObj['Erica Cai'],
+                speakersObj['Chih-Chun Lin'],
+                speakersObj['Robert Schultz'],
+                speakersObj['Lo-I Cheng'],
+                speakersObj['Meng-Ju Wu'],
+                speakersObj['Samuel Chen'],
+                speakersObj['Ivy Weng'],
+                speakersObj['Yi-Hsiang Hsu'],
+                speakersObj['Dejan Maglic'],
+                speakersObj['Wei-Chien Hung'],
+                speakersObj['Hsiao-Ling Hung'],
+                speakersObj['Jenny Shu'],
+                speakersObj['Miao-Chih Tsai'],
+                speakersObj['Shian-Huey Chiang'],
+                speakersObj['Jun-Han Su']
+            ]
         }, {
             'from': new Date('2022/07/23 13:50 EDT'),
             'to': new Date('2022/07/23 14:50 EDT'),
@@ -149,6 +177,9 @@ export const ttbaSymposium2017 = {
 			<p>Entering the biotech/pharmaceutical industry has been a dream job for many biomedical students after completing their degree. However, starting their first industrial career can be challenging. Therefore, putting your best foot forward and gaining industrial experience through internship/co-op while studying can be an important step.</p>
 			<p>Join us for an hour and a half with speakers including a former master's student, Ph.D. students, and a hiring manager! Learn how they prepare themselves from an internship application to launching their industry career! In this session, our speakers will share their internship/Co-op experiences and discuss how they benefit from them.</p>
 			`,
+            'moderators': [
+				{'name': 'Liang-Yuan Chiu', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -163,13 +194,24 @@ export const ttbaSymposium2017 = {
             'to': new Date('2022/07/23 16:30 EDT'),
 			'numOfParallelSessions': 2,
             'title': 'Panel 2',
-            'topic': 'Careers in Biotech Industry (Panel discussion)',
-			'sessionDescription': '',
+            'topic': 'Soft Skills and Career Development in Biotech Industry',
+            'sessionDescription': `<p>- How to demonstrate leadership at all levels?</p>
+            <p>- How to maximize your strengths and improve on your weaknesses?</p>
+            <p>Career development is a process to find out what we want to be. As we climb up the career ladder, we will encompass additional responsibilities to make critical decisions and to lead a team. While an organization may have people with various talents and capabilities, it is leadership that harnesses individual efforts toward the collective goal.
+            </p>
+            <p>We invited 4 industry leaders across Manufacturing Sciences, Regulatory, Equity Investment, and R&D to share their important decisions made in their industry journey, experiences to empower others, and tips for team building</p>
+            <p>Come join us and learn how to find out your strengths, resolve conflicts, lead a team, and build your value over time.</p>`,
+            'moderators': [
+				{'name': 'Jimmy Chu', 'link': ''}
+			],
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
                 //commiteesObj['Szu-Ta Chen'],
-                speakersObj['I-hung Shih']
+                speakersObj['I-hung Shih'],
+                speakersObj['Wei-Chien Hung'],
+                speakersObj['Hsiao-Ling Hung'],
+                speakersObj['Jenny Shu']
             ]
         }, {
             'from': new Date('2022/07/23 16:30 EDT'),
@@ -178,6 +220,9 @@ export const ttbaSymposium2017 = {
             'title': 'Poster session',
             'topic': '',
 			'sessionDescription': null,
+            'moderators': [
+				{'name': 'Hsin Yi Cho', 'link': ''}
+			],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -193,6 +238,9 @@ export const ttbaSymposium2017 = {
             'title': 'Oral Presentation',
             'topic': '',
 			'sessionDescription': '',
+            'moderators': [
+				{'name': 'Yi-Yun Ho', 'link': ''}
+			],
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
@@ -224,7 +272,18 @@ export const ttbaSymposium2017 = {
             'to': new Date('2022/07/24 09:30 EDT'),
             'title': 'Breakfast and Meeting with Experts',
             'topic': null,
-			'sessionDescription': '',
+			'sessionDescription': `<p>This session aims to provide a platform for attendees to establish a network with invited speakers across diverse backgrounds. Through an informal and relaxed breakfast session, you will be able to:
+            </p>
+            <li>Learn and practice initiating conversations with people you are interested in connecting with</li>
+            <li>Polish your “elevator pitch” skills to leave a good impression in brief conversations</li>
+            <li>Seek advice and suggestions from someone who might have a career trajectory that you would like to pursue</li>
+            <li>Make new friends and reconnect with old friends</li>
+            <li>Enjoy the excellent food we prepared for you!!</li>
+            <p>Do not miss this great opportunity to expand your network for further career development!</p>`,
+            'moderators': [
+				{'name': 'Shu-Wei Wu', 'link': ''},
+                {'name': 'Fu-Kai Hsieh', 'link': ''}
+			],
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': []
@@ -286,7 +345,7 @@ export const ttbaSymposium2017 = {
             'to': new Date('2022/07/24 12:20 EDT'),
 			'numOfParallelSessions': 2,
             'title': 'Panel 4',
-            'topic': 'Startup Panel',
+            'topic': 'From IP to IPO: Startup Experience Sharing',
 			'sessionDescription': `
 			<p>Do you feel your research is so promising that it has the potential to become a good product and make some money (money sign)? Lots of people might already have a passion for a “startup” but don’t know how to actually “start it.” The saying “only 10% of startups can survive” is certainly intimidating. How might we be able to increase our success rate? You will find some answers in this workshop session with a range of panelists in startup-related fields.</p>
 
