@@ -75,7 +75,8 @@ export const ttbaSymposium2017 = {
             'topic': "From nanotechnology to mRNA vaccines: How overcoming skepticism and barriers led to new cancer treatments and ways to tackle a global health challeng",
             'sessionDescription': '',
             'moderators': [
-				{'name': 'Yen-Chun Lu', 'link': ''}
+				{'name': 'Yen-Chun Lu', 'link': ''},
+                {'name': 'Chi-An (Annie) Cheng', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
@@ -141,7 +142,10 @@ export const ttbaSymposium2017 = {
                 speakersObj['Jenny Shu'],
                 speakersObj['Miao-Chih Tsai'],
                 speakersObj['Shian-Huey Chiang'],
-                speakersObj['Jun-Han Su']
+                speakersObj['Jun-Han Su'],
+                speakersObj['Jason Lin'],
+                speakersObj['Will McLean'],
+                speakersObj['I-hung Shih']
             ]
         }, {
             'from': new Date('2022/07/23 13:50 EDT'),
@@ -202,7 +206,8 @@ export const ttbaSymposium2017 = {
             <p>We invited 4 industry leaders across Manufacturing Sciences, Regulatory, Equity Investment, and R&D to share their important decisions made in their industry journey, experiences to empower others, and tips for team building</p>
             <p>Come join us and learn how to find out your strengths, resolve conflicts, lead a team, and build your value over time.</p>`,
             'moderators': [
-				{'name': 'Jimmy Chu', 'link': ''}
+				{'name': 'Jimmy Chu', 'link': ''},
+                {'name': 'Kai-Chih Huang', 'link': ''}
 			],
             'tags': [],
             'rooms': ['Room B103'],
