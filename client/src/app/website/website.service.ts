@@ -58,8 +58,16 @@ export class WebsiteService {
 				element.speakers = parsedSpeakers;
 				allSpeakers = [...allSpeakers, parsedSpeakers];
 			});
-		this.speakers = allSpeakers
+
+		let lunchSpeakers = allSpeakers
 			.reduce((prev, curr) => [...prev, ...curr], [])
+			.filter(speaker => speaker.title === "Lunch & Round Table with Speakers");
+		let nonLunchSpeakers = allSpeakers
+			.reduce((prev, curr) => [...prev, ...curr], [])
+			.filter(speaker => speaker.title !== "Lunch & Round Table with Speakers");
+
+		this.speakers = [...nonLunchSpeakers, ...lunchSpeakers]
+			// only keep unique items
 			.reduce((prev, curr) => {
 				return prev.length === 0
 					? [...prev, ...curr]
@@ -82,7 +90,7 @@ export class WebsiteService {
 			.sort((a, b) => {
 				return new Date(a.from).getTime() !== new Date(b.from).getTime()
 					? 0
-					: a.title[0].toUpperCase() > b.title[0].toUpperCase()
+					: a.title.toUpperCase() > b.title.toUpperCase()
 					? 1
 					: -1;
 			})
