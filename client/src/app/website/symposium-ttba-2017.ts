@@ -446,7 +446,17 @@ export const ttbaSymposium2017 = {
             'name': 'string',
             'logoUrl': 'teco_S_and_T_logo.png',
             'link': 'https://www.most.gov.tw/boston/en'
-        }, {
+        },{
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'ROC_Ministry_of_Education_Seal_small.png',
+            'link': 'https://english.moe.gov.tw/'
+        },{
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'TECO-Boston_small.png',
+            'link': 'https://www.roc-taiwan.org/usbos_en/'
+        },{
             'level': 'string',
             'name': 'string',
             'logoUrl': 'OCAC.png',
@@ -464,9 +474,41 @@ export const ttbaSymposium2017 = {
         }, {
             'level': 'string',
             'name': 'string',
+            'logoUrl': 'MJNE_small.png',
+            'link': 'http://www.mj-ne.org/'
+        },{
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'biolegend_enabling_large.jpeg',
+            'link': 'https://www.biolegend.com'
+        },{
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'BTCC.jpg',
+            'link': 'https://www.facebook.com/bostonbtcc'
+        },{
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'NATMA.png',
+            'link': 'https://www.natma.org'
+        },{
+            'level': 'string',
+            'name': 'string',
             'logoUrl': 'vizuro.png',
             'link': 'https://www.vizuro.com/'
-        }, ]
+        },
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'vizuro.png',
+        //    'link': 'https://www.lantheus.com'
+        //},
+        {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'wellesley-toyota-logo_PROPER-01_small.png',
+            'link': 'https://www.wellesleytoyota.com/dealership/about.htm'
+        } ]
     },
     'imgs': [{
         'usage': 'string',
