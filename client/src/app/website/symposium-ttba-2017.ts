@@ -506,7 +506,7 @@ export const ttbaSymposium2017 = {
         {
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'wellesley-toyota-logo_PROPER-01_small.png',
+            'logoUrl': 'wellesley-toyota.png',
             'link': 'https://www.wellesleytoyota.com/dealership/about.htm'
         } ]
     },
