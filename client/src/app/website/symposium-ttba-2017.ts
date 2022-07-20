@@ -72,7 +72,7 @@ export const ttbaSymposium2017 = {
             'from': new Date('2022/07/23 09:10 EDT'),
             'to': new Date('2022/07/23 10:10 EDT'),
             'title': 'Keynote Speech I: Robert S. Langer, Professor at MIT (Dr. Langer will join us virtually)',
-            'topic': "From nanotechnology to mRNA vaccines: How overcoming skepticism and barriers led to new cancer treatments and ways to tackle a global health challeng",
+            'topic': "From nanotechnology to mRNA vaccines: How overcoming skepticism and barriers led to new cancer treatments and ways to tackle a global health challenge",
             'sessionDescription': '',
             'moderators': [
 				{'name': 'Yen-Chun Lu', 'link': ''},
@@ -295,8 +295,8 @@ export const ttbaSymposium2017 = {
         },{
             'from': new Date('2022/07/24 09:40 EDT'),
             'to': new Date('2022/07/24 10:40 EDT'),
-            'title': 'Keynote Speech II: Jo Vincey, CEO at Seismic Therapeutic',
-            'topic': null,
+            'title': 'Keynote Speech II: Jo Viney, CEO at Seismic Therapeutic',
+            'topic': 'It’s the climb: Ascending biotech’s career ladder without losing balance',
 			'sessionDescription': '',
 			'moderators': [
 				{'name': 'Yvonne Meng', 'link': ''},
