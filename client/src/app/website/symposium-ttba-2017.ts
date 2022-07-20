@@ -99,7 +99,7 @@ export const ttbaSymposium2017 = {
             'to': new Date('2022/07/23 12:00 EDT'),
             'title': 'Trending Topic',
             'topic': "Data-driven innovation in healthcare industry: drug discovery and clinical trial (Panel discussion)",
-            'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p> 
+            'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p>
             <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, clinical development, and post-market real world evidence research. Please join us to learn how data and digital solutions enable patients to access effective therapies faster and at a lower cost!</p>`,
             'moderators': [
 				{'name': 'Fan-En Chen', 'link': ''},
@@ -449,7 +449,7 @@ export const ttbaSymposium2017 = {
         },{
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'ROC_Ministry_of_Education_Seal_small.png',
+            'logoUrl': 'Ministry_of_Education.png',
             'link': 'https://english.moe.gov.tw/'
         },{
             'level': 'string',
@@ -474,17 +474,17 @@ export const ttbaSymposium2017 = {
         }, {
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'MJNE_small.png',
+            'logoUrl': 'MJNE.png',
             'link': 'http://www.mj-ne.org/'
         },{
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'biolegend_enabling_large.jpeg',
+            'logoUrl': 'biolegend.png',
             'link': 'https://www.biolegend.com'
         },{
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'BTCC.jpg',
+            'logoUrl': 'BTCC.png',
             'link': 'https://www.facebook.com/bostonbtcc'
         },{
             'level': 'string',
