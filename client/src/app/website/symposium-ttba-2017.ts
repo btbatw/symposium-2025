@@ -454,7 +454,7 @@ export const ttbaSymposium2017 = {
         },{
             'level': 'string',
             'name': 'string',
-            'logoUrl': 'TECO-Boston_small.png',
+            'logoUrl': 'teco.png',
             'link': 'https://www.roc-taiwan.org/usbos_en/'
         },{
             'level': 'string',
