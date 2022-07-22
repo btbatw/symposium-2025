@@ -138,7 +138,7 @@ export const ttbaSymposium2017 = {
                 speakersObj['Yi-Hsiang Hsu'],
                 speakersObj['Dejan Maglic'],
                 speakersObj['Wei-Chien Hung'],
-                speakersObj['Hsiao-Ling Hung'],
+                //speakersObj['Hsiao-Ling Hung'],
                 speakersObj['Jenny Shu'],
                 speakersObj['Miao-Chih Tsai'],
                 speakersObj['Shian-Huey Chiang'],
