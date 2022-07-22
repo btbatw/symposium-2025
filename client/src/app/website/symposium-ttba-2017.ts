@@ -495,6 +495,11 @@ export const ttbaSymposium2017 = {
         }, {
             'level': 'string',
             'name': 'string',
+            'logoUrl': 'metis.png',
+            'link': 'https://www.metistx.com/'
+        }, {
+            'level': 'string',
+            'name': 'string',
             'logoUrl': 'ihisto.png',
             'link': 'https://www.ihisto.io/'
         }, {
@@ -528,17 +533,23 @@ export const ttbaSymposium2017 = {
             'logoUrl': 'vizuro.png',
             'link': 'https://www.vizuro.com/'
         },
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'vizuro.png',
-        //    'link': 'https://www.lantheus.com'
-        //},
+        {
+           'level': 'string',
+           'name': 'string',
+           'logoUrl': 'lantheus.png',
+           'link': 'https://www.lantheus.com'
+        },
         {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'wellesley-toyota.png',
             'link': 'https://www.wellesleytoyota.com/dealership/about.htm'
+        },
+		{
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'dcb.png',
+            'link': 'https://www.dcb.org.tw/pages/1?locale=en'
         } ]
     },
     'imgs': [{
