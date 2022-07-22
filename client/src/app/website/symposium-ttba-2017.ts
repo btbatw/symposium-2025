@@ -215,7 +215,7 @@ export const ttbaSymposium2017 = {
                 //commiteesObj['Szu-Ta Chen'],
                 speakersObj['I-hung Shih'],
                 speakersObj['Wei-Chien Hung'],
-                speakersObj['Hsiao-Ling Hung'],
+                speakersObj['Shian-Huey Chiang'],
                 speakersObj['Jenny Shu']
             ]
         }, {
@@ -291,7 +291,38 @@ export const ttbaSymposium2017 = {
 			],
             'tags': [],
             'rooms': ['Room B103'],
-            'speakers': []
+            'speakers': [
+                speakersObj['Erica Cai'],
+                speakersObj['Yung-Chi Huang'],
+                speakersObj['Yu-Hung Hung'],
+                speakersObj['Jeng-Shin Lee'],
+                speakersObj['Yung-Chih Cheng'],
+                speakersObj['Fu-Kai Hsieh'],
+                speakersObj['Tzu-Hsing (April) Kuo'],
+                speakersObj['Hsiao-Ying (Monica) Wey'],
+                speakersObj['Jerry (Chih-Chung) Lin'],
+                speakersObj['An-Chi Cheng'],
+                speakersObj['Dian-Jang Lee'],
+                speakersObj['Ho-Chou Tu'],
+                speakersObj['Chi-Hsiu (Zoe) Liu'],
+                speakersObj['Jay (Chih-Chieh) Wang'],
+                speakersObj['Margaret (Chia-Ying) Wey'],
+                speakersObj['Bobbi Hsieh'],
+                speakersObj['Ling-Fang Tseng'],
+                speakersObj['Yvonne Meng'],
+                speakersObj['Hao-Chen (Vivian) Chang'],
+                speakersObj['Hung-Ying Lin'],
+                speakersObj['Chen-Ching (Vicky) Yuan'],
+                speakersObj['Kenneth Chih-Wei Chen'],
+                speakersObj['Annabelle Ooi'],
+                speakersObj['Amy Shyu'],
+                speakersObj['Sabrina Yang'],
+                speakersObj['Pin-Hsian Huang'],
+                speakersObj['Winnie Tung'],
+                speakersObj['Ching-Lin Hsieh'],
+                speakersObj['Wan Hsi (Wendy) Chen'],
+                speakersObj['Chih-Chi (Jimmy) Chu']
+            ]
         },{
             'from': new Date('2022/07/24 09:40 EDT'),
             'to': new Date('2022/07/24 10:40 EDT'),
