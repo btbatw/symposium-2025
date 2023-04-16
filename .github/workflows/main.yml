@@ -25,7 +25,7 @@ jobs:
       # FIXME: do we still need `--base-href`?
       run: |
         npm install
-        npm run build --  --prod --output-path gh-pages  --base-href /2022/
+        npm run build --  --prod --output-path gh-pages  --base-href /2023/
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
