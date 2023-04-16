@@ -15,17 +15,17 @@ conda create -n node6 -c conda-forge nodejs=6 git
 conda activate node6
 ```
 
-Clone repo from github and change directory into `./symposium-2022/client`
+Clone repo from github and change directory into `./symposium-2023/client`
 ```bash
-git clone https://github.com/btbatw/symposium-2022.git
-cd symposium-2022/client
+git clone https://github.com/btbatw/symposium-2023.git
+cd symposium-2023/client
 npm install
 npm install -g @angular/cli@1.3.2
 ```
 
 Serve locally during development
 ```bash
-# in .../symposium-2022/client directory
+# in .../symposium-2023/client directory
 ng serve
 ```
 
@@ -35,8 +35,8 @@ Build for production
 # in the following example, the symposium site lives under
 # https://main-site.org/2020
 
-# in .../symposium-2022/client directory
-ng build --prod --output-path 2020  --base-href /2020/
+# in .../symposium-2023/client directory
+ng build --prod --output-path 2023  --base-href /2023/
 
 # for local repo freshedly cloned and has submodule
 git submodule update --init
@@ -48,8 +48,8 @@ Use github pages to serve the `website` branch
 2. configure github pages pointing to root of the `website` branch
 ```bash
 # in .../tba-symposium/client directory
-git submodule add -b website https://github.com/btbatw/symposium-2022.git website
-ng build --prod --output-path website  --base-href /2022/
+git submodule add -b website https://github.com/btbatw/symposium-2023.git website
+ng build --prod --output-path website  --base-href /2023/
 
 
 # make changes and update submodule and main git repo by referencing to
