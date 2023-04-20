@@ -5,14 +5,14 @@ import { commiteesObj } from './commitees-array';
 
 export const ttbaSymposium2017 = {
     'symposiumInfo': {
-        'name': 'BTBA Symposium 2022',
+        'name': 'BTBA Symposium 2023',
         'location': 'Virtual',
         'time': {
-            'from': new Date('2022/07/23'),
-            'to': new Date('2022/07/24')
+            'from': new Date('2023/07/08'),
+            'to': new Date('2023/07/09')
 		},
 		'timeZone': 'America/New_York',
-        'year': '2022',
+        'year': '2023',
         'title': 'HUSTLING IN THE ERA OF BIOTECH',
         'showPageLink': false,
         'registrationLink': 'https://www.tickettailor.com/events/btba/676096'
@@ -27,18 +27,17 @@ export const ttbaSymposium2017 = {
 		'supportLink': 'https://www.btbatw.org/support.html'
     },
     'about': {
-        'title': 'BTBA 2022 Annual Symposium',
+        'title': 'BTBA 2023 Annual Symposium',
         'showPageLink': true,
         'subjects': [{
             'title': '',
-            'description': `<p>2022 BTBA 10th Anniversary Symposium will take place on <b>July 23-24</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA. </b>Since 2013, BTBA has hosted 9 annual symposiums, each attracting more than 300 attendees from across North America, Europe, and Asia each year.</p>
-            <p>Featured keynote speakers at the symposium include <b>Prof. Robert Langer</b>, David H. Koch Institute Professor at MIT, and <b>Dr. Jo Viney</b>, founder, President, and CEO of Seismic Therapeutics. Furthermore, <b>Dr. Timothy Yu</b>, a world-leading expert in personalized medicine at Harvard Medical School, will be our speaker of special talk.</p>
-            <p>2022 Symposium speakers will cover a range of topics including career roadmap in academia, management skills, trending topics in data-driven innovation in healthcare industry, startup, internship and co-op opportunities, and networking sessions.</p>
-            <p>To celebrate our 10th anniversary, we would like to invite you to attend our gala on July 23, 6:30 pm. This will be a great opportunity for you to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
+            'description': `
+                <p>2023 BTBA Symposium will take place on <b>July 8-9</b>. More updates coming soon. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
+                <div><img src="assets/img/agenda-2023.png" class="width-full"></div>
+            `
         }, {
             'title': 'Registration',
-            'description': `<p>Registration is now open in-person and virtually. Registration for in-person is limited.</p>
-            <a href="https://www.tickettailor.com/events/btba/676096"><b>Register Now</b></a>`
+            'description': `<p>Registration info coming soon</p>`
         }, {
             'title': 'About BTBA',
             'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
@@ -46,7 +45,7 @@ export const ttbaSymposium2017 = {
     },
     'programme': {
         'title': 'Programme',
-        'showPageLink': true,
+        'showPageLink': false,
         'schedules': [{
             'from': new Date('2022/07/23 08:00 EDT'),
             'to': new Date('2022/07/23 09:00 EDT'),
@@ -414,7 +413,7 @@ export const ttbaSymposium2017 = {
     },
     'submission': {
         'title': 'Call for Submissions',
-        'showPageLink': true,
+        'showPageLink': false,
         'text': '',
         'link': 'https://easychair.org/conferences/?conf=btba2022'
     },
