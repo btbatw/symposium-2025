@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap');
 
 // palette
-$theming-amber: mat-palette($mat-teal);
-$themeing-light-blue-dark:  mat-palette($mat-blue-grey, 900, 100, 400);
+$theming-amber: mat-palette($mat-indigo, 300, A700, 500);
+$themeing-light-blue-dark:  mat-palette($mat-amber, 300, 100, 100);
 $themeing-light-blue:  mat-palette($mat-light-blue, A700, 900, A400);
 $themeing-white: mat-palette($mat-grey, 50, 50, 400);
 
@@ -22,13 +22,13 @@ $bodyBgColor: #f1f0eb;
 	@include angular-material-theme($amber-blue-theme);
 	&.bg-color-theme-default, .bg-color-theme-default {
 		// background-color: rgba(mat-color(map-get($amber-blue-theme, primary)), 0.5);
-		background-color: #f5f4f0;
+		background-color: #ffffff;
 	}
 	&.text-color-of-theme, .text-color-of-theme, .mat-menu-item {
-		color: rgba(mat-color(map-get($amber-blue-theme, accent)), 1);
+		color: #000;
 	}
 	&.text-color-of-theme-header, .text-color-of-theme-header {
-		color: rgba(mat-color(map-get($amber-blue-theme, accent)), 1);
+		color: #000;
 	}
 	.border-color-of-theme {
 		border-color: rgba(mat-color(map-get($amber-blue-theme, primary)), 1);
@@ -38,16 +38,18 @@ $bodyBgColor: #f1f0eb;
 	}
 	@include linx(mat-color(map-get($amber-blue-theme, accent)), mat-color(map-get($amber-blue-theme, accent)), mat-color(map-get($amber-blue-theme, accent)), mat-color(map-get($amber-blue-theme, accent)));
 	a {
+		color: #000;
 		background-color: rgba(mat-color(map-get($amber-blue-theme, primary)), 0.5);
 		text-decoration: none;
-		&:hover, &:active {
+		&:hover, &:active, &:visited {
 			text-decoration: underline;
+			color: #000;
 		}
 	}
 	.header-theme {
 		@include mat-button-theme(mat-light-theme($themeing-white, $themeing-light-blue-dark));
 		// background-color: rgba(mat-color(map-get($amber-blue-theme, primary)), 0.5);
-		background-color: #008036;
+		background-color: #5271ff;
 	}
 }
 .white-light-blue-theme {
