@@ -49,44 +49,44 @@ export const ttbaSymposium2017 = {
         'title': 'Programme',
         'showPageLink': false,
         'schedules': [{
-            'from': new Date('2022/07/23 08:00 EDT'),
-            'to': new Date('2022/07/23 09:00 EDT'),
-            'title': 'Registration',
+            'from': new Date('2023/07/08 08:00 EDT'),
+            'to': new Date('2023/07/29 09:00 EDT'),
+            'title': 'Registration and poster set up',
             'topic': null,
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
             'speakers': []
         },{
-            'from': new Date('2022/07/23 09:00 EDT'),
-            'to': new Date('2022/07/23 09:10 EDT'),
+            'from': new Date('2023/07/08 09:00 EDT'),
+            'to': new Date('2023/07/08 09:10 EDT'),
             'title': 'Opening Remarks',
             'topic': null,
             'sessionDescription': '',
             'tags': [],
             'rooms': [],
             'speakers': [
-                commiteesObj['Yu-Tien Hsu'],
-                commiteesObj['Chih-Hung Chou']
+                commiteesObj['Liang-Yuan Chiu'],
+                commiteesObj['Yi-Yun Ho']
             ]
         }, {
-            'from': new Date('2022/07/23 09:10 EDT'),
-            'to': new Date('2022/07/23 10:10 EDT'),
-            'title': 'Keynote Speech I: Robert S. Langer, Professor at MIT (Dr. Langer will join us virtually)',
-            'topic': "From nanotechnology to mRNA vaccines: How overcoming skepticism and barriers led to new cancer treatments and ways to tackle a global health challenge",
+            'from': new Date('2023/07/08 09:10 EDT'),
+            'to': new Date('2023/07/08 10:00 EDT'),
+            'title': 'Keynote Speech I: George Church, Professor at Harvard (Dr. Church will join us virtually)',
+            'topic': "",
             'sessionDescription': '',
             'moderators': [
-				{'name': 'Yen-Chun Lu', 'link': ''},
-                {'name': 'Chi-An (Annie) Cheng', 'link': ''}
+				{'name': '', 'link': ''},
+                {'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
             'speakers': [
-                speakersObj['Robert Langer']
+                speakersObj['']
             ]
         },{
-            'from': new Date('2022/07/23 10:10 EDT'),
-            'to': new Date('2022/07/23 10:30 EDT'),
+            'from': new Date('2023/07/08 10:00 EDT'),
+            'to': new Date('2023/07/08 10:30 EDT'),
             'title': 'Coffee Break',
             'topic': null,
             'sessionDescription': '',
@@ -96,320 +96,164 @@ export const ttbaSymposium2017 = {
 
             ]
         },{
-            'from': new Date('2022/07/23 10:30 EDT'),
-            'to': new Date('2022/07/23 12:00 EDT'),
+            'from': new Date('2023/07/08 10:30 EDT'),
+            'to': new Date('2023/07/08 12:00 EDT'),
             'title': 'Trending Topic',
-            'topic': "Data-driven innovation in healthcare industry: drug discovery and clinical trial (Panel discussion)",
+            'topic': "Leveraging Real World Data, Multi-Omics Data, and AI for Precision Drug Discovery and clinical trial (Panel discussion)",
             'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p>
-            <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, clinical development, and post-market real world evidence research. Please join us to learn how data and digital solutions enable patients to access effective therapies faster and at a lower cost!</p>`,
+            <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, and clinical development.</p>`,
             'moderators': [
-				{'name': 'Fan-En Chen', 'link': ''},
-				{'name': 'Nae-Chyun Chen', 'link': ''}
+				{'name': '', 'link': ''},
+				{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
             'speakers': [
-				speakersObj['Ivy Weng'],
+				speakersObj['Bin Li'],
                 speakersObj['Yi-Hsiang Hsu'],
-                speakersObj['Dejan Maglic']
+                speakersObj['']
 			]
         }, {
-            'from': new Date('2022/07/23 12:00 EDT'),
-            'to': new Date('2022/07/23 13:40 EDT'),
-            'title': 'Lunch & Round Table with Speakers',
+            'from': new Date('2023/07/08 12:00 EDT'),
+            'to': new Date('2023/07/08 14:30 EDT'),
+            'title': 'Lunch & Career diagnostic room',
             'topic': null,
             'sessionDescription': '',
             'moderators': [
-				{'name': 'Chun Liu', 'link': ''},
-                {'name': 'Yi-Jung Shen', 'link': ''},
-                {'name': 'Chun Mei Su', 'link': ''},
-                {'name': 'Hsiao-Ying Wey', 'link': ''}
+				{'name': '', 'link': ''},
+                {'name': '', 'link': ''},
+                {'name': '', 'link': ''},
+                {'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
             'speakers': [
-                speakersObj['Chia-Wei Cheng'],
-                speakersObj['Erica Cai'],
-                speakersObj['Chih-Chun Lin'],
-                speakersObj['Robert Schultz'],
-                speakersObj['Lo-I Cheng'],
-                speakersObj['Meng-Ju Wu'],
-                speakersObj['Samuel Chen'],
-                speakersObj['Ivy Weng'],
-                speakersObj['Yi-Hsiang Hsu'],
-                speakersObj['Dejan Maglic'],
-                speakersObj['Wei-Chien Hung'],
-                //speakersObj['Hsiao-Ling Hung'],
-                speakersObj['Jenny Shu'],
-                speakersObj['Miao-Chih Tsai'],
-                speakersObj['Shian-Huey Chiang'],
-                speakersObj['Jun-Han Su'],
-                speakersObj['Jason Lin'],
-                speakersObj['Will McLean'],
-                speakersObj['I-hung Shih']
+                
             ]
         }, {
-            'from': new Date('2022/07/23 13:50 EDT'),
-            'to': new Date('2022/07/23 14:50 EDT'),
-            'title': 'Special Talk: Timothy Yu, Associate Professor at Harvard Medical School',
-            'topic': 'Advancing individualized therapies for orphan diseases',
-            'sessionDescription': '',
-			'moderators': [
-				{'name': 'Chih-Fu Wei', 'link': ''},
-				{'name': 'Selina Lin', 'link': ''}
-			],
-            'tags': [],
-            'rooms': [],
-            'speakers': [
-				speakersObj['Timothy Yu']
-			]
-        }, {
-            'from': new Date('2022/07/23 14:50 EDT'),
-            'to': new Date('2022/07/23 15:00 EDT'),
-            'title': 'Coffee Break',
-            'topic': null,
-            'sessionDescription': '',
-            'tags': [],
-            'rooms': [],
-            'speakers': []
-        }, {
-            'from': new Date('2022/07/23 15:00 EDT'),
-            'to': new Date('2022/07/23 16:30 EDT'),
+            'from': new Date('2023/07/08 14:30 EDT'),
+            'to': new Date('2023/07/08 16:00 EDT'),
             'numOfParallelSessions': 2,
-            'title': 'Panel 1',
-            'topic': 'How to Sail Smoothly from School to Industry',
-			'sessionDescription': `
-			<p>Entering the biotech/pharmaceutical industry has been a dream job for many biomedical students after completing their degree. However, starting their first industrial career can be challenging. Therefore, putting your best foot forward and gaining industrial experience through internship/co-op while studying can be an important step.</p>
-			<p>Join us for an hour and a half with speakers including a former master's student, Ph.D. students, and a hiring manager! Learn how they prepare themselves from an internship application to launching their industry career! In this session, our speakers will share their internship/Co-op experiences and discuss how they benefit from them.</p>
-			`,
+            'title': 'Workshop 1',
+            'topic': 'Cell and Gene Therapy: Career Insights into the Preclinical and Clinical Stages of Drug Development Life Cycle',
+			'sessionDescription': ``,
             'moderators': [
-				{'name': 'Liang-Yuan Chiu', 'link': ''}
+				{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
             'speakers': [
-                speakersObj['Jason Lin'],
-                speakersObj['Michael Dubrovsky'],
-                speakersObj['Lo-I Cheng'],
-                speakersObj['Wan-Chih Su']
                 //speakersObj['Christina Haddad']
 			]
         }, {
-            'from': new Date('2022/07/23 15:00 EDT'),
-            'to': new Date('2022/07/23 16:30 EDT'),
+            'from': new Date('2023/07/08 14:30 EDT'),
+            'to': new Date('2023/07/08 16:00 EDT'),
 			'numOfParallelSessions': 2,
-            'title': 'Panel 2',
-            'topic': 'Soft Skills and Career Development in Biotech Industry',
-            'sessionDescription': `<p>- How to demonstrate leadership at all levels?</p>
-            <p>- How to maximize your strengths and improve on your weaknesses?</p>
-            <p>Career development is a process to find out what we want to be. As we climb up the career ladder, we will encompass additional responsibilities to make critical decisions and to lead a team. While an organization may have people with various talents and capabilities, it is leadership that harnesses individual efforts toward the collective goal.
-            </p>
-            <p>We invited 4 industry leaders across Manufacturing Sciences, Regulatory, Equity Investment, and R&D to share their important decisions made in their industry journey, experiences to empower others, and tips for team building</p>
-            <p>Come join us and learn how to find out your strengths, resolve conflicts, lead a team, and build your value over time.</p>`,
+            'title': 'Workshop 2',
+            'topic': 'Beyond the Bench: Navigate Successful Career Paths in Biotech Capital Market',
+            'sessionDescription': ``,
             'moderators': [
-				{'name': 'Jimmy Chu', 'link': ''},
-                {'name': 'Kai-Chih Huang', 'link': ''}
-			],
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                //commiteesObj['Szu-Ta Chen'],
-                speakersObj['I-hung Shih'],
-                speakersObj['Wei-Chien Hung'],
-                speakersObj['Shian-Huey Chiang'],
-                speakersObj['Jenny Shu']
-            ]
-        }, {
-            'from': new Date('2022/07/23 16:30 EDT'),
-            'to': new Date('2022/07/23 17:30 EDT'),
-            'numOfParallelSessions': 2,
-            'title': 'Poster session',
-            'topic': '',
-			'sessionDescription': null,
-            'moderators': [
-				{'name': 'Hsin Yi Cho', 'link': ''}
+				{'name': '', 'link': ''},
+                {'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
             'speakers': [
-				//speakersObj['Sengwee Darren Toh'],
-				//speakersObj['Lina Titievsky'],
-				//speakersObj['Liz Garry'],
-				// speakersObj['Shianhuey Chiang'],
-			]
+                //commiteesObj['Szu-Ta Chen'],
+            ]
         }, {
-            'from': new Date('2022/07/23 16:30 EDT'),
-            'to': new Date('2022/07/23 17:30 EDT'),
-			'numOfParallelSessions': 2,
+            'from': new Date('2023/07/08 16:00 EDT'),
+            'to': new Date('2023/07/08 17:00 EDT'),
             'title': 'Oral Presentation',
             'topic': '',
 			'sessionDescription': '',
             'moderators': [
-				{'name': 'Yi-Yun Ho', 'link': ''}
+				{'name': '', 'link': ''}
 			],
             'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                //commiteesObj['Szu-Ta Chen'],
-                //speakersObj['Hsiao-Ling Hung'],
-                //speakersObj['Allen Chia-En Lien'],
-                //speakersObj['Dajun Sun'],
-                //speakersObj['Rosa Wang'],
-                //commiteesObj['Margaret (Chia-Ying) Wey'],
-            ]
+            'rooms': [''],
+            'speakers': []
         }, {
-            'from': new Date('2022/07/23 18:30 EDT'),
-            'to': new Date('2022/07/23 20:30 EDT'),
-            'title': 'BTBA 10th Annual Symposium Gala',
+            'from': new Date('2023/07/08 17:00 EDT'),
+            'to': new Date('2023/07/08 18:00 EDT'),
+            'title': 'Coffee Break & Networking',
             'topic': '',
 			'sessionDescription': '',
             'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                //commiteesObj['Szu-Ta Chen'],
-                //speakersObj['Hsiao-Ling Hung'],
-                //speakersObj['Allen Chia-En Lien'],
-                //speakersObj['Dajun Sun'],
-                //speakersObj['Rosa Wang'],
-                //commiteesObj['Margaret (Chia-Ying) Wey'],
-            ]
+            'rooms': [''],
+            'speakers': []
         },{
-            'from': new Date('2022/07/24 08:00 EDT'),
-            'to': new Date('2022/07/24 09:30 EDT'),
-            'title': 'Breakfast and Meeting with Experts',
+            'from': new Date('2023/07/08 18:00 EDT'),
+            'to': new Date('2023/07/08 20:00 EDT'),
+            'title': 'Networking Dinner & Poster session',
+            'topic': '',
+			'sessionDescription': '',
+            'tags': [],
+            'rooms': [''],
+            'speakers': []
+        },{
+            'from': new Date('2023/07/09 08:00 EDT'),
+            'to': new Date('2023/07/09 09:30 EDT'),
+            'title': 'Breakfast and Meet',
             'topic': null,
-			'sessionDescription': `<p>This session aims to provide a platform for attendees to establish a network with invited speakers across diverse backgrounds. Through an informal and relaxed breakfast session, you will be able to:
-            </p>
-            <li>Learn and practice initiating conversations with people you are interested in connecting with</li>
-            <li>Polish your “elevator pitch” skills to leave a good impression in brief conversations</li>
-            <li>Seek advice and suggestions from someone who might have a career trajectory that you would like to pursue</li>
-            <li>Make new friends and reconnect with old friends</li>
-            <li>Enjoy the excellent food we prepared for you!!</li>
-            <p>Do not miss this great opportunity to expand your network for further career development!</p>`,
+			'sessionDescription': ``,
             'moderators': [
-				{'name': 'Shu-Wei Wu', 'link': ''},
-                {'name': 'Fu-Kai Hsieh', 'link': ''}
+				{'name': '', 'link': ''},
+                {'name': '', 'link': ''}
 			],
             'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                speakersObj['Erica Cai'],
-                speakersObj['Yung-Chi Huang'],
-                speakersObj['Yu-Hung Hung'],
-                speakersObj['Jeng-Shin Lee'],
-                speakersObj['Yung-Chih Cheng'],
-                speakersObj['Fu-Kai Hsieh'],
-                speakersObj['Tzu-Hsing (April) Kuo'],
-                speakersObj['Hsiao-Ying (Monica) Wey'],
-                speakersObj['Jerry (Chih-Chung) Lin'],
-                speakersObj['An-Chi Cheng'],
-                speakersObj['Dian-Jang Lee'],
-                speakersObj['Ho-Chou Tu'],
-                speakersObj['Chi-Hsiu (Zoe) Liu'],
-                speakersObj['Jay (Chih-Chieh) Wang'],
-                speakersObj['Margaret (Chia-Ying) Wey'],
-                speakersObj['Bobbi Hsieh'],
-                speakersObj['Ling-Fang Tseng'],
-                speakersObj['Yvonne Meng'],
-                speakersObj['Hao-Chen (Vivian) Chang'],
-                speakersObj['Hung-Ying Lin'],
-                speakersObj['Chen-Ching (Vicky) Yuan'],
-                speakersObj['Kenneth Chih-Wei Chen'],
-                speakersObj['Annabelle Ooi'],
-                speakersObj['Amy Shyu'],
-                speakersObj['Sabrina Yang'],
-                speakersObj['Pin-Hsian Huang'],
-                speakersObj['Winnie Tung'],
-                speakersObj['Ching-Lin Hsieh'],
-                speakersObj['Wan Hsi (Wendy) Chen'],
-                speakersObj['Chih-Chi (Jimmy) Chu']
-            ]
+            'rooms': [''],
+            'speakers': []
         },{
-            'from': new Date('2022/07/24 09:40 EDT'),
-            'to': new Date('2022/07/24 10:40 EDT'),
-            'title': 'Keynote Speech II: Jo Viney, CEO at Seismic Therapeutic',
-            'topic': 'It’s the climb: Ascending biotech’s career ladder without losing balance',
+            'from': new Date('2023/07/09 09:20 EDT'),
+            'to': new Date('2023/07/09 10:20 EDT'),
+            'title': 'Keynote Speech II: Liz Kwo, CMO, Everly Health',
+            'topic': '',
 			'sessionDescription': '',
 			'moderators': [
-				{'name': 'Yvonne Meng', 'link': ''},
-				{'name': 'Phoebe Tsai', 'link': ''}
+				{'name': '', 'link': ''},
+				{'name': '', 'link': ''}
 			],
             'tags': [],
-            'rooms': ['Room B103'],
+            'rooms': [''],
             'speakers': [
                 //speakersObj['Jeannie Lee'],
-                speakersObj['Jo Viney']
+                speakersObj['']
             ]
         },{
-            'from': new Date('2022/07/24 10:40 EDT'),
-            'to': new Date('2022/07/24 10:50 EDT'),
+            'from': new Date('2023/07/09 10:20 EDT'),
+            'to': new Date('2023/07/09 10:30 EDT'),
             'title': 'Coffee Break',
             'topic': null,
 			'sessionDescription': '',
             'tags': [],
-            'rooms': ['Room B103'],
+            'rooms': [''],
             'speakers': []
         },{
-            'from': new Date('2022/07/24 10:50 EDT'),
-            'to': new Date('2022/07/24 12:20 EDT'),
-            'numOfParallelSessions': 2,
-            'title': 'Panel 3',
-            'topic': 'A Bittersweet Journey - Climbing the Academic Ladder',
-			'sessionDescription': `
-			<p>Are you a Ph.D. scientist aspiring for an academia career?</p>
-			<p>Are you a physician-scientist who is juggling research and clinical responsibilities?</p>
-			<p>Are you an assistant professor suffering from grant writing and building up a functional lab?</p>
-
-			<p>While pursuing a career in academia, it is easy to come across hurdles or get overwhelmed by working in various roles. This panel presents a career map of what others could and have done at different points along their academia journey. Through shared discussion of different experiences, the panel would be particularly useful for jumpstarting your own climb on the academic ladder.</p>
-
-			<p>Come join us for a discussion with academic professionals at different career stages. We have invited a group of faculty at different stages in their academic careers (instructor, assistant professor, and full professor) and in various career tracks (Ph.D.-track, physician-scientist track, and a hybrid career in both academia and industry) to share their experiences. Find out more about their travels, challenges, and successes throughout their careers and find inspiration for your own career goals!</p>
-			`,
+            'from': new Date('2023/07/09 10:30 EDT'),
+            'to': new Date('2023/07/09 12:00 EDT'),
+            'title': 'Trending topic: Health Economcis and Outcomes Research (HEOR)',
+            'topic': '',
+			'sessionDescription': ``,
 			'moderators': [
-				{'name': 'Erica Cai', 'link': ''},
-				{'name': 'Meng-Ju Wu', 'link': ''}
+				{'name': '', 'link': ''},
+				{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
             'speakers': [
-				speakersObj['Chia-Wei Cheng'],
-				speakersObj['Erica Cai'],
-				speakersObj['Chih-Chun Lin'],
-				speakersObj['Morgan Sheng'],
-                speakersObj['Meng-Ju Wu']
 			]
         }, {
-            'from': new Date('2022/07/24 10:50 EDT'),
-            'to': new Date('2022/07/24 12:20 EDT'),
-			'numOfParallelSessions': 2,
-            'title': 'Panel 4',
-            'topic': 'From IP to IPO: Startup Experience Sharing',
-			'sessionDescription': `
-			<p>Do you feel your research is so promising that it has the potential to become a good product and make some money (money sign)? Lots of people might already have a passion for a “startup” but don’t know how to actually “start it.” The saying “only 10% of startups can survive” is certainly intimidating. How might we be able to increase our success rate? You will find some answers in this workshop session with a range of panelists in startup-related fields.</p>
-
-			<p>This panel discussion is going to introduce you to the experiences of successful startups from three different founders/co-founders or CEOs who are currently heading the biotech companies they have built. No matter your question - whether it be related to the different stages of a startup, financial resources for the startup, or management skills - our panelists will provide invaluable insight and tips. What are you waiting for? If you are interested in creating and spearheading your own business, please come and join us for more information about launching and managing your startup!</p>
-			`,
-			'moderators': [
-				{'name': 'Chin-Ju (Ginnie) Hu', 'link': ''},
-				{'name': 'Yu-Yang (Will) Lin', 'link': ''}
-			],
-            'tags': [],
-            'rooms': ['Room B103'],
-            'speakers': [
-                speakersObj['Robert Schultz'],
-                speakersObj['Samuel Chen'],
-                speakersObj['Will McLean']
-            ]
-        },{
-            'from': new Date('2022/07/24 12:20 EDT'),
-            'to': new Date('2022/07/24 12:40 EDT'),
+            'from': new Date('2023/07/09 12:00 EDT'),
+            'to': new Date('2023/07/09 12:30 EDT'),
             'title': 'Closing Remarks & Award Ceremony',
             'topic': null,
 			'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
-                commiteesObj['Yu-Tien Hsu'],
-                commiteesObj['Chih-Hung Chou']
+                commiteesObj['Liang-Yuan Chiu'],
+                commiteesObj['Yi-Yun Ho']
             ]
         }]
     },
