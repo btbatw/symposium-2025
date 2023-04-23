@@ -75,10 +75,10 @@ export const ttbaSymposium2017 = {
             'title': 'Keynote Speech I: George Church, Professor at Harvard (Dr. Church will join us virtually)',
             'topic': "",
             'sessionDescription': '',
-            'moderators': [
+            //'moderators': [
 				//{'name': '', 'link': ''},
                 //{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -102,10 +102,10 @@ export const ttbaSymposium2017 = {
             'topic': "Leveraging Real World Data, Multi-Omics Data, and AI for Precision Drug Discovery and clinical trial (Panel discussion)",
             'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p>
             <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, and clinical development.</p>`,
-            'moderators': [
+            //'moderators': [
 				//{'name': '', 'link': ''},
 				//{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -118,7 +118,7 @@ export const ttbaSymposium2017 = {
             'title': 'Lunch & Career diagnostic room',
             'topic': null,
             'sessionDescription': '',
-            'moderators': [],
+            //'moderators': [],
             'tags': [],
             'rooms': [],
             'speakers': []
@@ -129,9 +129,9 @@ export const ttbaSymposium2017 = {
             'title': 'Workshop 1',
             'topic': 'Cell and Gene Therapy: Career Insights into the Preclinical and Clinical Stages of Drug Development Life Cycle',
 			'sessionDescription': ``,
-            'moderators': [
+            //'moderators': [
 				//{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -144,10 +144,10 @@ export const ttbaSymposium2017 = {
             'title': 'Workshop 2',
             'topic': 'Beyond the Bench: Navigate Successful Career Paths in Biotech Capital Market',
             'sessionDescription': ``,
-            'moderators': [
+            //'moderators': [
 				//{'name': '', 'link': ''},
                 //{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -159,9 +159,9 @@ export const ttbaSymposium2017 = {
             'title': 'Oral Presentation',
             'topic': '',
 			'sessionDescription': '',
-            'moderators': [
+            //'moderators': [
 				//{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [''],
             'speakers': []
@@ -189,10 +189,10 @@ export const ttbaSymposium2017 = {
             'title': 'Breakfast and Meet',
             'topic': null,
 			'sessionDescription': ``,
-            'moderators': [
+            //'moderators': [
 				//{'name': '', 'link': ''},
                 //{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [''],
             'speakers': []
@@ -202,10 +202,10 @@ export const ttbaSymposium2017 = {
             'title': 'Keynote Speech II: Liz Kwo, CMO, Everly Health',
             'topic': '',
 			'sessionDescription': '',
-			'moderators': [
+			//'moderators': [
 				//{'name': '', 'link': ''},
 				//{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [''],
             'speakers': [
@@ -227,10 +227,10 @@ export const ttbaSymposium2017 = {
             'title': 'Trending topic: Health Economcis and Outcomes Research (HEOR)',
             'topic': '',
 			'sessionDescription': ``,
-			'moderators': [
+			//'moderators': [
 				//{'name': '', 'link': ''},
 				//{'name': '', 'link': ''}
-			],
+			//],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -253,7 +253,7 @@ export const ttbaSymposium2017 = {
         'title': 'Call for Submissions',
         'showPageLink': false,
         'text': '',
-        'link': 'https://easychair.org/conferences/?conf=btba2022'
+        'link': 'https://easychair.org/conferences/?conf=2023btba'
     },
     'location': {
         'title': 'Location',
