@@ -76,8 +76,8 @@ export const ttbaSymposium2017 = {
             'topic': "",
             'sessionDescription': '',
             'moderators': [
-				{'name': '', 'link': ''},
-                {'name': '', 'link': ''}
+				//{'name': '', 'link': ''},
+                //{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
@@ -103,8 +103,8 @@ export const ttbaSymposium2017 = {
             'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p>
             <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, and clinical development.</p>`,
             'moderators': [
-				{'name': '', 'link': ''},
-				{'name': '', 'link': ''}
+				//{'name': '', 'link': ''},
+				//{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
