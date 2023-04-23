@@ -13,7 +13,7 @@ export const ttbaSymposium2017 = {
 		},
 		'timeZone': 'America/New_York',
         'year': '2023',
-        'title': 'HUSTLING IN THE ERA OF BIOTECH',
+        'title': '',
         'showPageLink': false,
         'registrationLink': 'https://www.tickettailor.com/events/btba/676096'
     },
@@ -110,8 +110,7 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
 				speakersObj['Bin Li'],
-                speakersObj['Yi-Hsiang Hsu'],
-                speakersObj['']
+                speakersObj['Yi-Hsiang Hsu']
 			]
         }, {
             'from': new Date('2023/07/08 12:00 EDT'),
@@ -119,17 +118,10 @@ export const ttbaSymposium2017 = {
             'title': 'Lunch & Career diagnostic room',
             'topic': null,
             'sessionDescription': '',
-            'moderators': [
-				{'name': '', 'link': ''},
-                {'name': '', 'link': ''},
-                {'name': '', 'link': ''},
-                {'name': '', 'link': ''}
-			],
+            'moderators': [],
             'tags': [],
             'rooms': [],
-            'speakers': [
-                
-            ]
+            'speakers': []
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
             'to': new Date('2023/07/08 16:00 EDT'),
@@ -138,7 +130,7 @@ export const ttbaSymposium2017 = {
             'topic': 'Cell and Gene Therapy: Career Insights into the Preclinical and Clinical Stages of Drug Development Life Cycle',
 			'sessionDescription': ``,
             'moderators': [
-				{'name': '', 'link': ''}
+				//{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
@@ -153,8 +145,8 @@ export const ttbaSymposium2017 = {
             'topic': 'Beyond the Bench: Navigate Successful Career Paths in Biotech Capital Market',
             'sessionDescription': ``,
             'moderators': [
-				{'name': '', 'link': ''},
-                {'name': '', 'link': ''}
+				//{'name': '', 'link': ''},
+                //{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
@@ -168,7 +160,7 @@ export const ttbaSymposium2017 = {
             'topic': '',
 			'sessionDescription': '',
             'moderators': [
-				{'name': '', 'link': ''}
+				//{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [''],
@@ -198,8 +190,8 @@ export const ttbaSymposium2017 = {
             'topic': null,
 			'sessionDescription': ``,
             'moderators': [
-				{'name': '', 'link': ''},
-                {'name': '', 'link': ''}
+				//{'name': '', 'link': ''},
+                //{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [''],
@@ -211,8 +203,8 @@ export const ttbaSymposium2017 = {
             'topic': '',
 			'sessionDescription': '',
 			'moderators': [
-				{'name': '', 'link': ''},
-				{'name': '', 'link': ''}
+				//{'name': '', 'link': ''},
+				//{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [''],
@@ -236,8 +228,8 @@ export const ttbaSymposium2017 = {
             'topic': '',
 			'sessionDescription': ``,
 			'moderators': [
-				{'name': '', 'link': ''},
-				{'name': '', 'link': ''}
+				//{'name': '', 'link': ''},
+				//{'name': '', 'link': ''}
 			],
             'tags': [],
             'rooms': [],
