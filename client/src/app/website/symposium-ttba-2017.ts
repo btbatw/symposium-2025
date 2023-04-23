@@ -50,7 +50,7 @@ export const ttbaSymposium2017 = {
         'showPageLink': false,
         'schedules': [{
             'from': new Date('2023/07/08 08:00 EDT'),
-            'to': new Date('2023/07/29 09:00 EDT'),
+            'to': new Date('2023/07/08 09:00 EDT'),
             'title': 'Registration and poster set up',
             'topic': null,
             'sessionDescription': '',
