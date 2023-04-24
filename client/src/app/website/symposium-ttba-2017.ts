@@ -47,7 +47,7 @@ export const ttbaSymposium2017 = {
     },
     'programme': {
         'title': 'Programme',
-        'showPageLink': false,
+        'showPageLink': true,
         'schedules': [{
             'from': new Date('2023/07/08 08:00 EDT'),
             'to': new Date('2023/07/08 09:00 EDT'),
@@ -251,7 +251,7 @@ export const ttbaSymposium2017 = {
     },
     'submission': {
         'title': 'Call for Submissions',
-        'showPageLink': false,
+        'showPageLink': true,
         'text': '',
         'link': 'https://easychair.org/conferences/?conf=2023btba'
     },
