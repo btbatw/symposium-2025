@@ -53,7 +53,7 @@ const sponsorBenefits = [
 	'Promotional material in program book',
 	'Promotional material in registration desk',
 	'Logo featured on event materials: slideshow, website & program book',
-	'VIP tickets at symposium and gala'
+	'VIP tickets at symposium and dinner'
 ];
 
 const sponsorTypes = [
