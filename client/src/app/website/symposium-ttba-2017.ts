@@ -82,7 +82,7 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                speakersObj['']
+                speakersObj['George Church']
             ]
         },{
             'from': new Date('2023/07/08 10:00 EDT'),
@@ -210,7 +210,7 @@ export const ttbaSymposium2017 = {
             'rooms': [''],
             'speakers': [
                 //speakersObj['Jeannie Lee'],
-                speakersObj['']
+                speakersObj['Liz Kwo']
             ]
         },{
             'from': new Date('2023/07/09 10:20 EDT'),
