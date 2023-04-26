@@ -121,7 +121,14 @@ export const ttbaSymposium2017 = {
             //'moderators': [],
             'tags': [],
             'rooms': [],
-            'speakers': []
+            'speakers': [
+                speakersObj['Chris Chiu'],
+                speakersObj['Kun-Hsing Yu'],
+                speakersObj['Hui-Hao Lin'],
+                speakersObj['Jack Hsu'],
+                speakersObj['Wan-Ping Lee'],
+                speakersObj['Mong-Hsun Tsai'],
+            ]
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
             'to': new Date('2023/07/08 16:00 EDT'),
