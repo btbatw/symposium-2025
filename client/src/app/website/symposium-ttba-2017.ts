@@ -312,90 +312,104 @@ export const ttbaSymposium2017 = {
     'sponsor': {
         'title': 'Sponsors',
         'showPageLink': false,
-        'sponsors': [{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'taiwan_ministry_of_science_and_technology.png',
-            'link': 'https://www.most.gov.tw/?l=en'
-        }, {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'teco_S_and_T_logo.png',
-            'link': 'https://www.most.gov.tw/boston/en'
-        },{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'Ministry_of_Education.png',
-            'link': 'https://english.moe.gov.tw/'
-        },{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'teco.png',
-            'link': 'https://www.roc-taiwan.org/usbos_en/'
-        },{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'OCAC.png',
-            'link': 'https://english.ocac.gov.tw/ocac/eng/'
-        }, {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'metis.png',
-            'link': 'https://www.metistx.com/'
-        }, {
+        'sponsors': [
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'taiwan_ministry_of_science_and_technology.png',
+        //    'link': 'https://www.most.gov.tw/?l=en'
+        //}, 
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'teco_S_and_T_logo.png',
+        //    'link': 'https://www.most.gov.tw/boston/en'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'Ministry_of_Education.png',
+        //    'link': 'https://english.moe.gov.tw/'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'teco.png',
+        //    'link': 'https://www.roc-taiwan.org/usbos_en/'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'OCAC.png',
+        //    'link': 'https://english.ocac.gov.tw/ocac/eng/'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'metis.png',
+        //    'link': 'https://www.metistx.com/'
+        //},
+        {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'ihisto.png',
             'link': 'https://www.ihisto.io/'
-        }, {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'ast.png',
-            'link': 'https://www.astp.com/'
-        }, {
+        }, 
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'ast.png',
+        //    'link': 'https://www.astp.com/'
+        //},
+        {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'MJNE.png',
             'link': 'http://www.mj-ne.org/'
-        },{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'biolegend.png',
-            'link': 'https://www.biolegend.com'
-        },{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'BTCC.png',
-            'link': 'https://www.facebook.com/bostonbtcc'
-        },{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'NATMA.png',
-            'link': 'https://www.natma.org'
-        },{
+        },
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'biolegend.png',
+        //    'link': 'https://www.biolegend.com'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'BTCC.png',
+        //    'link': 'https://www.facebook.com/bostonbtcc'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'NATMA.png',
+        //    'link': 'https://www.natma.org'
+        //},
+        {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'vizuro.png',
             'link': 'https://www.vizuro.com/'
         },
-        {
-           'level': 'string',
-           'name': 'string',
-           'logoUrl': 'lantheus.png',
-           'link': 'https://www.lantheus.com'
-        },
-        {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'wellesley-toyota.png',
-            'link': 'https://www.wellesleytoyota.com/dealership/about.htm'
-        },
+        //{
+        //   'level': 'string',
+        //   'name': 'string',
+        //   'logoUrl': 'lantheus.png',
+        //   'link': 'https://www.lantheus.com'
+        //},
+        //{
+        //    'level': 'string',
+        //    'name': 'string',
+        //    'logoUrl': 'wellesley-toyota.png',
+        //    'link': 'https://www.wellesleytoyota.com/dealership/about.htm'
+        //},
 		{
             'level': 'string',
             'name': 'string',
             'logoUrl': 'dcb.png',
             'link': 'https://www.dcb.org.tw/pages/1?locale=en'
-        } ]
+        }
+        ]
     },
     'imgs': [{
         'usage': 'string',
