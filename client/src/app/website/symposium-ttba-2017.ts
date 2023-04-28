@@ -161,10 +161,10 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                commiteesObj['Sabrina Yang'],
-                commiteesObj['Charlie Yang'],
-                commiteesObj['Jun-Han Su'],
-                commiteesObj['Shann Gandhl']
+                speakersObj['Sabrina Yang'],
+                speakersObj['Charlie Yang'],
+                speakersObj['Jun-Han Su'],
+                speakersObj['Shann Gandhl']
             ]
         }, {
             'from': new Date('2023/07/08 16:00 EDT'),
