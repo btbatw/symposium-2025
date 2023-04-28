@@ -32,7 +32,7 @@ export const ttbaSymposium2017 = {
         'subjects': [{
             'title': '',
             'description': `
-                <p>2023 BTBA 11th Anniversary Symposium will take place on <b>July 8-9</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA </b></p>
+                <p>2023 BTBA 11th Annual Symposium will take place on <b>July 8-9</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA </b></p>
                 <p>Featured keynote speakers at the symposium include world-renowned gene editing pioneer <b>Dr. George Church</b>, and healthcare entrepreneurship guru <b>Dr. Liz Kwo</b>.</p>
                 <p>2023 Symposium speakers will cover a range of topics including cell and gene therapy industry workshop, bioindustry investment panel, trending topics 1, leveraging multi-omics data, real world data, and AI for precision drug discovery and clinical trials and trending topics 2, Health Economics and outcomes research (HEOR). And most important, networking sessions, including the breakfast networking session, lunch career diagnostic room. 
                 </p>
