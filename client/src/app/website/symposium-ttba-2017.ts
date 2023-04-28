@@ -134,7 +134,7 @@ export const ttbaSymposium2017 = {
             'from': new Date('2023/07/08 14:30 EDT'),
             'to': new Date('2023/07/08 16:00 EDT'),
             'numOfParallelSessions': 2,
-            'title': 'Workshop 1',
+            'title': 'Panel 1',
             'topic': 'Cell and Gene Therapy: Career Insights into the Preclinical and Clinical Stages of Drug Development Life Cycle',
 			'sessionDescription': ``,
             //'moderators': [
@@ -143,13 +143,15 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                //speakersObj['Christina Haddad']
+                speakersObj['Yi-Li Min'],
+                speakersObj['Chih-Sheng Yang'],
+                speakersObj['Jim Shaw']
 			]
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
             'to': new Date('2023/07/08 16:00 EDT'),
 			'numOfParallelSessions': 2,
-            'title': 'Workshop 2',
+            'title': 'Panel 2',
             'topic': 'Beyond the Bench: Navigate Successful Career Paths in Biotech Capital Market',
             'sessionDescription': ``,
             //'moderators': [
@@ -159,7 +161,10 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                //commiteesObj['Szu-Ta Chen'],
+                commiteesObj['Sabrina Yang'],
+                commiteesObj['Charlie Yang'],
+                commiteesObj['Jun-Han Su'],
+                commiteesObj['Shann Gandhl']
             ]
         }, {
             'from': new Date('2023/07/08 16:00 EDT'),
