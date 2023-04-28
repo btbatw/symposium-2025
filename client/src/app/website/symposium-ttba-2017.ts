@@ -33,13 +33,14 @@ export const ttbaSymposium2017 = {
             'title': '',
             'description': `
                 <p>2023 BTBA 11th Anniversary Symposium will take place on <b>July 8-9</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA </b></p>
-                <p>Featured keynote speakers at the symposium include world-renowned gene editing pioneer <b>Dr George Church</b>, and healthcare entrepreneurship guru <b>Dr. Liz Kwo</b>.</p>
+                <p>Featured keynote speakers at the symposium include world-renowned gene editing pioneer <b>Dr. George Church</b>, and healthcare entrepreneurship guru <b>Dr. Liz Kwo</b>.</p>
                 <p>2023 Symposium speakers will cover a range of topics including cell and gene therapy industry workshop, bioindustry investment panel, trending topics 1, leveraging multi-omics data, real world data, and AI for precision drug discovery and clinical trials and trending topics 2, Health Economics and outcomes research (HEOR). And most important, networking sessions, including the breakfast networking session, lunch career diagnostic room. 
                 </p>
-                <p>To celebrate our 11th anniversary, we would like to invite you to attend our conference dinner & poster session on July 8, 6:00 pm. This will be not only a great opportunity for you to share your science in poster session but also to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
+                <p>Looking for something fun after the long-day symposium? We would like to invite you to attend our conference dinner & poster session on July 8, 6:00 pm. This will be not only a great opportunity for you to share your science in poster session but also to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'Registration',
-            'description': `<p>Registration info coming soon</p>`
+            'description': `<p>Registration is now open for in-person attendance and is limited.</p>
+            <a href="https://www.tickettailor.com/events/btba/902830"><b>Register Now</b></a>`
         }, {
             'title': 'About BTBA',
             'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
