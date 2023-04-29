@@ -111,7 +111,8 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
 				speakersObj['Bin Li'],
-                speakersObj['Yi-Hsiang Hsu']
+                speakersObj['Yi-Hsiang Hsu'],
+                speakersObj['Kun-Hsing Yu']
 			]
         }, {
             'from': new Date('2023/07/08 12:00 EDT'),
