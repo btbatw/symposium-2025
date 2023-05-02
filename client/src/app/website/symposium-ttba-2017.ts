@@ -39,8 +39,7 @@ export const ttbaSymposium2017 = {
                 <p>Looking for something fun after the long-day symposium? We would like to invite you to attend our conference dinner & poster session on July 8, 6:00 pm. This will be not only a great opportunity for you to share your science in poster session but also to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
             'title': 'Registration',
-            'description': `<p>Registration is now open for in-person attendance and is limited.</p>
-            <a href="https://www.tickettailor.com/events/btba/902830"><b>Register Now</b></a>`
+            'description': `<p>Registration is now open for in-person attendance and is limited.</p>`
         }, {
             'title': 'About BTBA',
             'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
