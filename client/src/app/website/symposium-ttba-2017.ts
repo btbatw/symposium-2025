@@ -128,6 +128,7 @@ export const ttbaSymposium2017 = {
                 speakersObj['Jack Hsu'],
                 speakersObj['Wan-Ping Lee'],
                 speakersObj['Mong-Hsun Tsai'],
+                speakersObj['Chen-Ming Lee']
             ]
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
@@ -160,7 +161,7 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                speakersObj['Equity Research'],
+                speakersObj['Charlie Yang'],
                 speakersObj['Venture Capital'],
                 speakersObj['Hedge Fund'],
                 speakersObj['Sabrina Yang']
