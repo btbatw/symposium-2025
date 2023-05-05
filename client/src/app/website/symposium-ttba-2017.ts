@@ -237,7 +237,7 @@ export const ttbaSymposium2017 = {
         },{
             'from': new Date('2023/07/09 10:30 EDT'),
             'to': new Date('2023/07/09 12:00 EDT'),
-            'title': 'Trending topic: Health Economcis and Outcomes Research (HEOR)',
+            'title': 'Trending topic: Health Economics and Outcomes Research (HEOR)',
             'topic': '',
 			'sessionDescription': ``,
 			//'moderators': [
