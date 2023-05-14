@@ -111,7 +111,8 @@ export const ttbaSymposium2017 = {
             'speakers': [
 				speakersObj['Bin Li'],
                 speakersObj['Yi-Hsiang Hsu'],
-                speakersObj['Kun-Hsing Yu']
+                speakersObj['Kun-Hsing Yu'],
+                speakersObj['Wen-Han Yu']
 			]
         }, {
             'from': new Date('2023/07/08 12:00 EDT'),
@@ -143,7 +144,7 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                speakersObj['Yi-Li Min'],
+                //speakersObj['Yi-Li Min'],
                 speakersObj['Chih-Sheng Yang'],
                 speakersObj['Jim Shaw']
 			]
@@ -163,7 +164,7 @@ export const ttbaSymposium2017 = {
             'speakers': [
                 speakersObj['Charlie Yang'],
                 speakersObj['Venture Capital'],
-                speakersObj['Hedge Fund'],
+                speakersObj['Jun-Han Su'],
                 speakersObj['Sabrina Yang']
             ]
         }, {
