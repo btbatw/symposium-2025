@@ -257,7 +257,8 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
                 speakersObj['Inn Inn Chen'],
-                speakersObj['Adrian Kielhorn']
+                speakersObj['Adrian Kielhorn'],
+                speakersObj['Patty Synnott']
 			]
         }, {
             'from': new Date('2023/07/09 12:00 EDT'),
