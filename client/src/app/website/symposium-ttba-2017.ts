@@ -335,13 +335,19 @@ export const ttbaSymposium2017 = {
         //    'name': 'string',
         //    'logoUrl': 'taiwan_ministry_of_science_and_technology.png',
         //    'link': 'https://www.most.gov.tw/?l=en'
-        //}, 
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'teco_S_and_T_logo.png',
-        //    'link': 'https://www.most.gov.tw/boston/en'
         //},
+        {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'NSTC_logo.png',
+            'link':'https://www.nstc.gov.tw'
+        }, 
+        {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'teco_S_and_T_logo.png',
+            'link': 'https://www.most.gov.tw/boston/en'
+        },
         //{
         //    'level': 'string',
         //    'name': 'string',
