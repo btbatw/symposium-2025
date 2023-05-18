@@ -346,7 +346,7 @@ export const ttbaSymposium2017 = {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'teco_S_and_T_logo.png',
-            'link': 'https://www.most.gov.tw/boston/en'
+            'link': 'https://www.nstc.gov.tw/boston/en/'
         },
         //{
         //    'level': 'string',
