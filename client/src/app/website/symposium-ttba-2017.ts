@@ -431,6 +431,12 @@ export const ttbaSymposium2017 = {
             'name': 'string',
             'logoUrl': 'dcb.png',
             'link': 'https://www.dcb.org.tw/pages/1?locale=en'
+        },
+        {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'taihoya_logo.png',
+            'link': 'https://taihoya.com/en'
         }
         ]
     },
