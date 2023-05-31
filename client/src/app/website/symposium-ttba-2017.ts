@@ -152,9 +152,10 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': [
-                //speakersObj['Yi-Li Min'],
+                speakersObj['Hon-Ren Huang'],
                 speakersObj['Chih-Sheng Yang'],
-                speakersObj['Jim Shaw']
+                speakersObj['Jim Shaw'],
+                speakersObj['Adam Chu']
 			]
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
