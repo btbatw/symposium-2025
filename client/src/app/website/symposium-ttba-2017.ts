@@ -137,7 +137,10 @@ export const ttbaSymposium2017 = {
                 speakersObj['Dian-Jang Lee'],
                 speakersObj['Charlie Yang'],
                 speakersObj['Bin Li'],
-                speakersObj['Jun-Han Su']
+                speakersObj['Jun-Han Su'],
+                speakersObj['Yi-Hsiang Hsu'],
+                speakersObj['Wen-Han Yu'],
+                speakersObj['Sabrina Yang']
             ]
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
