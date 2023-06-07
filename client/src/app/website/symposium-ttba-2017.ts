@@ -175,7 +175,7 @@ export const ttbaSymposium2017 = {
             'rooms': [],
             'speakers': [
                 speakersObj['Charlie Yang'],
-                speakersObj['Venture Capital'],
+                speakersObj['Lisa Huang'],
                 speakersObj['Jun-Han Su'],
                 speakersObj['Sabrina Yang']
             ]
