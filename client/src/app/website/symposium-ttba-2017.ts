@@ -34,7 +34,7 @@ export const ttbaSymposium2017 = {
             'description': `
                 <p>2023 BTBA 11th Annual Symposium will take place on <b>July 8-9</b>, at the <b>Harvard University Northwest Building, in Cambridge, MA </b></p>
                 <p>Featured keynote speakers at the symposium include world-renowned gene editing pioneer <b>Dr. George Church</b>, and healthcare entrepreneurship guru <b>Dr. Liz Kwo</b>.</p>
-                <p>2023 Symposium speakers will cover a range of topics including cell and gene therapy industry workshop, bioindustry investment panel, trending topics 1, leveraging multi-omics data, real world data, and AI for precision drug discovery and clinical trials and trending topics 2, Health Economics and outcomes research (HEOR). And most important, networking sessions, including the breakfast networking session, lunch career diagnostic room. 
+                <p>2023 Symposium speakers will cover a range of topics including cell and gene therapy industry workshop, bioindustry investment panel, trending topics 1, leveraging multi-omics data, real world data, and AI for precision drug discovery and clinical trials and trending topics 2, Health Economics and outcomes research (HEOR). And most important, networking sessions, including the breakfast networking session, lunch career diagnostic room.
                 </p>
                 <p>Looking for something fun after the long-day symposium? We would like to invite you to attend our conference dinner & poster session on July 8, 6:00 pm. This will be not only a great opportunity for you to share your science in poster session but also to get connected with our distinguished speakers, BTBA committee members, and symposium attendees. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>`
         }, {
@@ -334,102 +334,36 @@ export const ttbaSymposium2017 = {
         'title': 'Sponsors',
         'showPageLink': false,
         'sponsors': [
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'taiwan_ministry_of_science_and_technology.png',
-        //    'link': 'https://www.most.gov.tw/?l=en'
-        //},
         {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'NSTC_logo.png',
             'link':'https://www.nstc.gov.tw'
-        }, 
+        },
         {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'teco_S_and_T_logo.png',
             'link': 'https://www.nstc.gov.tw/boston/en/'
         },
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'Ministry_of_Education.png',
-        //    'link': 'https://english.moe.gov.tw/'
-        //},
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'teco.png',
-        //    'link': 'https://www.roc-taiwan.org/usbos_en/'
-        //},
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'OCAC.png',
-        //    'link': 'https://english.ocac.gov.tw/ocac/eng/'
-        //},
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'metis.png',
-        //    'link': 'https://www.metistx.com/'
-        //},
         {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'ihisto.png',
             'link': 'https://www.ihisto.io/'
-        }, 
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'ast.png',
-        //    'link': 'https://www.astp.com/'
-        //},
+        },
         {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'MJNE.png',
             'link': 'http://www.mj-ne.org/'
         },
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'biolegend.png',
-        //    'link': 'https://www.biolegend.com'
-        //},
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'BTCC.png',
-        //    'link': 'https://www.facebook.com/bostonbtcc'
-        //},
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'NATMA.png',
-        //    'link': 'https://www.natma.org'
-        //},
         {
             'level': 'string',
             'name': 'string',
             'logoUrl': 'vizuro.png',
             'link': 'https://www.vizuro.com/'
         },
-        //{
-        //   'level': 'string',
-        //   'name': 'string',
-        //   'logoUrl': 'lantheus.png',
-        //   'link': 'https://www.lantheus.com'
-        //},
-        //{
-        //    'level': 'string',
-        //    'name': 'string',
-        //    'logoUrl': 'wellesley-toyota.png',
-        //    'link': 'https://www.wellesleytoyota.com/dealership/about.htm'
-        //},
 		{
             'level': 'string',
             'name': 'string',
@@ -441,6 +375,18 @@ export const ttbaSymposium2017 = {
             'name': 'string',
             'logoUrl': 'taihoya_logo.png',
             'link': 'https://taihoya.com/en'
+        },
+        {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'PharmaEssentia.png',
+            'link': 'https://us.pharmaessentia.com/'
+        },
+        {
+            'level': 'string',
+            'name': 'string',
+            'logoUrl': 'YBBiotech.png',
+            'link': 'https://si.secda.info/yb/'
         }
         ]
     },
