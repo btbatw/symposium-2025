@@ -219,9 +219,15 @@ export const ttbaSymposium2017 = {
 				//{'name': '', 'link': ''},
                 //{'name': '', 'link': ''}
 			//],
+            'speakers': [
+                speakersObj['Blake Liu'],
+                speakersObj['Ching-Lin Heish'],
+                speakersObj['Jay (Chih-Chieh) Wang'],
+                speakersObj['Amy Hung'],
+                speakersObj['Po-Jen (Will) Yen']
+            ],
             'tags': [],
-            'rooms': [''],
-            'speakers': []
+            'rooms': ['']
         },{
             'from': new Date('2023/07/09 09:20 EDT'),
             'to': new Date('2023/07/09 10:20 EDT'),
