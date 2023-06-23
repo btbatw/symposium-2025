@@ -210,7 +210,7 @@ export const ttbaSymposium2017 = {
             'rooms': [''],
             'speakers': []
         },{
-            'from': new Date('2023/07/09 08:00 EDT'),
+            'from': new Date('2023/07/09 08:20 EDT'),
             'to': new Date('2023/07/09 09:30 EDT'),
             'title': 'Breakfast and Meet',
             'topic': null,
@@ -224,7 +224,16 @@ export const ttbaSymposium2017 = {
                 speakersObj['Ching-Lin Heish'],
                 speakersObj['Jay (Chih-Chieh) Wang'],
                 speakersObj['Amy Hung'],
-                speakersObj['Po-Jen (Will) Yen']
+                speakersObj['Po-Jen (Will) Yen'],
+                speakersObj['Ariel (Wei-Hsi) Yeh'],
+                speakersObj['Ming-Ju Tsai'],
+                speakersObj['Yiwei Lee'],
+                speakersObj['Amy Shyu'],
+                speakersObj['Yingling Chiang'],
+                speakersObj['Ally Chang'],
+                speakersObj['Ying-Chih (Paul) Lo'],
+                speakersObj['Wei-Chien (Wayne) Hung'],
+                speakersObj['Quintin (Kuen-Cheh) Yang']
             ],
             'tags': [],
             'rooms': ['']
