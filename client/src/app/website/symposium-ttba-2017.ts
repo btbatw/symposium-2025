@@ -384,6 +384,12 @@ export const ttbaSymposium2017 = {
         {
             'level': 'string',
             'name': 'string',
+            'logoUrl': 'OCAC.png',
+            'link': 'https://www.ocac.gov.tw/OCAC/SubSites/Home.aspx?site=7a4eb84a-7632-4679-ac66-35970250e9c9'
+        },
+        {
+            'level': 'string',
+            'name': 'string',
             'logoUrl': 'MJNE.png',
             'link': 'http://www.mj-ne.org/'
         },
