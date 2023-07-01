@@ -116,6 +116,18 @@ export const ttbaSymposium2017 = {
 			]
         }, {
             'from': new Date('2023/07/08 12:00 EDT'),
+            'to': new Date('2023/07/08 12:10 EDT'),
+            'title': 'Mentor Apprerciation Ceremony',
+            'topic': null,
+            'sessionDescription': '',
+            'tags': [],
+            'rooms': [],
+            'speakers': [
+                //commiteesObj['Liang-Yuan Chiu'],
+                //commiteesObj['Yi-Yun Ho']
+            ]
+        }, {
+            'from': new Date('2023/07/08 12:10 EDT'),
             'to': new Date('2023/07/08 14:30 EDT'),
             'title': 'Lunch & Career diagnostic room',
             'topic': null,
@@ -220,7 +232,7 @@ export const ttbaSymposium2017 = {
                 //{'name': '', 'link': ''}
 			//],
             'speakers': [
-                speakersObj['Blake Liu'],
+                speakersObj['Caroline Chen'],
                 speakersObj['Ching-Lin Heish'],
                 speakersObj['Jay (Chih-Chieh) Wang'],
                 speakersObj['Amy Hung'],
@@ -247,7 +259,9 @@ export const ttbaSymposium2017 = {
                 speakersObj['Yvonne Meng'],
                 speakersObj['Antoine (Po-Han) Ho'],
                 speakersObj['Hsuan Lee'],
-                speakersObj['Rita Jui-Hsein Lu']
+                speakersObj['Rita Jui-Hsein Lu'],
+                speakersObj['Jack (Lee-Jae) Guo'],
+                speakersObj['Philip (Wei Che) Chiu']
             ],
             'tags': [],
             'rooms': ['']
