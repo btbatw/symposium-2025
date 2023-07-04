@@ -98,4 +98,7 @@ export class WebsiteTalkComponent {
 		setTimeout(() => this.reRender = true, 0);
 	}
 
+	goToLink(link) {
+		window.open(link, '_blank');
+	}
 }

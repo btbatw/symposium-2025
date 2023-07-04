@@ -15,7 +15,8 @@ export const ttbaSymposium2017 = {
         'year': '2023',
         'title': '',
         'showPageLink': false,
-        'registrationLink': 'https://www.tickettailor.com/events/btba/902830'
+        'registrationLink': 'https://www.tickettailor.com/events/btba/902830',
+		'programbookLink': 'https://www.canva.com/design/DAFlDnHR3A8/DTSwHelQv6D7OURnPI9lIw/view?utm_content=DA[…]=IwAR3_gvUQMyA-bX5X0AIUnF6KsOTn_IuJZV_kgVzDPQAjH1JdDngQht7lF5w'
     },
     'host': {
         'name': 'Boston Taiwanese Biotechnology Association',
