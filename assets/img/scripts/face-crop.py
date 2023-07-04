@@ -33,7 +33,7 @@ def find_face(img_path, padding_fraction=.55):
 
     for (x, y, _w, _h) in face[:1]:
         center_x = x + .5*_w
-        center_y = y + .5*_h
+        center_y = y + .3*_h
 
         s = max(_w, _h)
         s = (1+2*padding_fraction)*s
