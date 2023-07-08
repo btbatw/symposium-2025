@@ -10,22 +10,22 @@ export const ttbaSymposium2017 = {
         'time': {
             'from': new Date('2023/07/08'),
             'to': new Date('2023/07/09')
-		},
-		'timeZone': 'America/New_York',
+        },
+        'timeZone': 'America/New_York',
         'year': '2023',
         'title': '',
         'showPageLink': false,
         'registrationLink': 'https://www.tickettailor.com/events/btba/902830',
-		'programbookLink': 'https://www.canva.com/design/DAFlDnHR3A8/DTSwHelQv6D7OURnPI9lIw/view?utm_content=DA[…]=IwAR3_gvUQMyA-bX5X0AIUnF6KsOTn_IuJZV_kgVzDPQAjH1JdDngQht7lF5w'
+        'programbookLink': 'https://www.canva.com/design/DAFlDnHR3A8/DTSwHelQv6D7OURnPI9lIw/view?utm_content=DA[…]=IwAR3_gvUQMyA-bX5X0AIUnF6KsOTn_IuJZV_kgVzDPQAjH1JdDngQht7lF5w'
     },
     'host': {
         'name': 'Boston Taiwanese Biotechnology Association',
         'nameShort': 'BTBA',
         'nameCh': '波士頓臺灣人生物科技協會',
         'webLink': 'https://www.btbatw.org/',
-		'logoSmall': 'logo-ttba-small.png',
-		'email': 'btba@btbatw.org',
-		'supportLink': 'https://www.btbatw.org/support.html'
+        'logoSmall': 'logo-ttba-small.png',
+        'email': 'btba@btbatw.org',
+        'supportLink': 'https://www.btbatw.org/support.html'
     },
     'about': {
         'title': 'BTBA 2023 Annual Symposium',
@@ -58,7 +58,7 @@ export const ttbaSymposium2017 = {
             'tags': [],
             'rooms': [],
             'speakers': []
-        },{
+        }, {
             'from': new Date('2023/07/08 09:00 EDT'),
             'to': new Date('2023/07/08 09:10 EDT'),
             'title': 'Opening Remarks',
@@ -77,15 +77,15 @@ export const ttbaSymposium2017 = {
             'topic': "",
             'sessionDescription': '',
             //'moderators': [
-				//{'name': '', 'link': ''},
-                //{'name': '', 'link': ''}
-			//],
+            //{'name': '', 'link': ''},
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [],
             'speakers': [
                 speakersObj['George Church']
             ]
-        },{
+        }, {
             'from': new Date('2023/07/08 10:00 EDT'),
             'to': new Date('2023/07/08 10:30 EDT'),
             'title': 'Coffee Break',
@@ -96,7 +96,7 @@ export const ttbaSymposium2017 = {
             'speakers': [
 
             ]
-        },{
+        }, {
             'from': new Date('2023/07/08 10:30 EDT'),
             'to': new Date('2023/07/08 12:00 EDT'),
             'title': 'Trending Topic',
@@ -104,17 +104,17 @@ export const ttbaSymposium2017 = {
             'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p>
             <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, and clinical development.</p>`,
             //'moderators': [
-				//{'name': '', 'link': ''},
-				//{'name': '', 'link': ''}
-			//],
+            //{'name': '', 'link': ''},
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [],
             'speakers': [
-				speakersObj['Bin Li'],
+                speakersObj['Bin Li'],
                 speakersObj['Yi-Hsiang Hsu'],
                 speakersObj['Kun-Hsing Yu'],
                 speakersObj['Wen-Han Yu']
-			]
+            ]
         }, {
             'from': new Date('2023/07/08 12:00 EDT'),
             'to': new Date('2023/07/08 12:10 EDT'),
@@ -152,7 +152,7 @@ export const ttbaSymposium2017 = {
                 speakersObj['Bin Li'],
                 speakersObj['Jun-Han Su'],
                 speakersObj['Yi-Hsiang Hsu'],
-		speakersObj['Lisa Huang'],
+                speakersObj['Lisa Huang'],
                 speakersObj['Wen-Han Yu'],
                 speakersObj['Sabrina Yang'],
             ]
@@ -162,10 +162,10 @@ export const ttbaSymposium2017 = {
             'numOfParallelSessions': 2,
             'title': 'Panel 1',
             'topic': 'Cell and Gene Therapy: Career Insights into the Preclinical and Clinical Stages of Drug Development Life Cycle',
-			'sessionDescription': ``,
+            'sessionDescription': ``,
             //'moderators': [
-				//{'name': '', 'link': ''}
-			//],
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -173,18 +173,18 @@ export const ttbaSymposium2017 = {
                 speakersObj['Chih-Sheng Yang'],
                 speakersObj['Jim Shaw'],
                 speakersObj['Adam Chu']
-			]
+            ]
         }, {
             'from': new Date('2023/07/08 14:30 EDT'),
             'to': new Date('2023/07/08 16:00 EDT'),
-			'numOfParallelSessions': 2,
+            'numOfParallelSessions': 2,
             'title': 'Panel 2',
             'topic': 'Beyond the Bench: Navigate Successful Career Paths in Biotech Capital Market',
             'sessionDescription': ``,
             //'moderators': [
-				//{'name': '', 'link': ''},
-                //{'name': '', 'link': ''}
-			//],
+            //{'name': '', 'link': ''},
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [],
             'speakers': [
@@ -198,41 +198,50 @@ export const ttbaSymposium2017 = {
             'to': new Date('2023/07/08 17:00 EDT'),
             'title': 'Oral Presentation',
             'topic': '',
-			'sessionDescription': '',
+            'sessionDescription': '',
             //'moderators': [
-				//{'name': '', 'link': ''}
-			//],
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [''],
             'speakers': []
         }, {
             'from': new Date('2023/07/08 17:00 EDT'),
-            'to': new Date('2023/07/08 18:00 EDT'),
-            'title': 'Coffee Break & Networking',
+            'to': new Date('2023/07/08 17:30 EDT'),
+            'title': 'Coffee Break',
             'topic': '',
-			'sessionDescription': '',
+            'sessionDescription': '',
             'tags': [],
             'rooms': [''],
             'speakers': []
-        },{
-            'from': new Date('2023/07/08 18:00 EDT'),
+        }, {
+            'from': new Date('2023/07/08 17:30 EDT'),
+            'to': new Date('2023/07/08 18:30 EDT'),
+            'title': 'Poster session',
+            'topic': '',
+            'sessionDescription': '',
+            'tags': [],
+            'rooms': [''],
+            'speakers': []
+        }, {
+            'from': new Date('2023/07/08 18:30 EDT'),
             'to': new Date('2023/07/08 20:00 EDT'),
-            'title': 'Networking Dinner & Poster session',
+            'title': 'Networking Dinner',
             'topic': '',
-			'sessionDescription': '',
+            'sessionDescription': '',
             'tags': [],
             'rooms': [''],
             'speakers': []
-        },{
+        }, {
             'from': new Date('2023/07/09 08:20 EDT'),
             'to': new Date('2023/07/09 09:30 EDT'),
             'title': 'Breakfast and Meet',
             'topic': null,
-			'sessionDescription': ``,
+            'sessionDescription': ``,
             //'moderators': [
-				//{'name': '', 'link': ''},
-                //{'name': '', 'link': ''}
-			//],
+            //{'name': '', 'link': ''},
+            //{'name': '', 'link': ''}
+            //],
             'speakers': [
                 speakersObj['Caroline Chen'],
                 speakersObj['Ching-Lin Heish'],
@@ -267,54 +276,54 @@ export const ttbaSymposium2017 = {
             ],
             'tags': [],
             'rooms': ['']
-        },{
+        }, {
             'from': new Date('2023/07/09 09:20 EDT'),
             'to': new Date('2023/07/09 10:20 EDT'),
             'title': 'Keynote Speech II: Liz Kwo, CMO, Everly Health',
             'topic': '',
-			'sessionDescription': '',
-			//'moderators': [
-				//{'name': '', 'link': ''},
-				//{'name': '', 'link': ''}
-			//],
+            'sessionDescription': '',
+            //'moderators': [
+            //{'name': '', 'link': ''},
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [''],
             'speakers': [
                 //speakersObj['Jeannie Lee'],
                 speakersObj['Liz Kwo']
             ]
-        },{
+        }, {
             'from': new Date('2023/07/09 10:20 EDT'),
             'to': new Date('2023/07/09 10:30 EDT'),
             'title': 'Coffee Break',
             'topic': null,
-			'sessionDescription': '',
+            'sessionDescription': '',
             'tags': [],
             'rooms': [''],
             'speakers': []
-        },{
+        }, {
             'from': new Date('2023/07/09 10:30 EDT'),
             'to': new Date('2023/07/09 12:00 EDT'),
             'title': 'Trending topic: Health Economics and Outcomes Research (HEOR)',
             'topic': '',
-			'sessionDescription': ``,
-			//'moderators': [
-				//{'name': '', 'link': ''},
-				//{'name': '', 'link': ''}
-			//],
+            'sessionDescription': ``,
+            //'moderators': [
+            //{'name': '', 'link': ''},
+            //{'name': '', 'link': ''}
+            //],
             'tags': [],
             'rooms': [],
             'speakers': [
                 speakersObj['Inn Inn Chen'],
                 speakersObj['Adrian Kielhorn'],
                 speakersObj['Patty Synnott']
-			]
+            ]
         }, {
             'from': new Date('2023/07/09 12:00 EDT'),
             'to': new Date('2023/07/09 12:30 EDT'),
             'title': 'Closing Remarks & Award Ceremony',
             'topic': null,
-			'sessionDescription': '',
+            'sessionDescription': '',
             'tags': [],
             'rooms': ['Room B103'],
             'speakers': [
@@ -370,117 +379,117 @@ export const ttbaSymposium2017 = {
             }]
         }
     },
-	'acknowledgement': {
-		'title': 'Organizing Committee',
-		'description': '',
-		'commitees': commiteesArray
-	},
+    'acknowledgement': {
+        'title': 'Organizing Committee',
+        'description': '',
+        'commitees': commiteesArray
+    },
     'sponsor': {
         'title': 'Sponsors',
         'showPageLink': false,
         'sponsors': [
-        {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'NSTC_logo.png',
-            'link':'https://www.nstc.gov.tw'
-        },
-		{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'teco.png',
-            'link': 'https://www.roc-taiwan.org/usbos_en/'
-        },
-		{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'teco_S_and_T_logo.png',
-            'link': 'https://www.nstc.gov.tw/boston/en/'
-        },
-        {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'Ministry_of_Education.png',
-            'link': 'https://english.moe.gov.tw/'
-        },
-        {
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'OCAC.png',
-            'link': 'https://www.ocac.gov.tw/OCAC/SubSites/Home.aspx?site=7a4eb84a-7632-4679-ac66-35970250e9c9'
-        },
-		{
-			'level': 'string',
-			'name': 'string',
-			'logoUrl': 'ihisto.png',
-			'link': 'https://www.ihisto.io/'
-		},
-		{
-			'level': 'string',
-			'name': 'string',
-			'logoUrl': 'biolegend.png',
-			'link': 'https://www.biolegend.com'
-		},
-		{
-			'level': 'string',
-			'name': 'Wegreened',
-			'logoUrl': 'North America Immigration Law Group.png',
-			'link': 'https://www.wegreened.com/'
-		},
-		{
-			'level': 'string',
-			'name': 'Green Maple Law Group',
-			'logoUrl': 'Green_Maple.png',
-			'link': 'https://www.greenmaplelaw.com/'
-		},
-		{
-			'level': 'string',
-			'name': 'string',
-			'logoUrl': 'vizuro.png',
-			'link': 'https://www.vizuro.com/'
-		},
-		{
-            'level': 'string',
-            'name': 'string',
-            'logoUrl': 'BTCC.png',
-            'link': 'https://www.facebook.com/bostonbtcc'
-        },
-		{
-            'level': 'string',
-            'name': 'Immunwork, Inc.',
-            'logoUrl': 'Immunwork.png',
-            'link': 'https://www.immunwork.com/index.php?lang=en'
-        },
-        {
-			'level': 'string',
-            'name': 'string',
-            'logoUrl': 'PharmaEssentia.png',
-            'link': 'https://us.pharmaessentia.com/'
-        },
-        {
-			'level': 'string',
-            'name': 'string',
-            'logoUrl': 'YBBiotech.png',
-            'link': 'https://si.secda.info/yb/'
-        },
-		{
-			'level': 'string',
-			'name': 'string',
-			'logoUrl': 'taihoya_logo.png',
-			'link': 'https://taihoya.com/en'
-		},
-		{
-			'level': 'string',
-			'name': 'string',
-			'logoUrl': 'dcb.png',
-			'link': 'https://www.dcb.org.tw/pages/1?locale=en'
-		},
-		{
-			'level': 'string',
-			'name': 'string',
-			'logoUrl': 'MJNE.png',
-			'link': 'http://www.mj-ne.org/'
-		},
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'NSTC_logo.png',
+                'link': 'https://www.nstc.gov.tw'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'teco.png',
+                'link': 'https://www.roc-taiwan.org/usbos_en/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'teco_S_and_T_logo.png',
+                'link': 'https://www.nstc.gov.tw/boston/en/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'Ministry_of_Education.png',
+                'link': 'https://english.moe.gov.tw/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'OCAC.png',
+                'link': 'https://www.ocac.gov.tw/OCAC/SubSites/Home.aspx?site=7a4eb84a-7632-4679-ac66-35970250e9c9'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'ihisto.png',
+                'link': 'https://www.ihisto.io/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'biolegend.png',
+                'link': 'https://www.biolegend.com'
+            },
+            {
+                'level': 'string',
+                'name': 'Wegreened',
+                'logoUrl': 'North America Immigration Law Group.png',
+                'link': 'https://www.wegreened.com/'
+            },
+            {
+                'level': 'string',
+                'name': 'Green Maple Law Group',
+                'logoUrl': 'Green_Maple.png',
+                'link': 'https://www.greenmaplelaw.com/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'vizuro.png',
+                'link': 'https://www.vizuro.com/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'BTCC.png',
+                'link': 'https://www.facebook.com/bostonbtcc'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'dcb.png',
+                'link': 'https://www.dcb.org.tw/pages/1?locale=en'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'MJNE.png',
+                'link': 'http://www.mj-ne.org/'
+            },
+            {
+                'level': 'string',
+                'name': 'Immunwork, Inc.',
+                'logoUrl': 'Immunwork.png',
+                'link': 'https://www.immunwork.com/index.php?lang=en'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'PharmaEssentia.png',
+                'link': 'https://us.pharmaessentia.com/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'YBBiotech.png',
+                'link': 'https://si.secda.info/yb/'
+            },
+            {
+                'level': 'string',
+                'name': 'string',
+                'logoUrl': 'taihoya_logo.png',
+                'link': 'https://taihoya.com/en'
+            },
         ]
     },
     'imgs': [{
