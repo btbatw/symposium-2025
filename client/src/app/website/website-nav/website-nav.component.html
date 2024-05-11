@@ -1,14 +1,14 @@
 <div class="header-theme nav-container" [ngClass]="{'mat-elevation-z5': isSticky}" [style.padding-bottom]="'5px'">
 	<nav class="header-theme nav-content" fxShow fxHide.xs="true" [style.padding]="'0.3em'">
 		<img src="assets/img/banner-logo.png" alt="TTBA Symposium 2017 logo" *ngIf="isSticky" [style.height]="'2.4em'" [style.float]="'left'" [style.padding-left]="'0.5em'">
-		<button md-button color="primary" *ngFor="let link of getPageLinks('showPageLink', symposium)" (click)="scrollTo(link)">
+		<!-- <button md-button color="primary" *ngFor="let link of getPageLinks('showPageLink', symposium)" (click)="scrollTo(link)">
 			{{parseCamelCase(link) | uppercase}}
-		</button>
+		</button> -->
 		<button md-button color="primary" (click)="scrollTo('sponsor')">
 			{{'support' | uppercase}}
 		</button>
-		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.registrationLink)">REGISTER</button>
-		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.programbookLink)">PROGRAM BOOK</button>
+		<!-- <button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.registrationLink)">REGISTER</button>
+		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.programbookLink)">PROGRAM BOOK</button> -->
 	</nav>
 	<nav fxHide fxShow.xs="true" class="nav-xs" *ngIf="!isSticky">
 		<button md-fab color="accent" [mdMenuTriggerFor]="menu">
@@ -19,18 +19,18 @@
 				<fa name="arrow-up"></fa>
 				<span>Top</span>
 			</button>
-			<button md-menu-item (click)="goToLink(symposium.symposiumInfo.programbookLink)">
+			<!-- <button md-menu-item (click)="goToLink(symposium.symposiumInfo.programbookLink)">
 				<span>PROGRAM BOOK</span>
-			</button>
-			<button md-menu-item *ngFor="let link of getPageLinks('showPageLink', symposium)" (click)="scrollTo(link)">
+			</button> -->
+			<!-- <button md-menu-item *ngFor="let link of getPageLinks('showPageLink', symposium)" (click)="scrollTo(link)">
 				<span>{{parseCamelCase(link) | uppercase}}</span>
-			</button>
+			</button> -->
 			<button md-menu-item (click)="scrollTo('sponsor')">
 				{{'support' | uppercase}}
 			</button>
-			<button md-menu-item (click)="goToLink(symposium.symposiumInfo.registrationLink)">
+			<!-- <button md-menu-item (click)="goToLink(symposium.symposiumInfo.registrationLink)">
 				<span>REGISTER</span>
-			</button>
+			</button> -->
 		</md-menu>
 	</nav>
 
