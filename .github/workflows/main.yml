@@ -18,14 +18,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         # Pin to node6
-        node-version: 6.x
+        node-version: 6.13.1
     - name: npm install and build
       working-directory: ./client
       # Install and build to gh-pages dir
       # FIXME: do we still need `--base-href`?
       run: |
         npm install
-        npm run build --  --prod --output-path gh-pages  --base-href /2023/
+        npm run build --  --prod --output-path gh-pages  --base-href /2024/
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
