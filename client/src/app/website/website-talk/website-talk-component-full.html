@@ -1,15 +1,15 @@
 <h2 class="mat-display-1 vertical-bullet-text border-color-of-theme">{{ symposium.programme.title | uppercase }}</h2>
 <!--<h3 class="mat-headline">More information coming soon! <a href="https://drive.google.com/file/d/1uQ8lKtw6sjqT8SptWmYlN_sn45bZa6EO/view">View SCHEDULE</a></h3> -->
 
-<div style="height:1em"></div>
+<!-- <div style="height:1em"></div>
 <div fxLayoutAlign="center" style="margin-bottom: 1.5em">
 	<button md-raised-button color="accent"
 		(click)="goToLink(symposium.symposiumInfo.programbookLink)">{{ 'program book' | uppercase }}</button>
-</div>
+</div> -->
 
 <md-tab-group [selectedIndex]="tabIndex" dynamicHeight="true" (selectedIndexChange)="onSelectedIndexChange($event)">
-	<span *ngFor="let date of [8, 9]; index as idx">
-		<md-tab label="7/{{date}}">
+	<span *ngFor="let date of [24, 25]; index as idx">
+		<md-tab label="8/{{date}}">
 			<div fxLayout fxLayoutGap="0%" fxLayoutWrap fxLayoutAlign="space-between">
 
 

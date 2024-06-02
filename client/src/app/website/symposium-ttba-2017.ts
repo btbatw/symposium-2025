@@ -15,7 +15,7 @@ export const ttbaSymposium2017 = {
 		'year': '2024',
 		'title': '',
 		'showPageLink': false,
-		'registrationLink': '',
+		'registrationLink': 'https://buytickets.at/btba/1264921',
 		'programbookLink': ''
 	},
 	'host': {
@@ -33,12 +33,11 @@ export const ttbaSymposium2017 = {
 		'subjects': [{
 			'title': '',
 			'description': `
-                <p>2024 BTBA Symposium will take place on <b>August 24-25</b>. More updates coming soon. <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
-                <div><img src="assets/img/agenda-2024.png" class="width-full"></div>
+			<p>2023 BTBA 11th Annual Symposium will take place on <b>August 24-25, at the Harvard University Northwest Building, in Cambridge, MA</b> <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
             `
 		}, {
-			// 'title': 'Registration',
-			// 'description': `<p>Registration is now open for in-person attendance and is limited.</p>`
+			'title': 'Registration',
+			'description': `<p>Registration is now open for in-person attendance and is limited.</p>`
 		}, {
 			'title': 'About BTBA',
 			'description': '<p>BTBA is a 501(c)(3) non-profit organization started in 2012 by a group of Taiwanese graduate Students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and the US. We hold annual symposiums as well as seminars and workshops throughout the year. We hope to serve as a platform to foster a community for young scientists to share their research, exchange ideas and explore career opportunities. <a href="https://btbatw.org/committee.html">Our organizing committee.</a></p>'
@@ -48,300 +47,224 @@ export const ttbaSymposium2017 = {
 		'title': 'Programme',
 		'showPageLink': true,
 		'schedules': [{
-			'from': new Date('2023/07/08 08:00 EDT'),
-			'to': new Date('2023/07/08 09:00 EDT'),
-			'title': 'Registration and poster set up',
+			'from': new Date('2024/08/24 08:00 EDT'),
+			'to': new Date('2024/08/24 08:50 EDT'),
+			'title': 'Registration And Poster Setup',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2023/07/08 09:00 EDT'),
-			'to': new Date('2023/07/08 09:10 EDT'),
+			'from': new Date('2024/08/24 08:50 EDT'),
+			'to': new Date('2024/08/24 09:10 EDT'),
 			'title': 'Opening Remarks',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': [
-				commiteesObj['Liang-Yuan Chiu'],
-				commiteesObj['Yi-Yun Ho']
-			]
+			'speakers': []
 		}, {
-			'from': new Date('2023/07/08 09:10 EDT'),
-			'to': new Date('2023/07/08 10:00 EDT'),
-			'title': 'Keynote Speech I: George Church, Professor at Harvard (Dr. Church will join us virtually)',
+			'from': new Date('2024/08/24 09:10 EDT'),
+			'to': new Date('2024/08/24 10:10 EDT'),
+			'title': 'Keynote Speech I: Laura Sepp-Lorenzino, CSO at Intellia Therapeutics',
 			'topic': "",
 			'sessionDescription': '',
-			//'moderators': [
-			//{'name': '', 'link': ''},
-			//{'name': '', 'link': ''}
-			//],
+			'tags': [],
+			'rooms': [],
+			'speakers': [speakersObj['Laura Sepp-Lorenzino']]
+		}, {
+			'from': new Date('2024/08/24 10:10 EDT'),
+			'to': new Date('2024/08/24 10:30 EDT'),
+			'title': 'Group Photo And Coffee Break',
+			'topic': null,
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': []
+		}, {
+			'from': new Date('2024/08/24 10:30 EDT'),
+			'to': new Date('2024/08/24 12:00 EDT'),
+			'title': 'Trending Topic: Next-Generation of Antibody Drug Conjugate',
+			'topic': '',
+			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['George Church']
+				speakersObj['Rakesh Dixit'],
+				speakersObj['Yvonne (Yi-Yang) Lau'],
+				speakersObj['Ting-Hui Wu'],
+				speakersObj['Yuk-Cheung (Chris) Chan'],
 			]
 		}, {
-			'from': new Date('2023/07/08 10:00 EDT'),
-			'to': new Date('2023/07/08 10:30 EDT'),
-			'title': 'Coffee Break',
+			'from': new Date('2024/08/24 12:00 EDT'),
+			'to': new Date('2024/08/24 13:30 EDT'),
+			'title': 'Lunch & Round Table with Speakers',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-
+				speakersObj['Hsiao-Ying Monica Wey'],
+				speakersObj['Meng-Ju Wu'],
+				speakersObj['Ming-Ru Wu'],
+				speakersObj['Yen-Cheng Chen'],
 			]
 		}, {
-			'from': new Date('2023/07/08 10:30 EDT'),
-			'to': new Date('2023/07/08 12:00 EDT'),
-			'title': 'Trending Topic',
-			'topic': "Leveraging Real World Data, Multi-Omics Data, and AI for Precision Drug Discovery and clinical trial (Panel discussion)",
-			'sessionDescription': `<p>Pharmaceutical and life sciences industries increasingly embrace the use of rich data and better digital technologies such as artificial intelligence (AI) to extract insights. Leveraging diverse sources of data (such as those generated in R&D, clinical trials, and from caregivers and patients) have led us to a new era in which we can reimagine medical innovation.</p>
-            <p>In this panel, we have invited three experts from the healthcare industry. They will share their experience in developing data-driven innovation, such as drug target identification, drug discovery, and clinical development.</p>`,
-			//'moderators': [
-			//{'name': '', 'link': ''},
-			//{'name': '', 'link': ''}
-			//],
+			'from': new Date('2024/08/24 13:40 EDT'),
+			'to': new Date('2024/08/24 15:10 EDT'),
+			'numOfParallelSessions': 2,
+			'title': 'Panel 1: Bioprocessing/CDMO',
+			'topic': '',
+			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Bin Li'],
-				speakersObj['Yi-Hsiang Hsu'],
-				speakersObj['Kun-Hsing Yu'],
-				speakersObj['Wen-Han Yu']
+				speakersObj['Gina Song'],
+				speakersObj['Po-Jen (Will) Yen'],
+				speakersObj['Irene Lau'],
+				speakersObj['JM Lee'],
 			]
 		}, {
-			'from': new Date('2023/07/08 12:00 EDT'),
-			'to': new Date('2023/07/08 12:10 EDT'),
-			'title': 'Mentor Apprerciation Ceremony',
-			'topic': null,
-			'sessionDescription': '',
+			'from': new Date('2024/08/24 13:40 EDT'),
+			'to': new Date('2024/08/24 15:10 EDT'),
+			'numOfParallelSessions': 2,
+			'title': 'Panel 2: Business Development',
+			'topic': '',
+			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				//commiteesObj['Liang-Yuan Chiu'],
-				//commiteesObj['Yi-Yun Ho']
-			]
-		}, {
-			'from': new Date('2023/07/08 12:10 EDT'),
-			'to': new Date('2023/07/08 14:30 EDT'),
-			'title': 'Lunch & Career diagnostic room',
-			'topic': null,
-			'sessionDescription': '',
-			//'moderators': [],
-			'tags': [],
-			'rooms': [],
-			'speakers': [
-				speakersObj['Chris Chiu'],
-				speakersObj['Kun-Hsing Yu'],
-				speakersObj['Jack Hsu'],
-				speakersObj['Wan-Ping Lee'],
-				speakersObj['Mong-Hsun Tsai'],
-				speakersObj['Chen-Ming Lee'],
-				speakersObj['Shaoyu Chang'],
-				speakersObj['Liping Zhou'],
-				speakersObj['Stephanie Yang'],
-				speakersObj['Chun Mei Su'],
-				speakersObj['Dian-Jang Lee'],
-				speakersObj['Charlie Yang'],
-				speakersObj['Bin Li'],
-				speakersObj['Jun-Han Su'],
-				speakersObj['Yi-Hsiang Hsu'],
-				speakersObj['Lisa Huang'],
-				speakersObj['Wen-Han Yu'],
+				speakersObj['Robert Ang'],
+				speakersObj['Daniel Fisher'],
 				speakersObj['Sabrina Yang'],
+				speakersObj['Yen-Ming Hsu'],
 			]
 		}, {
-			'from': new Date('2023/07/08 14:30 EDT'),
-			'to': new Date('2023/07/08 16:00 EDT'),
-			'numOfParallelSessions': 2,
-			'title': 'Panel 1',
-			'topic': 'Cell and Gene Therapy: Career Insights into the Preclinical and Clinical Stages of Drug Development Life Cycle',
-			'sessionDescription': ``,
-			//'moderators': [
-			//{'name': '', 'link': ''}
-			//],
-			'tags': [],
-			'rooms': [],
-			'speakers': [
-				speakersObj['Hon-Ren Huang'],
-				speakersObj['Chih-Sheng Yang'],
-				speakersObj['Jim Shaw'],
-				speakersObj['Adam Chu']
-			]
-		}, {
-			'from': new Date('2023/07/08 14:30 EDT'),
-			'to': new Date('2023/07/08 16:00 EDT'),
-			'numOfParallelSessions': 2,
-			'title': 'Panel 2',
-			'topic': 'Beyond the Bench: Navigate Successful Career Paths in Biotech Capital Market',
-			'sessionDescription': ``,
-			//'moderators': [
-			//{'name': '', 'link': ''},
-			//{'name': '', 'link': ''}
-			//],
-			'tags': [],
-			'rooms': [],
-			'speakers': [
-				speakersObj['Charlie Yang'],
-				speakersObj['Lisa Huang'],
-				speakersObj['Jun-Han Su'],
-				speakersObj['Sabrina Yang']
-			]
-		}, {
-			'from': new Date('2023/07/08 16:00 EDT'),
-			'to': new Date('2023/07/08 17:00 EDT'),
-			'title': 'Oral Presentation',
-			'topic': '',
-			'sessionDescription': '',
-			//'moderators': [
-			//{'name': '', 'link': ''}
-			//],
-			'tags': [],
-			'rooms': [''],
-			'speakers': []
-		}, {
-			'from': new Date('2023/07/08 17:00 EDT'),
-			'to': new Date('2023/07/08 17:30 EDT'),
+			'from': new Date('2024/08/24 15:10 EDT'),
+			'to': new Date('2024/08/24 15:30 EDT'),
 			'title': 'Coffee Break',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
-			'rooms': [''],
+			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2023/07/08 17:30 EDT'),
-			'to': new Date('2023/07/08 18:30 EDT'),
-			'title': 'Poster session',
+			'from': new Date('2024/08/24 15:30 EDT'),
+			'to': new Date('2024/08/24 16:30 EDT'),
+			'title': 'Keynote Speech II: TBD',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
-			'rooms': [''],
+			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2023/07/08 18:30 EDT'),
-			'to': new Date('2023/07/08 20:00 EDT'),
+			'from': new Date('2024/08/24 16:30 EDT'),
+			'to': new Date('2024/08/24 17:30 EDT'),
+			'title': 'Best Poster Award For Oral Presentation',
+			'topic': '',
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': []
+		}, {
+			'from': new Date('2024/08/24 17:30 EDT'),
+			'to': new Date('2024/08/24 18:30 EDT'),
+			'title': 'Poster Session',
+			'topic': '',
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': []
+		}, {
+			'from': new Date('2024/08/24 18:30 EDT'),
+			'to': new Date('2024/08/24 21:00 EDT'),
 			'title': 'Networking Dinner',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
-			'rooms': [''],
+			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2023/07/09 08:20 EDT'),
-			'to': new Date('2023/07/09 09:30 EDT'),
-			'title': 'Breakfast and Meet',
+			'from': new Date('2024/08/25 08:00 EDT'),
+			'to': new Date('2024/08/25 09:30 EDT'),
+			'title': 'Breakfast And Meeting With Experts',
 			'topic': null,
 			'sessionDescription': ``,
-			//'moderators': [
-			//{'name': '', 'link': ''},
-			//{'name': '', 'link': ''}
-			//],
 			'speakers': [
-				speakersObj['Caroline Chen'],
-				speakersObj['Ching-Lin Heish'],
-				speakersObj['Jay (Chih-Chieh) Wang'],
-				speakersObj['Amy Hung'],
-				speakersObj['Po-Jen (Will) Yen'],
-				speakersObj['Ariel (Wei-Hsi) Yeh'],
-				speakersObj['Ming-Ju Tsai'],
-				speakersObj['Yiwei Lee'],
-				speakersObj['Amy Shyu'],
-				speakersObj['Yingling Chiang'],
-				speakersObj['Adam Chu'],
-				speakersObj['Ally Chang'],
-				speakersObj['Ying-Chih (Paul) Lo'],
-				speakersObj['Wei-Chien (Wayne) Hung'],
-				speakersObj['Quintin (Kuen-Cheh) Yang'],
-				speakersObj['Jim Shaw'],
-				speakersObj['Pei-Jung Wu'],
-				speakersObj['Chia-Hsing Pi'],
-				speakersObj['Hung-Lun Chien'],
-				speakersObj['Shu-Hong Lin'],
-				speakersObj['Chih Hao Liu'],
-				speakersObj['Margaret Wey'],
-				speakersObj['Chun-Mei Su'],
-				speakersObj['Jimmy Chu'],
-				speakersObj['Yvonne Meng'],
-				speakersObj['Antoine (Po-Han) Ho'],
-				speakersObj['Hsuan Lee'],
-				speakersObj['Rita Jui-Hsein Lu'],
-				speakersObj['Jack (Lee-Jae) Guo'],
-				speakersObj['Philip (Wei Che) Chiu']
+				speakersObj['Hsiao-Ling Hung'],
 			],
 			'tags': [],
-			'rooms': ['']
+			'rooms': []
 		}, {
-			'from': new Date('2023/07/09 09:20 EDT'),
-			'to': new Date('2023/07/09 10:20 EDT'),
-			'title': 'Keynote Speech II: Liz Kwo, CMO, Everly Health',
+			'from': new Date('2024/08/25 09:40 EDT'),
+			'to': new Date('2024/08/25 10:40 EDT'),
+			'title': 'Keynote Speech III: Samir Mitragotri,Core Faculty at Wyss Institute at Harvard University',
 			'topic': '',
 			'sessionDescription': '',
-			//'moderators': [
-			//{'name': '', 'link': ''},
-			//{'name': '', 'link': ''}
-			//],
 			'tags': [],
-			'rooms': [''],
+			'rooms': [],
 			'speakers': [
-				//speakersObj['Jeannie Lee'],
-				speakersObj['Liz Kwo']
+				speakersObj['Samir Mitragotri'],
 			]
 		}, {
-			'from': new Date('2023/07/09 10:20 EDT'),
-			'to': new Date('2023/07/09 10:30 EDT'),
+			'from': new Date('2024/08/25 10:40 EDT'),
+			'to': new Date('2024/08/25 10:50 EDT'),
 			'title': 'Coffee Break',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
-			'rooms': [''],
+			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2023/07/09 10:30 EDT'),
-			'to': new Date('2023/07/09 12:00 EDT'),
-			'title': 'Trending topic: Health Economics and Outcomes Research (HEOR)',
+			'from': new Date('2024/08/25 10:50 EDT'),
+			'to': new Date('2024/08/25 12:20 EDT'),
+			'title': 'Panel 3: Translation Science',
 			'topic': '',
+			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
-			//'moderators': [
-			//{'name': '', 'link': ''},
-			//{'name': '', 'link': ''}
-			//],
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Inn Inn Chen'],
-				speakersObj['Adrian Kielhorn'],
-				speakersObj['Patty Synnott']
+				speakersObj['Yi-Li Min'],
+				speakersObj['Emily Hsiue'],
 			]
 		}, {
-			'from': new Date('2023/07/09 12:00 EDT'),
-			'to': new Date('2023/07/09 12:30 EDT'),
+			'from': new Date('2024/08/25 10:50 EDT'),
+			'to': new Date('2024/08/25 12:20 EDT'),
+			'title': 'Panel 4: Entrepreneurship',
+			'topic': '',
+			'numOfParallelSessions': 2,
+			'sessionDescription': ``,
+			'tags': [],
+			'rooms': [],
+			'speakers': [
+				speakersObj['Mark Brader'],
+				speakersObj['Nicole Payton'],
+			]
+		}, {
+			'from': new Date('2024/08/25 12:20 EDT'),
+			'to': new Date('2024/08/25 12:40 EDT'),
 			'title': 'Closing Remarks & Award Ceremony',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
-			'rooms': ['Room B103'],
-			'speakers': [
-				commiteesObj['Liang-Yuan Chiu'],
-				commiteesObj['Yi-Yun Ho']
-			]
+			'rooms': [],
+			'speakers': []
 		}]
 	},
 	'submission': {
 		'title': 'Call for Submissions',
 		'showPageLink': true,
 		'text': '',
-		'link': 'https://easychair.org/conferences/?conf=2023btba'
+		'link': 'https://easychair.org/conferences/?conf=2024btba'
 	},
 	'location': {
 		'title': 'Location',
-		'showPageLink': false,
+		'showPageLink': true,
 		'text': 'Venue',
-		'address': 'Harvard Northwest Science Building <br/>52 Oxford St, Cambridge, MA 02138',
-		'googleMapLink': 'https://www.google.com/maps/place/Harvard+Northwest+Science+Building/@42.3799895,-71.1153309,18.44z/data=!4m12!1m6!3m5!1s0x89e37740b5a8044b:0x57eea3d2dca3f603!2sHarvard+Northwest+Science+Building!8m2!3d42.3799895!4d-71.1153309!3m4!1s0x89e37740b5a8044b:0x57eea3d2dca3f603!8m2!3d42.3799895!4d-71.1153309',
+		'address': 'Harvard Northwest Building <br/>52 Oxford St, Cambridge, MA 02138',
+		'googleMapLink': 'https://www.google.com/maps/place/Northwest+Building/@42.3801535,-71.1152319,15z/data=!4m6!3m5!1s0x89e37740b5a8044b:0x439e0d320f628161!8m2!3d42.3801535!4d-71.1152319!16s%2Fg%2F11clvx3pq2?entry=ttu',
 		'directions': [{
 			'method': 'Parking',
 			'lots': [{

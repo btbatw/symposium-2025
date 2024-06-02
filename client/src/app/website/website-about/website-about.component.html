@@ -6,10 +6,10 @@
 <div *ngFor="let subject of symposium.about.subjects">
 	<h3 class="mat-headline" *ngIf="subject.title" style="margin-top:1.5em">{{ subject.title }}</h3>
 	<p class="mat-subheading-1" [innerHTML]="subject.description"></p>
-	<!-- <div fxLayoutAlign="center" style="margin-bottom: 1.5em" *ngIf="subject.title.toLocaleLowerCase() == 'registration'">
+	<div fxLayoutAlign="center" style="margin-bottom: 1.5em" *ngIf="subject.title.toLocaleLowerCase() == 'registration'">
 		<button md-raised-button color="accent"
 		(click)="goToLink(symposium.symposiumInfo.registrationLink)">REGISTER NOW</button>
-	</div> -->
+	</div>
 </div>
 <div style="height:1em"></div>
 <div fxLayoutAlign="center" style="margin-bottom: 1.5em">
