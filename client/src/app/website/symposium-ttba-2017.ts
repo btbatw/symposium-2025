@@ -120,10 +120,8 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Gina Song'],
-				speakersObj['Po-Jen (Will) Yen'],
-				speakersObj['Irene Lau'],
-				speakersObj['JM Lee'],
+				speakersObj['Mark Brader'],
+				speakersObj['Nicole Payton'],
 			]
 		}, {
 			'from': new Date('2024/08/24 13:40 EDT'),
@@ -135,10 +133,10 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Robert Ang'],
-				speakersObj['Daniel Fisher'],
-				speakersObj['Sabrina Yang'],
-				speakersObj['Yen-Ming Hsu'],
+				speakersObj['Gina Song'],
+				speakersObj['Po-Jen (Will) Yen'],
+				speakersObj['Irene Lau'],
+				speakersObj['JM Lee'],
 			]
 		}, {
 			'from': new Date('2024/08/24 15:10 EDT'),
@@ -239,8 +237,10 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Mark Brader'],
-				speakersObj['Nicole Payton'],
+				speakersObj['Robert Ang'],
+				speakersObj['Daniel Fisher'],
+				speakersObj['Sabrina Yang'],
+				speakersObj['Yen-Ming Hsu'],
 			]
 		}, {
 			'from': new Date('2024/08/25 12:20 EDT'),
