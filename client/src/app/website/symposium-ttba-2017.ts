@@ -33,7 +33,7 @@ export const ttbaSymposium2017 = {
 		'subjects': [{
 			'title': '',
 			'description': `
-			<p>2023 BTBA 11th Annual Symposium will take place on <b>August 24-25, at the Harvard University Northwest Building, in Cambridge, MA</b> <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
+			<p>2024 BTBA 12th Annual Symposium will take place on <b>August 24-25, at the Harvard University Northwest Building, in Cambridge, MA</b> <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
             `
 		}, {
 			'title': 'Registration',
@@ -48,15 +48,15 @@ export const ttbaSymposium2017 = {
 		'showPageLink': true,
 		'schedules': [{
 			'from': new Date('2024/08/24 08:00 EDT'),
-			'to': new Date('2024/08/24 08:50 EDT'),
-			'title': 'Registration And Poster Setup',
+			'to': new Date('2024/08/24 09:00 EDT'),
+			'title': 'Registration and Poster Setup',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 08:50 EDT'),
+			'from': new Date('2024/08/24 09:00 EDT'),
 			'to': new Date('2024/08/24 09:10 EDT'),
 			'title': 'Opening Remarks',
 			'topic': null,
@@ -66,7 +66,7 @@ export const ttbaSymposium2017 = {
 			'speakers': []
 		}, {
 			'from': new Date('2024/08/24 09:10 EDT'),
-			'to': new Date('2024/08/24 10:10 EDT'),
+			'to': new Date('2024/08/24 10:00 EDT'),
 			'title': 'Keynote Speech I: Laura Sepp-Lorenzino, CSO at Intellia Therapeutics',
 			'topic': "",
 			'sessionDescription': '',
@@ -74,9 +74,9 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': [speakersObj['Laura Sepp-Lorenzino']]
 		}, {
-			'from': new Date('2024/08/24 10:10 EDT'),
+			'from': new Date('2024/08/24 10:00 EDT'),
 			'to': new Date('2024/08/24 10:30 EDT'),
-			'title': 'Group Photo And Coffee Break',
+			'title': 'Group Photo and Coffee Break',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
@@ -98,7 +98,16 @@ export const ttbaSymposium2017 = {
 			]
 		}, {
 			'from': new Date('2024/08/24 12:00 EDT'),
-			'to': new Date('2024/08/24 13:30 EDT'),
+			'to': new Date('2024/08/24 12:10 EDT'),
+			'title': 'Coffee Break',
+			'topic': '',
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': []
+		}, {
+			'from': new Date('2024/08/24 12:00 EDT'),
+			'to': new Date('2024/08/24 14:10 EDT'),
 			'title': 'Lunch & Round Table with Speakers',
 			'topic': null,
 			'sessionDescription': '',
@@ -111,10 +120,19 @@ export const ttbaSymposium2017 = {
 				speakersObj['Yen-Cheng Chen'],
 			]
 		}, {
-			'from': new Date('2024/08/24 13:40 EDT'),
-			'to': new Date('2024/08/24 15:10 EDT'),
+			'from': new Date('2024/08/24 14:10 EDT'),
+			'to': new Date('2024/08/24 14:20 EDT'),
+			'title': 'Coffee Break',
+			'topic': '',
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': []
+		}, {
+			'from': new Date('2024/08/24 14:20 EDT'),
+			'to': new Date('2024/08/24 15:50 EDT'),
 			'numOfParallelSessions': 2,
-			'title': 'Panel 1: Bioprocessing/CDMO',
+			'title': 'Panel 1: Advanced Bioprocessing',
 			'topic': '',
 			'sessionDescription': ``,
 			'tags': [],
@@ -124,8 +142,8 @@ export const ttbaSymposium2017 = {
 				speakersObj['Nicole Payton'],
 			]
 		}, {
-			'from': new Date('2024/08/24 13:40 EDT'),
-			'to': new Date('2024/08/24 15:10 EDT'),
+			'from': new Date('2024/08/24 14:20 EDT'),
+			'to': new Date('2024/08/24 15:50 EDT'),
 			'numOfParallelSessions': 2,
 			'title': 'Panel 2: Business Development',
 			'topic': '',
@@ -139,8 +157,8 @@ export const ttbaSymposium2017 = {
 				speakersObj['JM Lee'],
 			]
 		}, {
-			'from': new Date('2024/08/24 15:10 EDT'),
-			'to': new Date('2024/08/24 15:30 EDT'),
+			'from': new Date('2024/08/24 15:50 EDT'),
+			'to': new Date('2024/08/24 16:00 EDT'),
 			'title': 'Coffee Break',
 			'topic': '',
 			'sessionDescription': '',
@@ -148,34 +166,25 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 15:30 EDT'),
-			'to': new Date('2024/08/24 16:30 EDT'),
-			'title': 'Keynote Speech II: TBD',
+			'from': new Date('2024/08/24 16:00 EDT'),
+			'to': new Date('2024/08/24 17:00 EDT'),
+			'title': 'Oral Presentation from Best Poster Award',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 16:30 EDT'),
-			'to': new Date('2024/08/24 17:30 EDT'),
-			'title': 'Best Poster Award For Oral Presentation',
+			'from': new Date('2024/08/24 17:00 EDT'),
+			'to': new Date('2024/08/24 18:00 EDT'),
+			'title': 'Poster session / Networking',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 17:30 EDT'),
-			'to': new Date('2024/08/24 18:30 EDT'),
-			'title': 'Poster Session',
-			'topic': '',
-			'sessionDescription': '',
-			'tags': [],
-			'rooms': [],
-			'speakers': []
-		}, {
-			'from': new Date('2024/08/24 18:30 EDT'),
+			'from': new Date('2024/08/24 18:00 EDT'),
 			'to': new Date('2024/08/24 21:00 EDT'),
 			'title': 'Networking Dinner',
 			'topic': '',
@@ -186,7 +195,7 @@ export const ttbaSymposium2017 = {
 		}, {
 			'from': new Date('2024/08/25 08:00 EDT'),
 			'to': new Date('2024/08/25 09:30 EDT'),
-			'title': 'Breakfast And Meeting With Experts',
+			'title': 'Breakfast and Meeting with Experts',
 			'topic': null,
 			'sessionDescription': ``,
 			'speakers': [
