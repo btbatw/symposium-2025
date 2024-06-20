@@ -226,7 +226,7 @@ export const ttbaSymposium2017 = {
 		}, {
 			'from': new Date('2024/08/25 10:50 EDT'),
 			'to': new Date('2024/08/25 12:20 EDT'),
-			'title': 'Panel 3: Translation Science',
+			'title': 'Panel 3: Translational Science',
 			'topic': '',
 			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
@@ -247,7 +247,7 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': [
 				speakersObj['Robert Ang'],
-				speakersObj['Daniel Fisher'],
+				speakersObj['Daniel Fischer'],
 				speakersObj['Sabrina Yang'],
 				speakersObj['Yen-Ming Hsu'],
 			]
