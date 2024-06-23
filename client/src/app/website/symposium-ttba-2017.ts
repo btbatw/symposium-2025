@@ -48,7 +48,7 @@ export const ttbaSymposium2017 = {
 		'showPageLink': true,
 		'schedules': [{
 			'from': new Date('2024/08/24 08:00 EDT'),
-			'to': new Date('2024/08/24 09:00 EDT'),
+			'to': new Date('2024/08/24 08:45 EDT'),
 			'title': 'Registration and Poster Setup',
 			'topic': null,
 			'sessionDescription': '',
@@ -56,16 +56,19 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 09:00 EDT'),
-			'to': new Date('2024/08/24 09:10 EDT'),
+			'from': new Date('2024/08/24 08:45 EDT'),
+			'to': new Date('2024/08/24 09:00 EDT'),
 			'title': 'Opening Remarks',
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [
+				speakersObj['Pei-Jung Wu'],
+				speakersObj['Ming-Ju Tsai'],
+			]
 		}, {
-			'from': new Date('2024/08/24 09:10 EDT'),
+			'from': new Date('2024/08/24 09:00 EDT'),
 			'to': new Date('2024/08/24 10:00 EDT'),
 			'title': 'Keynote Speech I: Laura Sepp-Lorenzino, CSO at Intellia Therapeutics',
 			'topic': "",
@@ -75,7 +78,7 @@ export const ttbaSymposium2017 = {
 			'speakers': [speakersObj['Laura Sepp-Lorenzino']]
 		}, {
 			'from': new Date('2024/08/24 10:00 EDT'),
-			'to': new Date('2024/08/24 10:30 EDT'),
+			'to': new Date('2024/08/24 10:20 EDT'),
 			'title': 'Group Photo and Coffee Break',
 			'topic': null,
 			'sessionDescription': '',
@@ -83,8 +86,8 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 10:30 EDT'),
-			'to': new Date('2024/08/24 12:00 EDT'),
+			'from': new Date('2024/08/24 10:20 EDT'),
+			'to': new Date('2024/08/24 11:50 EDT'),
 			'title': 'Trending Topic: Next-Generation of Antibody Drug Conjugate',
 			'topic': '',
 			'sessionDescription': '',
@@ -97,8 +100,8 @@ export const ttbaSymposium2017 = {
 				speakersObj['Yuk-Cheung (Chris) Chan'],
 			]
 		}, {
-			'from': new Date('2024/08/24 12:00 EDT'),
-			'to': new Date('2024/08/24 12:10 EDT'),
+			'from': new Date('2024/08/24 11:50 EDT'),
+			'to': new Date('2024/08/24 12:00 EDT'),
 			'title': 'Coffee Break',
 			'topic': '',
 			'sessionDescription': '',
@@ -107,21 +110,45 @@ export const ttbaSymposium2017 = {
 			'speakers': []
 		}, {
 			'from': new Date('2024/08/24 12:00 EDT'),
-			'to': new Date('2024/08/24 14:10 EDT'),
-			'title': 'Lunch & Round Table with Speakers',
+			'to': new Date('2024/08/24 13:45 EDT'),
+			'title': 'Lunch & Round Table with Speakers - Industry',
+			'numOfParallelSessions': 2,
+			'topic': null,
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': [
+				speakersObj['Jason Lu'],
+				speakersObj['Wen-Chi Chou'],
+				speakersObj['Star Chen'],
+				speakersObj['Po-Jen (Will) Yen'],
+				speakersObj['Jessica Huang'],
+				speakersObj['Ting-Hui Wu'],
+				speakersObj['Hsiao-Ling Hung'],
+				speakersObj['Emily Hsiue'],
+				speakersObj['Chris Fang'],
+			]
+		}, {
+			'from': new Date('2024/08/24 12:00 EDT'),
+			'to': new Date('2024/08/24 13:45 EDT'),
+			'title': 'Lunch & Round Table with Speakers - Academic',
+			'numOfParallelSessions': 2,
 			'topic': null,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': [
 				speakersObj['Hsiao-Ying Monica Wey'],
+				speakersObj['Yi-Yun Ho'],
 				speakersObj['Meng-Ju Wu'],
 				speakersObj['Ming-Ru Wu'],
+				speakersObj['Mong-Hsun Tsai'],
 				speakersObj['Yen-Cheng Chen'],
+
 			]
 		}, {
-			'from': new Date('2024/08/24 14:10 EDT'),
-			'to': new Date('2024/08/24 14:20 EDT'),
+			'from': new Date('2024/08/24 13:45 EDT'),
+			'to': new Date('2024/08/24 14:00 EDT'),
 			'title': 'Coffee Break',
 			'topic': '',
 			'sessionDescription': '',
@@ -129,10 +156,10 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 14:20 EDT'),
-			'to': new Date('2024/08/24 15:50 EDT'),
+			'from': new Date('2024/08/24 14:00 EDT'),
+			'to': new Date('2024/08/24 15:30 EDT'),
 			'numOfParallelSessions': 2,
-			'title': 'Panel 1: Advanced Bioprocessing',
+			'title': 'Panel 1: Advanced Bioprocessing & CDMO',
 			'topic': '',
 			'sessionDescription': ``,
 			'tags': [],
@@ -140,10 +167,12 @@ export const ttbaSymposium2017 = {
 			'speakers': [
 				speakersObj['Mark Brader'],
 				speakersObj['Nicole Payton'],
+				speakersObj['Chih-Chi (Jimmy) Chu'],
+				speakersObj['Samantha Hullah'],
 			]
 		}, {
-			'from': new Date('2024/08/24 14:20 EDT'),
-			'to': new Date('2024/08/24 15:50 EDT'),
+			'from': new Date('2024/08/24 14:00 EDT'),
+			'to': new Date('2024/08/24 15:30 EDT'),
 			'numOfParallelSessions': 2,
 			'title': 'Panel 2: Business Development',
 			'topic': '',
@@ -157,8 +186,8 @@ export const ttbaSymposium2017 = {
 				speakersObj['JM Lee'],
 			]
 		}, {
-			'from': new Date('2024/08/24 15:50 EDT'),
-			'to': new Date('2024/08/24 16:00 EDT'),
+			'from': new Date('2024/08/24 15:30 EDT'),
+			'to': new Date('2024/08/24 15:40 EDT'),
 			'title': 'Coffee Break',
 			'topic': '',
 			'sessionDescription': '',
@@ -166,8 +195,17 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 16:00 EDT'),
-			'to': new Date('2024/08/24 17:00 EDT'),
+			'from': new Date('2024/08/24 15:40 EDT'),
+			'to': new Date('2024/08/24 16:40 EDT'),
+			'title': 'Special Talk: Robert Ang, President and CEO at Vor Bio',
+			'topic': '',
+			'sessionDescription': '',
+			'tags': [],
+			'rooms': [],
+			'speakers': [speakersObj['Robert Ang']]
+		}, {
+			'from': new Date('2024/08/24 16:40 EDT'),
+			'to': new Date('2024/08/24 17:40 EDT'),
 			'title': 'Oral Presentation from Best Poster Award',
 			'topic': '',
 			'sessionDescription': '',
@@ -175,17 +213,17 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 17:00 EDT'),
-			'to': new Date('2024/08/24 18:00 EDT'),
-			'title': 'Poster session / Networking',
+			'from': new Date('2024/08/24 17:40 EDT'),
+			'to': new Date('2024/08/24 18:30 EDT'),
+			'title': 'Poster session / Coffee Break',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': []
 		}, {
-			'from': new Date('2024/08/24 18:00 EDT'),
-			'to': new Date('2024/08/24 21:00 EDT'),
+			'from': new Date('2024/08/24 18:30 EDT'),
+			'to': new Date('2024/08/24 20:30 EDT'),
 			'title': 'Networking Dinner',
 			'topic': '',
 			'sessionDescription': '',
@@ -200,13 +238,21 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': ``,
 			'speakers': [
 				speakersObj['Hsiao-Ling Hung'],
+				speakersObj['Maurice Shen'],
+				speakersObj['Anthony Wang'],
+				speakersObj['Rose Lee'],
+				speakersObj['Robert Morfino'],
+				speakersObj['Kate Worthington'],
+				speakersObj['June Lin'],
+				speakersObj['Hee June Choi'],
+
 			],
 			'tags': [],
 			'rooms': []
 		}, {
 			'from': new Date('2024/08/25 09:40 EDT'),
 			'to': new Date('2024/08/25 10:40 EDT'),
-			'title': 'Keynote Speech III: Samir Mitragotri,Core Faculty at Wyss Institute at Harvard University',
+			'title': 'Keynote Speech II: Samir Mitragotri,Core Faculty at Wyss Institute/Harvard University',
 			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
@@ -249,7 +295,6 @@ export const ttbaSymposium2017 = {
 				speakersObj['Robert Ang'],
 				speakersObj['Daniel Fischer'],
 				speakersObj['Sabrina Yang'],
-				speakersObj['Yen-Ming Hsu'],
 			]
 		}, {
 			'from': new Date('2024/08/25 12:20 EDT'),
@@ -259,7 +304,10 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [
+				speakersObj['Pei-Jung Wu'],
+				speakersObj['Ming-Ju Tsai'],
+			]
 		}]
 	},
 	'submission': {
