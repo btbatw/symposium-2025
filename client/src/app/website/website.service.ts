@@ -52,13 +52,12 @@ export class WebsiteService {
 				if (!element.speakers[0] || !element.speakers[0].name) { return; }
 				let schedule = { ...element };
 				delete schedule.speakers;
-				let parsedSpeakers = element.speakers.map(element =>
-					element = { ...element, ...schedule }
-				);
+				let parsedSpeakers = element.speakers
+					.filter(speaker => speaker)
+					.map(element => ({ ...element, ...schedule }));
 				element.speakers = parsedSpeakers;
 				allSpeakers = [...allSpeakers, parsedSpeakers];
 			});
-
 		let lunchSpeakers = allSpeakers
 			.reduce((prev, curr) => [...prev, ...curr], [])
 			.filter(speaker => speaker.title === "Lunch & Round Table with Speakers");
