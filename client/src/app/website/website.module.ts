@@ -20,6 +20,7 @@ import { WebsiteNavComponent } from './website-nav/website-nav.component';
 import { WebsiteHeaderStaticComponent } from './website-header-static/website-header-static.component';
 import { WebsiteAcknowledgementComponent } from './website-acknowledgement/website-acknowledgement.component';
 import { WebsiteAcknowledgementCommiteeComponent } from './website-acknowledgement/website-acknowledgement-commitee/website-acknowledgement-commitee.component';
+import { WebsiteMerchandiseComponent } from './website-merchandise/website-merchandise.component';
 
 import { nl2brPipe } from './nl2br.pipe';
 
@@ -42,6 +43,7 @@ import { nl2brPipe } from './nl2br.pipe';
 		WebsiteHeaderStaticComponent,
 		WebsiteAcknowledgementComponent,
 		WebsiteAcknowledgementCommiteeComponent,
+		WebsiteMerchandiseComponent,
 		nl2brPipe
 	],
 	providers: [WebsiteService],
