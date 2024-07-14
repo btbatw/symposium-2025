@@ -71,11 +71,15 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/24 09:00 EDT'),
 			'to': new Date('2024/08/24 10:00 EDT'),
 			'title': 'Keynote Speech I: Laura Sepp-Lorenzino, CSO at Intellia Therapeutics',
-			'topic': "",
+			'topic': "A journey on innovation: Making genetic medicines are reality for patients",
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': [speakersObj['Laura Sepp-Lorenzino']]
+			'speakers': [speakersObj['Laura Sepp-Lorenzino']],
+			'moderators': [
+				{'name': 'Pei-Jung Wu', 'link': 'https://www.linkedin.com/in/pei-jung-wu-94ba1a159'},
+				{'name': 'Shu-Wei Wu', 'link': 'https://www.linkedin.com/in/shu-wei-wu-570a98120/'}
+			],
 		}, {
 			'from': new Date('2024/08/24 10:00 EDT'),
 			'to': new Date('2024/08/24 10:20 EDT'),
@@ -88,8 +92,8 @@ export const ttbaSymposium2017 = {
 		}, {
 			'from': new Date('2024/08/24 10:20 EDT'),
 			'to': new Date('2024/08/24 11:50 EDT'),
-			'title': 'Trending Topic: Next-Generation of Antibody Drug Conjugate',
-			'topic': '',
+			'title': 'Trending Topic',
+			'topic': 'Antibody-Drug Conjugate (ADC): Challenges and Opportunities',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
@@ -98,7 +102,11 @@ export const ttbaSymposium2017 = {
 				speakersObj['Yvonne (Yi-Yang) Lau'],
 				speakersObj['Ting-Hui Wu'],
 				speakersObj['Yuk-Cheung (Chris) Chan'],
-			]
+			],
+			'moderators': [
+				{'name': 'Hsuan-Ping Chang', 'link': 'https://www.linkedin.com/in/hsuan-ping-chang/'},
+				{'name': 'Shu-Hong Lin', 'link': 'https://www.linkedin.com/in/shuhong-lin-bioinfo/'}
+			],
 		}, {
 			'from': new Date('2024/08/24 11:50 EDT'),
 			'to': new Date('2024/08/24 12:00 EDT'),
@@ -114,7 +122,15 @@ export const ttbaSymposium2017 = {
 			'title': 'Lunch & Round Table with Speakers - Industry',
 			'numOfParallelSessions': 2,
 			'topic': null,
-			'sessionDescription': '',
+			'sessionDescription': `
+			<p>Topics</p>
+			<ol>
+				<li>Job Hunting and Career Transition</li>
+				<li>Goal Setting and Career Advancement Strategies</li>
+				<li>Exploring Industry Opportunities</li>
+				<li>Stress Management and Work-Life Balance</li>
+				<li>Leadership and Management Skills</li>
+			</ol>`,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
@@ -133,8 +149,14 @@ export const ttbaSymposium2017 = {
 			'to': new Date('2024/08/24 13:45 EDT'),
 			'title': 'Lunch & Round Table with Speakers - Academic',
 			'numOfParallelSessions': 2,
-			'topic': null,
-			'sessionDescription': '',
+			'topic': '',
+			'sessionDescription': `
+			<p>Topics</p>
+			<ol>
+				<li>Should I pursue a PhD degree or not? What is the difference between industrial postdoc vs. academic postdoc? (Speaker: Yen-Cheng Chen & Yi-Yun Ho)</li>
+				<li>How can I apply for my first grant as a young professional or faculty member? (Speaker: Meng-Ju Wu & Ming-Ru Wu)</li>
+				<li>The contrasting academic environments between Taiwan and the US? (Speaker: Mong-Hsun Tsai & Hsiao-Ying Monica Wey)</li>
+			</ol>`,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
@@ -144,7 +166,6 @@ export const ttbaSymposium2017 = {
 				speakersObj['Ming-Ru Wu'],
 				speakersObj['Mong-Hsun Tsai'],
 				speakersObj['Yen-Cheng Chen'],
-
 			]
 		}, {
 			'from': new Date('2024/08/24 13:45 EDT'),
@@ -159,8 +180,8 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/24 14:00 EDT'),
 			'to': new Date('2024/08/24 15:30 EDT'),
 			'numOfParallelSessions': 2,
-			'title': 'Panel 1: Advanced Bioprocessing & CDMO',
-			'topic': '',
+			'title': 'Panel 1: Advanced Bioprocessing',
+			'topic': 'Advanced Bioprocessing and CDMO',
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
@@ -169,22 +190,29 @@ export const ttbaSymposium2017 = {
 				speakersObj['Nicole Payton'],
 				speakersObj['Chih-Chi (Jimmy) Chu'],
 				speakersObj['Samantha Hullah'],
-			]
+			],
+			'moderators': [
+				{'name': 'Wei-Chung (Jimmy) Luo', 'link': 'https://www.linkedin.com/in/jimmy-luo/'},
+				{'name': 'Chia-Hsing Pi', 'link': 'https://www.linkedin.com/in/chia-hsing-pi-13a29490/'}
+			],
 		}, {
 			'from': new Date('2024/08/24 14:00 EDT'),
 			'to': new Date('2024/08/24 15:30 EDT'),
 			'numOfParallelSessions': 2,
 			'title': 'Panel 2: Business Development',
-			'topic': '',
+			'topic': 'Exploring the Role of Business Development in Modern Drug Discovery Strategy',
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
 				speakersObj['Gina Song'],
 				speakersObj['Po-Jen (Will) Yen'],
-				speakersObj['Irene Lau'],
 				speakersObj['JM Lee'],
-			]
+			],
+			'moderators': [
+				{'name': 'Maurice Shen', 'link': 'https://www.linkedin.com/in/maurice-shen-ph-d-40a86121/'},
+				{'name': 'Yi-Yun Ho', 'link': ''}
+			],
 		}, {
 			'from': new Date('2024/08/24 15:30 EDT'),
 			'to': new Date('2024/08/24 15:40 EDT'),
@@ -198,11 +226,15 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/24 15:40 EDT'),
 			'to': new Date('2024/08/24 16:40 EDT'),
 			'title': 'Special Talk: Robert Ang, President and CEO at Vor Bio',
-			'topic': '',
+			'topic': 'The Story of Double Migrant in Biotech',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': [speakersObj['Robert Ang']]
+			'speakers': [speakersObj['Robert Ang']],
+			'moderators': [
+				{'name': 'Chun Liu', 'link': 'https://www.linkedin.com/in/chun-liu-sysbiophys/'},
+				{'name': 'Liang-Yuan Chiu', 'link': 'https://www.linkedin.com/in/liang-yuan-chiu-0307678b/'}
+			],
 		}, {
 			'from': new Date('2024/08/24 16:40 EDT'),
 			'to': new Date('2024/08/24 17:40 EDT'),
@@ -211,7 +243,11 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [],
+			'moderators': [
+				{'name': 'Alex Yi-Lin Tsai', 'link': 'https://www.linkedin.com/in/alexyilintsai/'},
+				{'name': 'Hsin-Wen Liang', 'link': ''}
+			],
 		}, {
 			'from': new Date('2024/08/24 17:40 EDT'),
 			'to': new Date('2024/08/24 18:30 EDT'),
@@ -240,12 +276,16 @@ export const ttbaSymposium2017 = {
 				speakersObj['Hsiao-Ling Hung'],
 				speakersObj['Maurice Shen'],
 				speakersObj['Anthony Wang'],
-				speakersObj['Rose Lee'],
+				speakersObj['Rose (MingJeng) Lee'],
 				speakersObj['Robert Morfino'],
-				speakersObj['Kate Worthington'],
 				speakersObj['June Lin'],
 				speakersObj['Hee June Choi'],
-
+				speakersObj['Amy (Yu-Han) Hung'],
+				speakersObj['Szu-Chin (George) Fu'],
+				speakersObj['Chia-Yu Chung'],
+				speakersObj['Yi-Chen Hsieh'],
+				speakersObj['Jason (Yen-Chun) Lu'],
+				speakersObj['Yi-En Liao'],
 			],
 			'tags': [],
 			'rooms': []
@@ -259,7 +299,11 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': [
 				speakersObj['Samir Mitragotri'],
-			]
+			],
+			'moderators': [
+				{'name': 'Yu-Ting Huang', 'link': 'https://www.linkedin.com/in/yu-ting-huang-b2b9069b/'},
+				{'name': 'Yun-Ti Chen', 'link': 'https://www.linkedin.com/in/yun-ti-chen-704189107/'}
+			],
 		}, {
 			'from': new Date('2024/08/25 10:40 EDT'),
 			'to': new Date('2024/08/25 10:50 EDT'),
@@ -279,9 +323,13 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Yi-Li Min'],
+				speakersObj['Liang-Hui Chu'],
 				speakersObj['Emily Hsiue'],
-			]
+			],
+			'moderators': [
+				{'name': 'Yi-En Liao', 'link': 'https://www.linkedin.com/in/yien-liao/'},
+				{'name': 'Yuan-Chen Chang', 'link': 'https://www.linkedin.com/in/yuanchenchang0726/'}
+			],
 		}, {
 			'from': new Date('2024/08/25 10:50 EDT'),
 			'to': new Date('2024/08/25 12:20 EDT'),
@@ -295,7 +343,11 @@ export const ttbaSymposium2017 = {
 				speakersObj['Robert Ang'],
 				speakersObj['Daniel Fischer'],
 				speakersObj['Sabrina Yang'],
-			]
+			],
+			'moderators': [
+				{'name': 'George Won', 'link': ''},
+				{'name': 'Duane Juang', 'link': 'https://www.linkedin.com/in/duanesj/'}
+			],
 		}, {
 			'from': new Date('2024/08/25 12:20 EDT'),
 			'to': new Date('2024/08/25 12:40 EDT'),
