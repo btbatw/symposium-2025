@@ -98,10 +98,10 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
+				speakersObj['Yuk-Cheung (Chris) Chan'],
 				speakersObj['Rakesh Dixit'],
 				speakersObj['Yvonne (Yi-Yang) Lau'],
 				speakersObj['Ting-Hui Wu'],
-				speakersObj['Yuk-Cheung (Chris) Chan'],
 			],
 			'moderators': [
 				{'name': 'Hsuan-Ping Chang', 'link': 'https://www.linkedin.com/in/hsuan-ping-chang/'},
@@ -124,25 +124,28 @@ export const ttbaSymposium2017 = {
 			'topic': null,
 			'sessionDescription': `
 			<p>Topics</p>
-			<ol>
-				<li>Job Hunting and Career Transition</li>
-				<li>Goal Setting and Career Advancement Strategies</li>
-				<li>Exploring Industry Opportunities</li>
-				<li>Stress Management and Work-Life Balance</li>
-				<li>Leadership and Management Skills</li>
-			</ol>`,
+			<ul>
+				<li>Industry Room1: Jon hunting</li>
+				<li>Industry Room2:  Stress Management</li>
+				<li>Industry Room3: Leadership and Management</li>
+				<li>Industry Room4: Different Possibilities in the Industry</li>
+				<li>Industry Room5: Goal Setting and Strategies for Career Advancement</li>
+			</ul>`,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Jason Lu'],
+				speakersObj['Szu-Ta (Starr) Chen'],
 				speakersObj['Wen-Chi Chou'],
-				speakersObj['Star Chen'],
-				speakersObj['Po-Jen (Will) Yen'],
-				speakersObj['Jessica Huang'],
-				speakersObj['Ting-Hui Wu'],
-				speakersObj['Hsiao-Ling Hung'],
 				speakersObj['Emily Hsiue'],
-				speakersObj['Chris Fang'],
+				speakersObj['Hsiao-Ling Hung'],
+				speakersObj['Yvonne (Yi-Yang) Lau'],
+				speakersObj['Lih-Ling Lin'],
+				speakersObj['June Lin'],
+				speakersObj['Mei-Hsiu Ling'],
+				speakersObj['Jason (Yen-Chun) Lu'],
+				speakersObj['Yi-Li Min'],
+				speakersObj['Ting-Hui Wu'],
+				speakersObj['Po-Jen (Will) Yen'],
 			]
 		}, {
 			'from': new Date('2024/08/24 12:00 EDT'),
@@ -152,20 +155,20 @@ export const ttbaSymposium2017 = {
 			'topic': '',
 			'sessionDescription': `
 			<p>Topics</p>
-			<ol>
-				<li>Should I pursue a PhD degree or not? What is the difference between industrial postdoc vs. academic postdoc? (Speaker: Yen-Cheng Chen & Yi-Yun Ho)</li>
-				<li>How can I apply for my first grant as a young professional or faculty member? (Speaker: Meng-Ju Wu & Ming-Ru Wu)</li>
-				<li>The contrasting academic environments between Taiwan and the US? (Speaker: Mong-Hsun Tsai & Hsiao-Ying Monica Wey)</li>
-			</ol>`,
+			<ul>
+				<li>Academia Room1: Industrial or Academic Postdoc? (Speaker: Yen-Cheng Chen & Yi-Yun Ho)</li>
+				<li>Academia Room2: How can I apply for my first grant as a young professional or faculty member? (Speaker: Meng-Ju Wu & Ming-Ru Wu)</li>
+				<li>Academia Room3: Differences in the Academic Environments Between Taiwan and the U.S.(Speaker: Mong-Hsun Tsai & Hsiao-Ying Monica Wey)</li>
+			</ul>`,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Hsiao-Ying Monica Wey'],
+				speakersObj['Yen-Cheng Chen'],
 				speakersObj['Yi-Yun Ho'],
+				speakersObj['Mong-Hsun Tsai'],
+				speakersObj['Hsiao-Ying Monica Wey'],
 				speakersObj['Meng-Ju Wu'],
 				speakersObj['Ming-Ru Wu'],
-				speakersObj['Mong-Hsun Tsai'],
-				speakersObj['Yen-Cheng Chen'],
 			]
 		}, {
 			'from': new Date('2024/08/24 13:45 EDT'),
@@ -187,9 +190,9 @@ export const ttbaSymposium2017 = {
 			'rooms': [],
 			'speakers': [
 				speakersObj['Mark Brader'],
-				speakersObj['Nicole Payton'],
 				speakersObj['Chih-Chi (Jimmy) Chu'],
 				speakersObj['Samantha Hullah'],
+				speakersObj['Nicole Payton'],
 			],
 			'moderators': [
 				{'name': 'Wei-Chung (Jimmy) Luo', 'link': 'https://www.linkedin.com/in/jimmy-luo/'},
@@ -205,9 +208,9 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
+				speakersObj['JM Lee'],
 				speakersObj['Gina Song'],
 				speakersObj['Po-Jen (Will) Yen'],
-				speakersObj['JM Lee'],
 			],
 			'moderators': [
 				{'name': 'Maurice Shen', 'link': 'https://www.linkedin.com/in/maurice-shen-ph-d-40a86121/'},
@@ -226,7 +229,7 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/24 15:40 EDT'),
 			'to': new Date('2024/08/24 16:40 EDT'),
 			'title': 'Special Talk: Robert Ang, President and CEO at Vor Bio',
-			'topic': 'The Story of Double Migrant in Biotech',
+			'topic': 'The Story of a Double Migrant in Biotech',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
@@ -240,10 +243,20 @@ export const ttbaSymposium2017 = {
 			'to': new Date('2024/08/24 17:40 EDT'),
 			'title': 'Oral Presentation from Best Poster Award',
 			'topic': '',
-			'sessionDescription': '',
+			'sessionDescription': `
+			<ol>
+				<li>Using nanoparticles as artificial antigen presenting cells to activate human CD4 T cells for immunotherapy</li>
+				<li>Predicting Antibody Developability Properties using Machine Learning</li>
+				<li>Genome-wide Screening Identifies Trim33 as an Essential Regulator of Dendritic Cell Differentiation</li>
+			</ol>
+			`,
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [
+				speakersObj['Si-Sim Kang'],
+				speakersObj['Hsin-Ting Chen'],
+				speakersObj['Pei-Feng Hsu'],
+			],
 			'moderators': [
 				{'name': 'Alex Yi-Lin Tsai', 'link': 'https://www.linkedin.com/in/alexyilintsai/'},
 				{'name': 'Hsin-Wen Liang', 'link': ''}
@@ -273,27 +286,37 @@ export const ttbaSymposium2017 = {
 			'topic': null,
 			'sessionDescription': ``,
 			'speakers': [
-				speakersObj['Hsiao-Ling Hung'],
-				speakersObj['Maurice Shen'],
-				speakersObj['Anthony Wang'],
-				speakersObj['Rose (MingJeng) Lee'],
-				speakersObj['Robert Morfino'],
-				speakersObj['June Lin'],
+				speakersObj['Ethen Cheng'],
 				speakersObj['Hee June Choi'],
-				speakersObj['Amy (Yu-Han) Hung'],
-				speakersObj['Szu-Chin (George) Fu'],
 				speakersObj['Chia-Yu Chung'],
+				speakersObj['Szu-Chin (George) Fu'],
 				speakersObj['Yi-Chen Hsieh'],
-				speakersObj['Jason (Yen-Chun) Lu'],
+				speakersObj['Tsung-Lin Hsieh'],
+				speakersObj['Yan-Shu Huang'],
+				speakersObj['Amy (Yu-Han) Hung'],
+				speakersObj['Hsiao-Ling Hung'],
+				speakersObj['Rose (MingJeng) Lee'],
+				speakersObj['Hong-Guann Lee'],
 				speakersObj['Yi-En Liao'],
+				speakersObj['June Lin'],
+				speakersObj['Jason (Yen-Chun) Lu'],
+				speakersObj['Jimmy Luo'],
+				speakersObj['Yi-Li Min'],
+				speakersObj['Robert Morfino'],
+				speakersObj['Chia-Hsing Pi'],
+				speakersObj['Maurice Shen'],
+				speakersObj['Chun Mei Su'],
+				speakersObj['Phoebe Tsai'],
+				speakersObj['Anthony Wang'],
+				speakersObj['Laurie (Yen-Chi) Wu'],
 			],
 			'tags': [],
 			'rooms': []
 		}, {
 			'from': new Date('2024/08/25 09:40 EDT'),
 			'to': new Date('2024/08/25 10:40 EDT'),
-			'title': 'Keynote Speech II: Samir Mitragotri,Core Faculty at Wyss Institute/Harvard University',
-			'topic': '',
+			'title': 'Keynote Speech II: Samir Mitragotri, Core Faculty at Wyss Institute/Harvard University',
+			'topic': `A Hitchhiker's and Backpacker's Guide to Drug Delivery`,
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
@@ -317,13 +340,14 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/25 10:50 EDT'),
 			'to': new Date('2024/08/25 12:20 EDT'),
 			'title': 'Panel 3: Translational Science',
-			'topic': '',
+			'topic': 'Bridging the gap: translational science from discovery to patient impact',
 			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
 				speakersObj['Liang-Hui Chu'],
+				speakersObj['GuoPing Feng'],
 				speakersObj['Emily Hsiue'],
 			],
 			'moderators': [
@@ -334,7 +358,7 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/25 10:50 EDT'),
 			'to': new Date('2024/08/25 12:20 EDT'),
 			'title': 'Panel 4: Entrepreneurship',
-			'topic': '',
+			'topic': 'Biotech Entrepreneur Forum-Shaping the Future with Biotech Industry Leaders',
 			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
 			'tags': [],
@@ -342,10 +366,11 @@ export const ttbaSymposium2017 = {
 			'speakers': [
 				speakersObj['Robert Ang'],
 				speakersObj['Daniel Fischer'],
+				speakersObj['David Lee'],
 				speakersObj['Sabrina Yang'],
 			],
 			'moderators': [
-				{'name': 'George Won', 'link': ''},
+				{'name': 'George Won', 'link': 'https://www.linkedin.com/in/george-wang-formosa-83348250/'},
 				{'name': 'Duane Juang', 'link': 'https://www.linkedin.com/in/duanesj/'}
 			],
 		}, {
