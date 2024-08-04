@@ -420,45 +420,129 @@ export const ttbaSymposium2017 = {
 		'sponsors': [
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'NTSC (國科會)',
 				'logoUrl': 'NSTC_logo.png',
 				'link': 'https://www.nstc.gov.tw'
 			},
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'TECO Boston',
 				'logoUrl': 'teco.png',
 				'link': 'https://www.roc-taiwan.org/usbos_en/'
 			},
-			// {
-			// 	'level': 'string',
-			// 	'name': 'string',
-			// 	'logoUrl': 'teco_S_and_T_logo.png',
-			// 	'link': 'https://www.nstc.gov.tw/boston/en/'
-			// },
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'Ministry of Education',
 				'logoUrl': 'Ministry_of_Education.png',
 				'link': 'https://english.moe.gov.tw/'
 			},
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': '僑委會',
 				'logoUrl': 'OCAC.png',
 				'link': 'https://www.ocac.gov.tw/OCAC/SubSites/Home.aspx?site=7a4eb84a-7632-4679-ac66-35970250e9c9'
 			},
 			{
 				'level': 'string',
 				'name': 'string',
+				'logoUrl': 'PharmaEssentia.png',
+				'link': 'https://us.pharmaessentia.com/'
+			},
+			// {
+			// 	'level': '',
+			// 	'name': 'metistx',
+			// 	'logoUrl': 'metis.png',
+			// 	'link': 'https://www.metistx.com/'
+			// },
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'MJNE.png',
+				'link': 'http://www.mj-ne.org/'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'dcb.png',
+				'link': 'https://www.dcb.org.tw/pages/1?locale=en'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'Applied-Photophysics.png',
+				'link': 'https://www.photophysics.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'taihoya_logo.png',
+				'link': 'https://taihoya.com/en'
+			},
+			{
+				'level': 'string',
+				'name': 'iHisto',
 				'logoUrl': 'ihisto.png',
 				'link': 'https://www.ihisto.io/'
 			},
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'Vizuro',
+				'logoUrl': 'vizuro.png',
+				'link': 'https://www.vizuro.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'BioLegend',
 				'logoUrl': 'biolegend.png',
 				'link': 'https://www.biolegend.com'
+			},
+			{
+				'level': 'string',
+				'name': '3G Leadership Solutions',
+				'logoUrl': '3g-leadership-solutions.png',
+				'link': 'https://www.linkedin.com/in/chia-lin-ho/'
+			},
+			{
+				'level': 'string',
+				'name': 'InFocus Therapeutics',
+				'logoUrl': 'infocus-therapeutics.png',
+				'link': 'https://infocustx.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'sheen-lab.png',
+				'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
+			},
+			{
+				'level': 'string',
+				'name': 'SinoBiological',
+				'logoUrl': 'sino.png',
+				'link': 'https://www.sinobiological.com/'
+			},
+			{
+				'level': 'string',
+				'name': '永昕生物醫藥',
+				'logoUrl': 'mycenax.png',
+				'link': 'https://www.mycenax.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'ab-biosciences.png',
+				'link': 'https://abbiosciences.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'Wellesley Toyota',
+				'logoUrl': 'wellesley-toyota.png',
+				'link': 'https://www.wellesleytoyota.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'BTCC.png',
+				'link': 'https://www.facebook.com/bostonbtcc'
 			},
 			// {
 			// 	'level': 'string',
@@ -472,72 +556,19 @@ export const ttbaSymposium2017 = {
 			// 	'logoUrl': 'Green_Maple.png',
 			// 	'link': 'https://www.greenmaplelaw.com/'
 			// },
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'vizuro.png',
-				'link': 'https://www.vizuro.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'BTCC.png',
-				'link': 'https://www.facebook.com/bostonbtcc'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'dcb.png',
-				'link': 'https://www.dcb.org.tw/pages/1?locale=en'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'MJNE.png',
-				'link': 'http://www.mj-ne.org/'
-			},
 			// {
 			// 	'level': 'string',
 			// 	'name': 'Immunwork, Inc.',
 			// 	'logoUrl': 'Immunwork.png',
 			// 	'link': 'https://www.immunwork.com/index.php?lang=en'
 			// },
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'PharmaEssentia.png',
-				'link': 'https://us.pharmaessentia.com/'
-			},
+
 			// {
 			// 	'level': 'string',
 			// 	'name': 'string',
 			// 	'logoUrl': 'YBBiotech.png',
 			// 	'link': 'https://si.secda.info/yb/'
 			// },
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'taihoya_logo.png',
-				'link': 'https://taihoya.com/en'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'sheen-lab.png',
-				'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'ab-biosciences.png',
-				'link': 'https://abbiosciences.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'Applied-Photophysics.png',
-				'link': 'https://www.photophysics.com/'
-			},
 		]
 	},
 	'imgs': [{
