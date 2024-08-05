@@ -451,15 +451,15 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'TECO Boston',
-				'logoUrl': 'teco.png',
-				'link': 'https://www.roc-taiwan.org/usbos_en/'
+				'name': 'Ministry of Education 教育部',
+				'logoUrl': 'Ministry_of_Education.png',
+				'link': 'https://english.moe.gov.tw/'
 			},
 			{
 				'level': 'string',
-				'name': 'Ministry of Education',
-				'logoUrl': 'Ministry_of_Education.png',
-				'link': 'https://english.moe.gov.tw/'
+				'name': 'TECO Boston',
+				'logoUrl': 'teco.png',
+				'link': 'https://www.roc-taiwan.org/usbos_en/'
 			},
 			{
 				'level': 'string',
@@ -486,10 +486,10 @@ export const ttbaSymposium2017 = {
 				'link': 'http://www.mj-ne.org/'
 			},
 			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'Applied-Photophysics.png',
-				'link': 'https://www.photophysics.com/'
+				'level': '',
+				'name': 'WW Holding',
+				'logoUrl': 'ww-holding.png',
+				'link': 'https://www.ww-holding.com.tw/en/'
 			},
 			{
 				'level': 'string',
@@ -499,21 +499,21 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'taihoya_logo.png',
-				'link': 'https://taihoya.com/en'
-			},
-			{
-				'level': 'string',
 				'name': 'Vizuro',
 				'logoUrl': 'vizuro.png',
 				'link': 'https://www.vizuro.com/'
 			},
 			{
 				'level': 'string',
-				'name': '3G Leadership Solutions',
-				'logoUrl': '3g-leadership-solutions.png',
-				'link': 'https://www.linkedin.com/in/chia-lin-ho/'
+				'name': 'string',
+				'logoUrl': 'taihoya_logo.png',
+				'link': 'https://taihoya.com/en'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'Applied-Photophysics.png',
+				'link': 'https://www.photophysics.com/'
 			},
 			{
 				'level': 'string',
@@ -529,27 +529,45 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
+				'name': '3G Leadership Solutions',
+				'logoUrl': '3g-leadership-solutions.png',
+				'link': 'https://www.linkedin.com/in/chia-lin-ho/'
+			},
+			{
+				'level': 'string',
+				'name': 'Home Boston Group',
+				'logoUrl': 'home-boston-group.png',
+				'link': 'https://homeboston-spassetinvest.mystrikingly.com'
+			},
+			{
+				'level': 'string',
 				'name': 'InFocus Therapeutics',
 				'logoUrl': 'infocus-therapeutics.png',
 				'link': 'https://infocustx.com/'
 			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'sheen-lab.png',
-				'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
-			},
+			// {
+			// 	'level': 'string',
+			// 	'name': 'string',
+			// 	'logoUrl': 'sheen-lab.png',
+			// 	'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
+			// },
 			{
 				'level': 'string',
 				'name': 'SinoBiological',
 				'logoUrl': 'sino.png',
 				'link': 'https://www.sinobiological.com/'
 			},
+			// {
+			// 	'level': 'string',
+			// 	'name': '永昕生物醫藥',
+			// 	'logoUrl': 'mycenax.png',
+			// 	'link': 'https://www.mycenax.com/'
+			// },
 			{
 				'level': 'string',
-				'name': '永昕生物醫藥',
-				'logoUrl': 'mycenax.png',
-				'link': 'https://www.mycenax.com/'
+				'name': 'string',
+				'logoUrl': 'BTCC.png',
+				'link': 'https://www.facebook.com/bostonbtcc'
 			},
 			{
 				'level': 'string',
@@ -562,12 +580,6 @@ export const ttbaSymposium2017 = {
 				'name': 'Wellesley Toyota',
 				'logoUrl': 'wellesley-toyota.png',
 				'link': 'https://www.wellesleytoyota.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'BTCC.png',
-				'link': 'https://www.facebook.com/bostonbtcc'
 			},
 			// {
 			// 	'level': 'string',
