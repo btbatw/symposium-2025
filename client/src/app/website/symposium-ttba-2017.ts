@@ -473,12 +473,12 @@ export const ttbaSymposium2017 = {
 				'logoUrl': 'PharmaEssentia.png',
 				'link': 'https://us.pharmaessentia.com/'
 			},
-			// {
-			// 	'level': '',
-			// 	'name': 'metistx',
-			// 	'logoUrl': 'metis.png',
-			// 	'link': 'https://www.metistx.com/'
-			// },
+			{
+				'level': '',
+				'name': 'metistx',
+				'logoUrl': 'metis.png',
+				'link': 'https://www.metistx.com/'
+			},
 			{
 				'level': 'string',
 				'name': 'string',
@@ -488,20 +488,8 @@ export const ttbaSymposium2017 = {
 			{
 				'level': 'string',
 				'name': 'string',
-				'logoUrl': 'dcb.png',
-				'link': 'https://www.dcb.org.tw/pages/1?locale=en'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
 				'logoUrl': 'Applied-Photophysics.png',
 				'link': 'https://www.photophysics.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'taihoya_logo.png',
-				'link': 'https://taihoya.com/en'
 			},
 			{
 				'level': 'string',
@@ -511,9 +499,21 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'taihoya_logo.png',
+				'link': 'https://taihoya.com/en'
+			},
+			{
+				'level': 'string',
 				'name': 'Vizuro',
 				'logoUrl': 'vizuro.png',
 				'link': 'https://www.vizuro.com/'
+			},
+			{
+				'level': 'string',
+				'name': '3G Leadership Solutions',
+				'logoUrl': '3g-leadership-solutions.png',
+				'link': 'https://www.linkedin.com/in/chia-lin-ho/'
 			},
 			{
 				'level': 'string',
@@ -523,9 +523,9 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': '3G Leadership Solutions',
-				'logoUrl': '3g-leadership-solutions.png',
-				'link': 'https://www.linkedin.com/in/chia-lin-ho/'
+				'name': 'string',
+				'logoUrl': 'dcb.png',
+				'link': 'https://www.dcb.org.tw/pages/1?locale=en'
 			},
 			{
 				'level': 'string',
