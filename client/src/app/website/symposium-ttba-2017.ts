@@ -370,7 +370,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Sabrina Yang'],
 			],
 			'moderators': [
-				{'name': 'George Won', 'link': 'https://www.linkedin.com/in/george-wang-formosa-83348250/'},
+				{'name': 'George Wang', 'link': 'https://www.linkedin.com/in/george-wang-formosa-83348250/'},
 				{'name': 'Duane Juang', 'link': 'https://www.linkedin.com/in/duanesj/'}
 			],
 		}, {
