@@ -71,8 +71,8 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/24 09:00 EDT'),
 			'to': new Date('2024/08/24 10:00 EDT'),
 			'title': 'Keynote Speech I: Laura Sepp-Lorenzino, CSO at Intellia Therapeutics',
-			'topic': "A journey on innovation: Making genetic medicines are reality for patients",
-			'sessionDescription': '',
+			'topic': "A Journey In Innovation: Making Genetic Medicines A Reality for Patients",
+			'sessionDescription': 'Many of us in science and biopharma are driven by personal connections to disease and an inner drive to find safe and effective therapies - ideally cures - to improve the lives of patients and their families. Dr. Sepp-Lorenzino has been privileged to work with talented colleagues in innovative organizations to translate science into medicine. She will be sharing some of her journey and what she has learned along the way, as well as the exciting work being pursued at Intellia Therapeutics. They are employing a modular gene editing platform to create diverse in vivo and ex vivo therapeutics, spanning a range of disease indications. Guided by this full-spectrum approach, they are committed to making CRISPR-based medicines a reality for people suffering from genetic diseases and to creating novel engineered cell therapies for various cancers and autoimmune diseases.',
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Laura Sepp-Lorenzino']],
@@ -125,11 +125,11 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': `
 			<p>Topics</p>
 			<ul>
-				<li>Industry Room1: Jon hunting</li>
-				<li>Industry Room2:  Stress Management</li>
-				<li>Industry Room3: Leadership and Management</li>
-				<li>Industry Room4: Different Possibilities in the Industry</li>
-				<li>Industry Room5: Goal Setting and Strategies for Career Advancement</li>
+				<li>Industry (B104): Jon Hunting. Hosts: Wen-Chi Chou & Jason (Yen-Chun) Lu</li>
+				<li>Industry (B105): Stress Management. Hosts: Emily Hsiue & Mei-Hsiu Ling)</li>
+				<li>Industry (B106): Leadership and Management. Hosts: Yi-Li Min & Hsiao-Ling Hung & Yvonne (Yi-Yang) Lau</li>
+				<li>Industry (B107): Different Possibilities in the Industry. Hosts: Po-Jen (Will) Yen & Ting-Hui Wu</li>
+				<li>Industry (B110): Goal Setting and Strategies for Career Advancement. Hosts: Szu-Ta (Starr) Chen & Lih-Ling Lin & June Lin )</li>
 			</ul>`,
 			'tags': [],
 			'rooms': [],
@@ -156,9 +156,9 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': `
 			<p>Topics</p>
 			<ul>
-				<li>Academia Room1: Industrial or Academic Postdoc? (Speaker: Yen-Cheng Chen & Yi-Yun Ho)</li>
-				<li>Academia Room2: How can I apply for my first grant as a young professional or faculty member? (Speaker: Meng-Ju Wu & Ming-Ru Wu)</li>
-				<li>Academia Room3: Differences in the Academic Environments Between Taiwan and the U.S.(Speaker: Mong-Hsun Tsai & Hsiao-Ying Monica Wey)</li>
+				<li>Academia (Table 1): Industrial or Academic Postdoc? Hosts: Yen-Cheng Chen & Yi-Yun Ho</li>
+				<li>Academia (Table 2): How can I apply for my first grant as a young professional or faculty member? Hosts: Meng-Ju Wu & Ming-Ru Wu</li>
+				<li>Academia (Table 3): Differences in the Academic Environments Between Taiwan and the U.S. Hosts: Mong-Hsun Tsai & Hsiao-Ying Monica Wey</li>
 			</ul>`,
 			'tags': [],
 			'rooms': [],
@@ -317,7 +317,7 @@ export const ttbaSymposium2017 = {
 			'to': new Date('2024/08/25 10:40 EDT'),
 			'title': 'Keynote Speech II: Samir Mitragotri, Core Faculty at Wyss Institute/Harvard University',
 			'topic': `A Hitchhiker's and Backpacker's Guide to Drug Delivery`,
-			'sessionDescription': '',
+			'sessionDescription': 'Dr. Samir will discuss some key observations and learnings from his journey which have had a deep impact on him. He will also summarize the experiences and people that provided the foundation for his approach to research, education and entrepreneurship. He will end his talk by discussing their current research and approach to nanoparticle-based drug delivery systems. Despite their promise, poor vascular circulation, limited targeting and the inability to negotiate many biological barriers have limited their clinical translation. Biology has provided many examples of successful “carriers” in the form of circulatory cells, which routinely overcome the hurdles faced by synthetic nanoparticle systems. They have explored “cellular hitchhiking and backpacking” approaches which involve combining synthetic particles with circulatory cells to drastically alter the in vivo fate of the particles as well as the cells. He will provide an overview of the principles and examples of hitchhiking and backpacking approaches for drug and cell therapy.',
 			'tags': [],
 			'rooms': [],
 			'speakers': [
@@ -340,7 +340,7 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2024/08/25 10:50 EDT'),
 			'to': new Date('2024/08/25 12:20 EDT'),
 			'title': 'Panel 3: Translational Science',
-			'topic': 'Bridging the gap: translational science from discovery to patient impact',
+			'topic': 'Bridging The Gap: Translational Science From Discovery To Patient Impact',
 			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
 			'tags': [],
@@ -469,13 +469,13 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'PharmaEssentia',
 				'logoUrl': 'PharmaEssentia.png',
 				'link': 'https://us.pharmaessentia.com/'
 			},
 			{
 				'level': '',
-				'name': 'metistx',
+				'name': 'METiS Therapeutics',
 				'logoUrl': 'metis.png',
 				'link': 'https://www.metistx.com/'
 			},
@@ -505,7 +505,7 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'Genemessener Science/Taihoya',
 				'logoUrl': 'taihoya_logo.png',
 				'link': 'https://taihoya.com/en'
 			},
@@ -523,7 +523,7 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'string',
+				'name': 'Development Center of Biotechnology',
 				'logoUrl': 'dcb.png',
 				'link': 'https://www.dcb.org.tw/pages/1?locale=en'
 			},
