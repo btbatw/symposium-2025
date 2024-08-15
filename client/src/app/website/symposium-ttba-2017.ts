@@ -517,6 +517,12 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
+				'name': 'Wegreened',
+				'logoUrl': 'North America Immigration Law Group.png',
+				'link': 'https://www.wegreened.com/'
+			},
+			{
+				'level': 'string',
 				'name': 'BioLegend',
 				'logoUrl': 'biolegend.png',
 				'link': 'https://www.biolegend.com'
@@ -545,24 +551,36 @@ export const ttbaSymposium2017 = {
 				'logoUrl': 'infocus-therapeutics.png',
 				'link': 'https://infocustx.com/'
 			},
-			// {
-			// 	'level': 'string',
-			// 	'name': 'string',
-			// 	'logoUrl': 'sheen-lab.png',
-			// 	'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
-			// },
 			{
 				'level': 'string',
 				'name': 'SinoBiological',
 				'logoUrl': 'sino.png',
 				'link': 'https://www.sinobiological.com/'
 			},
-			// {
-			// 	'level': 'string',
-			// 	'name': '永昕生物醫藥',
-			// 	'logoUrl': 'mycenax.png',
-			// 	'link': 'https://www.mycenax.com/'
-			// },
+			{
+				'level': 'string',
+				'name': 'MT Law LCC',
+				'logoUrl': 'mt-law-lcc.png',
+				'link': 'https://www.mtlawllc.com/en/homepage'
+			},
+			{
+				'level': 'string',
+				'name': '永昕生物醫藥',
+				'logoUrl': 'mycenax.png',
+				'link': 'https://www.mycenax.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'string',
+				'logoUrl': 'sheen-lab.png',
+				'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
+			},
+			{
+				'level': 'string',
+				'name': 'Prometrika',
+				'logoUrl': 'prometrika.png',
+				'link': 'https://www.prometrika.com/'
+			},
 			{
 				'level': 'string',
 				'name': 'string',
@@ -583,12 +601,6 @@ export const ttbaSymposium2017 = {
 			},
 			// {
 			// 	'level': 'string',
-			// 	'name': 'Wegreened',
-			// 	'logoUrl': 'North America Immigration Law Group.png',
-			// 	'link': 'https://www.wegreened.com/'
-			// },
-			// {
-			// 	'level': 'string',
 			// 	'name': 'Green Maple Law Group',
 			// 	'logoUrl': 'Green_Maple.png',
 			// 	'link': 'https://www.greenmaplelaw.com/'
@@ -599,7 +611,6 @@ export const ttbaSymposium2017 = {
 			// 	'logoUrl': 'Immunwork.png',
 			// 	'link': 'https://www.immunwork.com/index.php?lang=en'
 			// },
-
 			// {
 			// 	'level': 'string',
 			// 	'name': 'string',
