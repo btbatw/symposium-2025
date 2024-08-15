@@ -8,7 +8,7 @@
 			{{'support' | uppercase}}
 		</button>
 		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.registrationLink)">REGISTER</button>
-		<!-- <button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.programbookLink)">PROGRAM BOOK</button> -->
+		<button md-raised-button color="accent" (click)="goToLink(symposium.symposiumInfo.programbookLink)">PROGRAM BOOK</button>
 	</nav>
 	<nav fxHide fxShow.xs="true" class="nav-xs" *ngIf="!isSticky">
 		<button md-fab color="accent" [mdMenuTriggerFor]="menu">
@@ -19,9 +19,9 @@
 				<fa name="arrow-up"></fa>
 				<span>Top</span>
 			</button>
-			<!-- <button md-menu-item (click)="goToLink(symposium.symposiumInfo.programbookLink)">
+			<button md-menu-item (click)="goToLink(symposium.symposiumInfo.programbookLink)">
 				<span>PROGRAM BOOK</span>
-			</button> -->
+			</button>
 			<button md-menu-item *ngFor="let link of getPageLinks('showPageLink', symposium)" (click)="scrollTo(link)">
 				<span>{{parseCamelCase(link) | uppercase}}</span>
 			</button>
