@@ -125,11 +125,11 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': `
 			<p>Topics</p>
 			<ul>
-				<li>Industry (B104): Jon Hunting. Hosts: Wen-Chi Chou & Jason (Yen-Chun) Lu</li>
-				<li>Industry (B105): Stress Management. Hosts: Emily Hsiue & Mei-Hsiu Ling)</li>
-				<li>Industry (B106): Leadership and Management. Hosts: Yi-Li Min & Hsiao-Ling Hung & Yvonne (Yi-Yang) Lau</li>
-				<li>Industry (B107): Different Possibilities in the Industry. Hosts: Po-Jen (Will) Yen & Ting-Hui Wu</li>
-				<li>Industry (B110): Goal Setting and Strategies for Career Advancement. Hosts: Szu-Ta (Starr) Chen & Lih-Ling Lin & June Lin )</li>
+				<li>Industry-I (B105): Job Hunting. Hosts: Wen-Chi Chou & Jason (Yen-Chun) Lu</li>
+				<li>Industry-II (B110): Stress Management. Hosts: Emily Hsiue & Mei-Hsiu Ling</li>
+				<li>Industry-III (B106): Leadership and Management. Hosts: Yi-Li Min & Hsiao-Ling Hung & Yvonne (Yi-Yang) Lau</li>
+				<li>Industry-IV (B104): Different Possibilities in the Industry. Hosts: Po-Jen (Will) Yen & Ting-Hui Wu</li>
+				<li>Industry-V (B107): Goal Setting and Strategies for Career Advancement. Hosts: Szu-Ta (Starr) Chen & Lih-Ling Lin & June Lin</li>
 			</ul>`,
 			'tags': [],
 			'rooms': [],
@@ -156,9 +156,9 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': `
 			<p>Topics</p>
 			<ul>
-				<li>Academia (Table 1): Industrial or Academic Postdoc? Hosts: Yen-Cheng Chen & Yi-Yun Ho</li>
-				<li>Academia (Table 2): How can I apply for my first grant as a young professional or faculty member? Hosts: Meng-Ju Wu & Ming-Ru Wu</li>
-				<li>Academia (Table 3): Differences in the Academic Environments Between Taiwan and the U.S. Hosts: Mong-Hsun Tsai & Hsiao-Ying Monica Wey</li>
+				<li>Academia-I (1F-Table II): PhD or not? Which is better after PhD? Industrial or Academic postdoc? Hosts: Yen-Cheng Chen & Yi-Yun Ho</li>
+				<li>Academia-II (B109): How can I apply for my first grant as a young professional or faculty member? Hosts: Meng-Ju Wu & Ming-Ru Wu</li>
+				<li>Academia-III (1F-Table II): Difference between the academic environment in Taiwan and the U.S. Hosts: Mong-Hsun Tsai & Hsiao-Ying Monica Wey</li>
 			</ul>`,
 			'tags': [],
 			'rooms': [],
