@@ -2,7 +2,7 @@ name: Build angular and push to gh-pages branch
 on:
   push:	
     branches:	
-      - master
+      - main
 
 jobs:
   deploy:
@@ -13,7 +13,7 @@ jobs:
       run:
         working-directory: ./client
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
     - name: Use Node.js
       uses: actions/setup-node@v1
       with:
