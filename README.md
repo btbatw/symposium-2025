@@ -1,57 +1,92 @@
-Create a conda environment and install node.js v6 and git
-- M1 macs
+# BTBA Symposium Event Site
+
+## Local Development and Testing
+
+Follow the steps below to set up a local development environment for the BTBA
+Symposium event site.
+
+### 1️⃣ Set Up a Conda Environment with Node.js v6 and Git
+
+Since this project requires an outdated version of Node.js (v6), it is
+recommended to use
+[Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install) for
+managing dependencies.
+
+#### 🔹 For Apple Silicon Macs (M1/M2/M3/M4/X)
+
 ```bash
-CONDA_SUBDIR=osx-64 conda create -n node6 python
-conda activate node6
-conda env config vars set CONDA_SUBDIR=osx-64
-conda deactivate node6
+CONDA_SUBDIR=osx-64 conda create -n node6 nodejs=6 git
 conda activate node6
 ```
 
-- Other platform
+#### 🔹 For Other Systems
+
 ```bash
-# omit git if it's already installed globally
+# Omit `git` if it's already installed globally
 conda create -n node6 -c conda-forge nodejs=6 git
 conda activate node6
 ```
 
-Clone repo from github and change directory into `./symposium-2023/client`
+### 2️⃣ Clone the Repository and Install Angular
+
+**NOTE: Run the following commands in the activated conda environment**
+
 ```bash
-git clone https://github.com/btbatw/symposium-2023.git
-cd symposium-2023/client
+git clone https://github.com/btbatw/symposium-2025.git
+cd symposium-2025/client
 npm install
 npm install -g @angular/cli@1.3.2
 ```
 
-Serve locally during development
+### 3️⃣ Start the Development Server
+
+**NOTE: Run the following commands in the activated conda environment**
+
 ```bash
-# in .../symposium-2023/client directory
+# From the symposium-2025/client directory
 ng serve
 ```
 
-Build for production
-```bash
-# set --base-href based on the site structure
-# in the following example, the symposium site lives under
-# https://main-site.org/2020
+The local development server will now be running, and you can access the site in
+your browser.
 
-# in .../symposium-2023/client directory
-ng build --prod --output-path 2023  --base-href /2023/
+---
 
-# for local repo freshedly cloned and has submodule
-git submodule update --init
-```
+## Updating the Color Scheme and Visual Elements
 
-Use github pages to serve the `website` branch
+To modify the color scheme and design elements, refer to the following
+resources:
 
-1. create `website` branch on github
-2. configure github pages pointing to root of the `website` branch
-```bash
-# in .../tba-symposium/client directory
-git submodule add -b website https://github.com/btbatw/symposium-2023.git website
-ng build --prod --output-path website  --base-href /2023/
+- [This past
+commit](https://github.com/btbatw/symposium-2024/commit/6e7cde2654031d7f5f9305c2b10cdfde3583147a)
+for previous customization
+- [Material Design
+Colors](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors)
+for selecting appropriate color palettes
 
+---
 
-# make changes and update submodule and main git repo by referencing to
-# https://www.activestate.com/blog/getting-git-submodule-track-branch/
-```
+## Deployment via GitHub Actions
+
+The site is integrated with GitHub Actions for automatic deployment. Follow
+these steps to ensure smooth integration:
+
+1. Verify that the `--base-href` setting in `.github/workflows/main.yml` is
+ updated to reflect the correct year.
+2. Ensure **GitHub Pages** is enabled in the repository settings and is set to
+ serve content from the `gh-pages` branch.
+3. Once GitHub Actions completes, the deployed site will be available at:
+
+    ```txt
+    https://btbatw.github.io/symposium-<20XX>/
+    ```
+
+    (_Replace `<20XX>` with the corresponding year from the repository name._)
+
+4. **Important: This setup only needs to be done once!** The `gh-pages` branch
+ should be added as a Git submodule of the main website. Refer to [this
+ note](https://github.com/btbatw/www.btbatw.org?tab=readme-ov-file#add-static-symposium-site-as-git-submodule)
+ for details.
+5. To update the deployed symposium site, manually trigger the **"Update all
+ submodules"** workflow from the [main
+ repository](https://github.com/btbatw/www.btbatw.org/actions).
