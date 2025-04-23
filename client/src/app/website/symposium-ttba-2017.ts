@@ -33,7 +33,7 @@ export const ttbaSymposium2017 = {
 		'subjects': [{
 			'title': '',
 			'description': `
-			<p>2025 BTBA 13th Annual Symposium will take place on <b>July 12-13, at University Northwest Building, Harvard University, Cambridge, MA. </b> <a href="https://www.btbatw.org/symposium.html" target="_blank" rel="noopener noreferrer">Learn more about our past annual symposia.</a></p>
+			<p>2025 BTBA 13th Annual Symposium will take place on <b>July 12-13, at Northwest Building, Harvard University, Cambridge, MA. </b> <a href="https://www.btbatw.org/symposium.html" target="_blank" rel="noopener noreferrer">Learn more about our past annual symposia.</a></p>
             `
 		}, {
 			'title': 'Registration',
