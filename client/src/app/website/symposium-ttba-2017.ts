@@ -15,8 +15,8 @@ export const ttbaSymposium2017 = {
 		'year': '2025',
 		'title': '',
 		'showPageLink': false,
-		'registrationLink': 'https://buytickets.at/btba/1264921',
-		'programbookLink': 'https://www.canva.com/design/DAGK-ORbYj0/bcREqkkhg_nr97yOpXb5dg/view?utm_content=DAGK-ORbYj0&utm_campaign=designshare&utm_medium=link&utm_source=viewer'
+		'registrationLink': 'https://www.tickettailor.com/events/btba/1638644',
+		'programbookLink': ''
 	},
 	'host': {
 		'name': 'Boston Taiwanese Biotechnology Association',
@@ -33,7 +33,7 @@ export const ttbaSymposium2017 = {
 		'subjects': [{
 			'title': '',
 			'description': `
-			<p>2025 BTBA 13th Annual Symposium will take place on <b>July 12-13, at the Harvard University Northwest Building, in Cambridge, MA</b> <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
+			<p>2025 BTBA 13th Annual Symposium will take place on <b>July 12-13, at Harvard University Northwest Building, in Cambridge, MA</b> <a href="https://www.btbatw.org/symposium.html">Learn more about our past annual symposia.</a></p>
             `
 		}, {
 			'title': 'Registration',
@@ -73,7 +73,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 10:00 EDT'),
 			'to': new Date('2025/07/12 10:20 EDT'),
@@ -92,7 +92,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 12:00 EDT'),
 			'to': new Date('2025/07/12 12:45 EDT'),
@@ -142,24 +142,24 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2025/07/12 15:30 EDT'),
 			'to': new Date('2025/07/12 17:00 EDT'),
 			'numOfParallelSessions': 2,
-			'title': 'Panel 1:',
+			'title': 'Panel 1',
 			'topic': 'Battling the Invisible Foe: Infectious Diseases, Global Threats, and Next-Gen Therapeutics',
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 15:30 EDT'),
 			'to': new Date('2025/07/12 17:00 EDT'),
 			'numOfParallelSessions': 2,
-			'title': 'Panel 2:',
+			'title': 'Panel 2',
 			'topic': "Tailoring Tomorrow's Treatments: Advances and Challenges in Personalized Medicine",
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 17:00 EDT'),
 			'to': new Date('2025/07/12 18:00 EDT'),
@@ -196,7 +196,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/13 10:00 EDT'),
 			'to': new Date('2025/07/13 10:40 EDT'),
@@ -218,25 +218,25 @@ export const ttbaSymposium2017 = {
 		}, {
 			'from': new Date('2025/07/13 11:00 EDT'),
 			'to': new Date('2025/07/13 12:30 EDT'),
-			'title': 'Panel 3:',
+			'title': 'Panel 3',
 			'topic': 'Decoding Aging: Mechanisms, Diseases, and the Future of Longevity',
 			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/13 11:00 EDT'),
 			'to': new Date('2025/07/13 12:30 EDT'),
-			'title': 'Panel 4:',
+			'title': 'Panel 4',
 			'topic': "Consultants: The Unsung heroes of Biotech and Pharma Companies' Success",
 			'numOfParallelSessions': 2,
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [],
-			'moderators': []
+			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/13 12:30 EDT'),
 			'to': new Date('2025/07/13 12:50 EDT'),
