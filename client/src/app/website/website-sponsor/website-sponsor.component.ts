@@ -11,7 +11,7 @@ import 'rxjs/add/observable/of';
 export class WebsiteSponsorComponent {
 	@Input() symposium;
 	displayedColumns = ['', ...sponsorTypes.map(el => el.title)];
-	referenceColumns = ['name', '0', '1', '2', '3', '4', '5'];
+	referenceColumns = ['name', '0', '1', '2', '3', '4'];
 	sponsorTabledataSource = new SponsorTableDataSource();
 	packageImgs = [
 		'Sponsorship_Packages.png'
@@ -46,6 +46,9 @@ export class WebsiteSponsorComponent {
 }
 
 const sponsorBenefits = [
+	'Facebook and LinkedIn promotion',
+	'Moment in Biotech (Podcast) 3-min promotion*',
+	'10-minute promotion at symposium venue',
 	'5-minute promotion at symposium venue',
 	'Exhibition space',
 	'Acknowledgement at symposium opening and closing',
@@ -58,8 +61,27 @@ const sponsorBenefits = [
 
 const sponsorTypes = [
 	{
+		title: 'Diamond\n$8,000',
+		benefits: [
+			'Twice',
+			'✅',
+			'✅',
+			'',
+			'✅',
+			'✅',
+			'✅',
+			'✅',
+			'✅',
+			'✅',
+			'8'
+		]
+	},
+	{
 		title: 'Platinum\n$5,000',
 		benefits: [
+			'Once',
+			'',
+			'',
 			'✅',
 			'✅',
 			'✅',
@@ -74,6 +96,9 @@ const sponsorTypes = [
 		title: 'Gold\n$3,000',
 		benefits: [
 			'',
+			'',
+			'',
+			'',
 			'✅',
 			'✅',
 			'✅',
@@ -84,23 +109,13 @@ const sponsorTypes = [
 		]
 	},
 	{
-		title: 'Silver++\n$2,000',
-		benefits: [
-			'',
-			'✅',
-			'',
-			'✅',
-			'✅',
-			'✅',
-			'✅',
-			'2'
-		]
-	},
-	{
-		title: 'Silver+\n$1,500',
+		title: 'Silver+\n$2,000',
 		benefits: [
 			'',
 			'',
+			'',
+			'',
+			'✅',
 			'',
 			'✅',
 			'✅',
@@ -113,18 +128,8 @@ const sponsorTypes = [
 		title: 'Silver\n$1,000',
 		benefits: [
 			'',
-			'✅',
 			'',
 			'',
-			'',
-			'✅',
-			'✅',
-			'1'
-		]
-	},
-	{
-		title: 'Bronze\n$500',
-		benefits: [
 			'',
 			'',
 			'',
@@ -140,7 +145,7 @@ const sponsorTypes = [
 const data = sponsorBenefits.map((el, idx) => {
 	return {
 		...{name: el},
-		...Array(6)
+		...Array(5)
 			.fill(0)
 			.map((_, innerIdx) => sponsorTypes[innerIdx].benefits[idx])
 	}
