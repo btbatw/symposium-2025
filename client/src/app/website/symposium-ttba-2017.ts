@@ -354,27 +354,9 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'iHisto',
-				'logoUrl': 'ihisto.png',
-				'link': 'https://www.ihisto.io/'
-			},
-			{
-				'level': 'string',
 				'name': 'Vizuro',
 				'logoUrl': 'vizuro.png',
 				'link': 'https://www.vizuro.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'Genemessener Science/Taihoya',
-				'logoUrl': 'taihoya_logo.png',
-				'link': 'https://taihoya.com/en'
-			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'Applied-Photophysics.png',
-				'link': 'https://www.photophysics.com/'
 			},
 			{
 				'level': 'string',
@@ -408,30 +390,6 @@ export const ttbaSymposium2017 = {
 			},
 			{
 				'level': 'string',
-				'name': 'InFocus Therapeutics',
-				'logoUrl': 'infocus-therapeutics.png',
-				'link': 'https://infocustx.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'SinoBiological',
-				'logoUrl': 'sino.png',
-				'link': 'https://www.sinobiological.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'MT Law LCC',
-				'logoUrl': 'mt-law-lcc.png',
-				'link': 'https://www.mtlawllc.com/en/homepage'
-			},
-			{
-				'level': 'string',
-				'name': '永昕生物醫藥',
-				'logoUrl': 'mycenax.png',
-				'link': 'https://www.mycenax.com/'
-			},
-			{
-				'level': 'string',
 				'name': 'string',
 				'logoUrl': 'sheen-lab.png',
 				'link': 'https://molbio.mgh.harvard.edu/sheenweb/main_page.html'
@@ -448,36 +406,6 @@ export const ttbaSymposium2017 = {
 				'logoUrl': 'BTCC.png',
 				'link': 'https://www.facebook.com/bostonbtcc'
 			},
-			{
-				'level': 'string',
-				'name': 'string',
-				'logoUrl': 'ab-biosciences.png',
-				'link': 'https://abbiosciences.com/'
-			},
-			{
-				'level': 'string',
-				'name': 'Wellesley Toyota',
-				'logoUrl': 'wellesley-toyota.png',
-				'link': 'https://www.wellesleytoyota.com/'
-			},
-			// {
-			// 	'level': 'string',
-			// 	'name': 'Green Maple Law Group',
-			// 	'logoUrl': 'Green_Maple.png',
-			// 	'link': 'https://www.greenmaplelaw.com/'
-			// },
-			// {
-			// 	'level': 'string',
-			// 	'name': 'Immunwork, Inc.',
-			// 	'logoUrl': 'Immunwork.png',
-			// 	'link': 'https://www.immunwork.com/index.php?lang=en'
-			// },
-			// {
-			// 	'level': 'string',
-			// 	'name': 'string',
-			// 	'logoUrl': 'YBBiotech.png',
-			// 	'link': 'https://si.secda.info/yb/'
-			// },
 		]
 	},
 	'imgs': [{
