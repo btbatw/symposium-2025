@@ -67,7 +67,7 @@ export const ttbaSymposium2017 = {
 		}, {
 			'from': new Date('2025/07/12 09:00 EDT'),
 			'to': new Date('2025/07/12 10:00 EDT'),
-			'title': 'Keynote Speech I: Michael McKenna, CMO and Co-Founder of Akouos (A subsidiary of Eli Lilly and Company)',
+			'title': 'Keynote Speech I: Michael McKenna, Chief Surgical Officer and Co-Founder of Akouos (A subsidiary of Eli Lilly and Company)',
 			'topic': "TBD",
 			'sessionDescription': 'TBD',
 			'tags': [],
