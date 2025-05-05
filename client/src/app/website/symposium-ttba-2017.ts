@@ -406,6 +406,12 @@ export const ttbaSymposium2017 = {
 				'logoUrl': 'BTCC.png',
 				'link': 'https://www.facebook.com/bostonbtcc'
 			},
+			{
+				'level': 'string',
+				'name': 'LPY Law Group',
+				'logoUrl': 'LPY_Law_Group.png',
+				'link': 'https://www.niwus.com/'
+			},
 		]
 	},
 	'imgs': [{
