@@ -63,7 +63,10 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [
+				speakersObj['Jimmy Luo'],
+				speakersObj['Ginnie Hu'],
+			],
 		}, {
 			'from': new Date('2025/07/12 09:00 EDT'),
 			'to': new Date('2025/07/12 10:00 EDT'),
@@ -72,7 +75,7 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': 'TBD',
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [speakersObj['Michael McKenna']],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 10:00 EDT'),
@@ -91,7 +94,11 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [
+				speakersObj['Wei-Hung Weng'],
+				speakersObj['Jeffrey Ruffolo'],
+				speakersObj['Chong Duan'],
+			],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 12:00 EDT'),
@@ -128,7 +135,22 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [
+				speakersObj['Hong-Ren Wang'],
+				speakersObj['Lewis Lau'],
+				speakersObj['Zoey Chou'],
+				speakersObj['Carolyn Hsu'],
+				speakersObj['Shang-Chuen Wu'],
+				speakersObj['Daniel Chou'],
+				speakersObj['Ying-Ja Chen'],
+				speakersObj['Yan-Jhu Su'],
+				speakersObj['Ting-Wei Liao'],
+				speakersObj['Pei-Jung Wu'],
+				speakersObj['George Chan'],
+				speakersObj['Yvonne Hsieh'],
+				speakersObj['Jerry Lin'],
+				speakersObbj['Liang-Yuan Chiu'],
+			],
 		}, {
 			'from': new Date('2025/07/12 15:15 EDT'),
 			'to': new Date('2025/07/12 15:30 EDT'),
@@ -147,7 +169,12 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [
+				speakersObj['Dan H Barouch'],
+				speakersObj['Wilfredo F. Garcia-Beltran'],
+				speakersObj['Anne Wyllie'],
+				speakersObj['Nicolas Alan Menzies'],
+			],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 15:30 EDT'),
@@ -158,7 +185,10 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [
+				speakersObj['Pei-Ken Hsu'],
+				speakersObj['Liang-Bo Wang'],
+			],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/12 17:00 EDT'),
@@ -184,7 +214,23 @@ export const ttbaSymposium2017 = {
 			'title': 'Breakfast and Meeting with Experts',
 			'topic': null,
 			'sessionDescription': ``,
-			'speakers': [],
+			'speakers': [
+				speakersObj['Liang-Hui Chu'],
+				speakersObj['Nelson Liu'],
+				speakersObj['Vincent Tseng'],
+				speakersObj['Hao-Wei Su'],
+				speakersObj['Gerogia Lin'],
+				speakersObj['Shih-Ying Wu'],
+				speakersObj['Sarah Chen'],
+				speakersObj['Jessica Huang'],
+				speakersObj['Hsuan-Ping Chang'],
+				speakersObj['Jeffiner Lu'],
+				speakersObj['Ho-Chou Tu'],
+				speakersObj['Ming-Ju Tsai'],
+				speakersObj['Kai-Chih Huang'],
+				speakersObj['Shang-Chuen Wu'],
+				speakersObj['Meng-Ju Wu'],
+			],
 			'tags': [],
 			'rooms': []
 		}, {
@@ -195,7 +241,7 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': 'TBD',
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [speakersObj['Kornelia Polyak']],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/13 10:00 EDT'),
@@ -205,7 +251,7 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': 'TBD',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [speakersObj['Danny Chou']],
 		}, {
 			'from': new Date('2025/07/13 10:40 EDT'),
 			'to': new Date('2025/07/13 11:00 EDT'),
@@ -224,7 +270,12 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [
+				speakersObj['Sheng-Hong Chen'],
+				speakersObj['Kejun (Albert) Ying'],
+				speakersObj['Raghav Sehgal'],
+				speakersObj['Stan Wang'],
+			],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/13 11:00 EDT'),
@@ -235,7 +286,11 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
-			'speakers': [],
+			'speakers': [
+				speakersObj['Ting-Hui Wu'],
+				speakersObj['Ariel Yeh'],
+				speakersObj['Li-Chun Wang'],
+			],
 			// 'moderators': []
 		}, {
 			'from': new Date('2025/07/13 12:30 EDT'),
