@@ -72,7 +72,6 @@ export const ttbaSymposium2017 = {
 			'to': new Date('2025/07/12 10:00 EDT'),
 			'title': 'Keynote Speech I: Michael McKenna, Chief Surgical Officer and Co-Founder of Akouos (A subsidiary of Eli Lilly and Company)',
 			'topic': "TBD",
-			'sessionDescription': 'TBD',
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Michael McKenna']],
@@ -81,8 +80,6 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2025/07/12 10:00 EDT'),
 			'to': new Date('2025/07/12 10:20 EDT'),
 			'title': 'Group Photo and Coffee Break',
-			'topic': null,
-			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
 			'speakers': []
@@ -98,6 +95,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Wei-Hung Weng'],
 				speakersObj['Jeffrey Ruffolo'],
 				speakersObj['Chong Duan'],
+				speakersObj['Emily Fang'],
 			],
 			// 'moderators': []
 		}, {
@@ -149,7 +147,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['George Chan'],
 				speakersObj['Yvonne Hsieh'],
 				speakersObj['Jerry Lin'],
-				speakersObbj['Liang-Yuan Chiu'],
+				speakersObj['Liang-Yuan Chiu'],
 			],
 		}, {
 			'from': new Date('2025/07/12 15:15 EDT'),
@@ -166,7 +164,6 @@ export const ttbaSymposium2017 = {
 			'numOfParallelSessions': 2,
 			'title': 'Panel 1',
 			'topic': 'Battling the Invisible Foe: Infectious Diseases, Global Threats, and Next-Gen Therapeutics',
-			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
@@ -182,7 +179,6 @@ export const ttbaSymposium2017 = {
 			'numOfParallelSessions': 2,
 			'title': 'Panel 2',
 			'topic': "Tailoring Tomorrow's Treatments: Advances and Challenges in Personalized Medicine",
-			'sessionDescription': ``,
 			'tags': [],
 			'rooms': [],
 			'speakers': [
@@ -203,7 +199,6 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2025/07/12 18:00 EDT'),
 			'to': new Date('2025/07/12 20:00 EDT'),
 			'title': 'Networking Dinner',
-			'topic': '',
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
@@ -238,7 +233,6 @@ export const ttbaSymposium2017 = {
 			'to': new Date('2025/07/13 10:00 EDT'),
 			'title': 'Keynote Speech II: Kornelia Polyak, Professor at Dana-Farber Cancer Institute and Harvard Medical School',
 			'topic': 'TBD',
-			'sessionDescription': 'TBD',
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Kornelia Polyak']],
@@ -247,8 +241,7 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2025/07/13 10:00 EDT'),
 			'to': new Date('2025/07/13 10:40 EDT'),
 			'title': 'Special Talk: Danny Hung-Chieh Chou, Associate Professor at Stanford University',
-			'topic': 'TBD',
-			'sessionDescription': 'TBD',
+			'topic': 'The Path to Tenured Faculty at a Top University',
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Danny Chou']],
