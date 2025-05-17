@@ -24,6 +24,39 @@ Trending Topic	Wei-Hung Weng		Research Scientist, Google Research		weng.jpg		<p>
 Trending Topic	Jeffrey Ruffolo		Head of Protein Design, Profluent		N/A.jpg		<p>N/A</p>		https://www.linkedin.com/in/jeffreyruffolo/
 Trending Topic	Chong Duan		Director, AI Lead, Pfizer		Chong_Duan.jpg		<p>Chong Duan is a Director, Imaging AI Lead in the Translational Clinical Sciences group within Pfizer's Research & Development organization. Chong has a PhD degree in MRI Biophysics from Washington University in St. Louis and a master's degree in computer science from Georgia Institute of Technology. In his role at Pfizer, Chong leads research collaborations with academics, AI companies, and non-profit organizations for imaging AI initiatives in oncology, cardiology, and other therapeutic areas.</p>		https://www.linkedin.com/in/chongduan/
 Trending Topic	Emily Fang		President & CEO at InFocus Therapeutics		N/A.jpg		<p>N/A</p>		https://www.linkedin.com/in/emilyfang2/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABCiGUsB6tQBTa9vrkB7cbNnKpLCEzFz7p0
+Career diagnosis roundtable	Hong-Ren Wang		President & CEO, PharmaEngine
+Career diagnosis roundtable	Lewis Lau		Associate Director CMC project management,Alkeus Pharmaceuticals
+Career diagnosis roundtable	Zoey Chou		Senior Project Manager- AI and Data CoE, IDEXX
+Career diagnosis roundtable	Carolyn Hsu	許翠玲	Director of CMC operations, Aktis oncology
+Career diagnosis roundtable	Shang-Chuen Wu	吳尚錞	Instructor, Harvard Medical School
+Career diagnosis roundtable	Daniel Chou	周宏杰	Associate Professor,Stanford University
+Career diagnosis roundtable	Ying-Ja Chen	陳映嘉	Solutions Architect, Healthcare & Life Sciences, NVIDIA
+Career diagnosis roundtable	Yan-Jhu Su	蘇彥竹	
+Career diagnosis roundtable	Ting-Wei Liao	廖庭尉	
+Career diagnosis roundtable	Pei-Jung Wu	吳佩容	
+Career diagnosis roundtable	George Chan	詹喬治	Life & Career Coach / Facilitator
+Career diagnosis roundtable		陳政儀	
+Career diagnosis roundtable	Liang-Yuan Chiu	邱亮源	
+Career diagnosis roundtable	Yvonne Hsieh		
+Career diagnosis roundtable	Jerry Lin		
+Career diagnosis roundtable		余慈顏	
+Career diagnosis roundtable		蔡孟勳	
+Career diagnosis roundtable		羅世皓
+Breakfast 	Liang-Hui Chu		Director, Clinical Pharmacology, Immunovant
+Breakfast 	Nelson Liu		Senior Medical Director, AztraZeneca 
+Breakfast 	Vincent Tseng		Senior Data Scientist, Verily
+Breakfast 	Hao-Wei Su		Staff Research Scientist, Google
+Breakfast 	Gerogia Lin		
+Breakfast 	Shih-Ying Wu		
+Breakfast 	Sarah Chen		
+Breakfast 	Jessica Huang	黃顗蓉	Technical consultant, mba candidate, MIT
+Breakfast 	Hsuan-Ping Chang	張瑄玶	Associate Director, Translational PKPD, AstraZeneca
+Breakfast 	Jeffiner Lu		Principal Research Scientist, Vertex Pharmaceuticals
+Breakfast 	Ho-Chou Tu	杜荷洲	Director, Alnylam Pharmaceuticals
+Breakfast 	Ming-Ju Tsai	蔡明儒	Senior Scientist, Computational Biology, Takeda
+Breakfast 	Kai-Chih Huang	黃楷智	Senior Computational Biologist, Pfizer
+Breakfast 	Shang-Chuen Wu	吳尚錞	Instructor, Harvard Medical School
+Breakfast 	Meng-Ju Wu	吳孟儒	Assistant Professor, UMass Chan Medical School
 
 
 Lunch - Academic	Hsiao-Ying Monica Wey	魏曉英	Assistant Professor at The MGH/HST Martinos Center for Biomedical Imaging		Academia_Wey.jpg		<p>Dr. Hsiao-Ying Monica Wey is an Assistant Professor at Massachusetts General Hospital (MGH), Harvard Medical School. Her research focuses on advanced neuroimaging techniques, particularly PET-MRI, to investigate neurotransmission, epigenetics, and dynamic imaging methodologies in psychiatry and neurology. Dr. Wey&#39;s innovative approach and dedication to advancing medical imaging aim to enhance the understanding and treatment of psychiatric disorders. She has extensive expertise in animal imaging as well as clinical and translational research, effectively bridging the gap between experimental findings and clinical applications. 		https://www.linkedin.com/in/hsiao-ying-monica-wey-b677187
