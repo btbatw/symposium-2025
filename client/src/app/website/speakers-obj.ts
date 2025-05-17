@@ -34,7 +34,7 @@ Career diagnosis roundtable	Ying-Ja Chen	陳映嘉	Solutions Architect, Healthca
 Career diagnosis roundtable	Yan-Jhu Su	蘇彥竹	
 Career diagnosis roundtable	Ting-Wei Liao	廖庭尉	
 Career diagnosis roundtable	Pei-Jung Wu	吳佩容	
-Career diagnosis roundtable	George Chan	詹喬治	Life & Career Coach / Facilitator
+Career diagnosis roundtable	George Chan	詹喬治	Life & Career Coach / Facilitator		George_Chan.jpg		<p>George 是一位職涯教練，投注十年的時間在引導與教練上，擁有教練時數超過三千小時與七百場工作坊的經驗。曾從台灣跨洋轉職，拿到數個 Offer，包括新加坡 TikTok、英國 Mozilla、美國 BD 等多個職位。最後選擇到美國 Amazon 擔任軟體工程師，後續將這求職過程中的學習轉化為一套完整、可遵循的框架，自 2021 年以來協助超過 200 位 mentees （SWE/PM/Data Scientist/Date Engineer/Business Analyst） 在九個月內拿到理想國家的 Offer。</p>
 Career diagnosis roundtable		陳政儀	
 Career diagnosis roundtable	Liang-Yuan Chiu	邱亮源	
 Career diagnosis roundtable	Yvonne Hsieh		
@@ -42,14 +42,14 @@ Career diagnosis roundtable	Jerry Lin
 Career diagnosis roundtable		余慈顏	
 Career diagnosis roundtable		蔡孟勳	
 Career diagnosis roundtable		羅世皓
-Breakfast 	Liang-Hui Chu		Director, Clinical Pharmacology, Immunovant
+Breakfast 	Liang-Hui Chu		Director, Clinical Pharmacology, Immunovant		N/A.jpg		<p>Dr. Liang-Hui Chu is currently the Director of Clinical pharmacology in Immunovant since 2024. He is currently the Member of ACCP (American college of clinical pharmacology) in the ACCP publication committee 2024-2026. Before working in Immunovant, he was the associate director of clinical pharmacology in Takeda Pharmaceuticals. He received his PhD degree in Biomedical Engineering at Johns Hopkins University in 2015.</p>		https://www.linkedin.com/in/liang-hui-chu/
 Breakfast 	Nelson Liu		Senior Medical Director, AztraZeneca 
 Breakfast 	Vincent Tseng		Senior Data Scientist, Verily
 Breakfast 	Hao-Wei Su		Staff Research Scientist, Google
 Breakfast 	Gerogia Lin		
 Breakfast 	Shih-Ying Wu		
 Breakfast 	Sarah Chen		
-Breakfast 	Jessica Huang	黃顗蓉	Technical consultant, mba candidate, MIT
+Breakfast 	Jessica Huang	黃顗蓉	Technical consultant, mba candidate, MIT		Yi-Jung Huang-Jessica.JPG
 Breakfast 	Hsuan-Ping Chang	張瑄玶	Associate Director, Translational PKPD, AstraZeneca
 Breakfast 	Jeffiner Lu		Principal Research Scientist, Vertex Pharmaceuticals
 Breakfast 	Ho-Chou Tu	杜荷洲	Director, Alnylam Pharmaceuticals
