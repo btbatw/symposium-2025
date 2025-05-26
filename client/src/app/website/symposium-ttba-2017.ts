@@ -75,7 +75,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Michael McKenna']],
-			// 'moderators': []
+			'moderators': [{'name': 'Ting-Wei Liao', 'link': 'https://www.linkedin.com/in/liao-ting-wei/'}]
 		}, {
 			'from': new Date('2025/07/12 10:00 EDT'),
 			'to': new Date('2025/07/12 10:20 EDT'),
@@ -97,7 +97,10 @@ export const ttbaSymposium2017 = {
 				speakersObj['Chong Duan'],
 				speakersObj['Emily Fang'],
 			],
-			// 'moderators': []
+			'moderators': [
+				{'name': 'Ju-Chun (Ivy) Huang', 'link': 'https://www.linkedin.com/in/ju-chun-huang/'},
+				{'name': 'Yi-Lun (Olivia) Tsai', 'link': 'https://www.linkedin.com/in/yi-lun-tsai-653320298/'}
+			],
 		}, {
 			'from': new Date('2025/07/12 12:00 EDT'),
 			'to': new Date('2025/07/12 12:45 EDT'),
@@ -185,7 +188,9 @@ export const ttbaSymposium2017 = {
 				speakersObj['Pei-Ken Hsu'],
 				speakersObj['Liang-Bo Wang'],
 			],
-			// 'moderators': []
+			'moderators': [{
+				'name': 'Ping-Wei Chen', 'link': 'https://www.linkedin.com/in/ping-wei-chen-b0ba78a6/'
+			}]
 		}, {
 			'from': new Date('2025/07/12 17:00 EDT'),
 			'to': new Date('2025/07/12 18:00 EDT'),
@@ -269,7 +274,9 @@ export const ttbaSymposium2017 = {
 				speakersObj['Raghav Sehgal'],
 				speakersObj['Stan Wang'],
 			],
-			// 'moderators': []
+			'moderators': [
+				{'name': 'Jerry Lin', 'link': 'https://www.linkedin.com/in/chih-chung-jerry-lin-680b48113/'},
+				{'name': 'Michael Sun', 'link': 'www.linkedin.com/in/michael-a-sun'}]
 		}, {
 			'from': new Date('2025/07/13 11:00 EDT'),
 			'to': new Date('2025/07/13 12:30 EDT'),
