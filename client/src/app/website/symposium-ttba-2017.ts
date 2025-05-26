@@ -232,7 +232,7 @@ export const ttbaSymposium2017 = {
 			'from': new Date('2025/07/13 09:00 EDT'),
 			'to': new Date('2025/07/13 10:00 EDT'),
 			'title': 'Keynote Speech II: Kornelia Polyak, Professor at Dana-Farber Cancer Institute and Harvard Medical School',
-			'topic': 'TBD',
+			'topic': 'Breast Tumor Evolution',
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Kornelia Polyak']],
@@ -459,6 +459,18 @@ export const ttbaSymposium2017 = {
 				'name': 'LPY Law Group',
 				'logoUrl': 'LPY_Law_Group.png',
 				'link': 'https://www.niwus.com/'
+			},
+			{
+				'level': 'string',
+				'name': '99 Ranch Market',
+				'logoUrl': '99 Ranch Market.jpg',
+				'link': 'https://www.99ranch.com/'
+			},
+			{
+				'level': 'string',
+				'name': 'Taiwan Bio Therapeutics Inc.',
+				'logoUrl': 'TAIWAN_BIO.png',
+				'link': 'https://twbio-thera.com/en'
 			},
 		]
 	},
