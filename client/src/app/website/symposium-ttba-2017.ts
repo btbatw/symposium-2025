@@ -224,7 +224,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Sarah Chen'],
 				speakersObj['Jessica Huang'],
 				speakersObj['Hsuan-Ping Chang'],
-				speakersObj['Jeffiner Lu'],
+				speakersObj['Jennifer Lu'],
 				speakersObj['Ho-Chou Tu'],
 				speakersObj['Ming-Ju Tsai'],
 				speakersObj['Kai-Chih Huang'],
