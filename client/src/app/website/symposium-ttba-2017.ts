@@ -95,7 +95,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Wei-Hung Weng'],
 				speakersObj['Jeffrey Ruffolo'],
 				speakersObj['Chong Duan'],
-				speakersObj['Emily Fang'],
+				speakersObj['Dirk Tomandl'],
 			],
 			'moderators': [
 				{'name': 'Ju-Chun (Ivy) Huang', 'link': 'https://www.linkedin.com/in/ju-chun-huang/'},
