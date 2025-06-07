@@ -155,6 +155,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Yvonne Hsieh'],
 				speakersObj['Jerry Lin'],
 				speakersObj['Liang-Yuan Chiu'],
+				speakersObj['Cheng-Yi Chen'],
 			],
 		}, {
 			'from': new Date('2025/07/12 15:15 EDT'),

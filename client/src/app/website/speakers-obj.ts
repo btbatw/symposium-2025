@@ -26,18 +26,18 @@ Trending Topic	Wei-Hung Weng		Research Scientist, Google DeepMind		weng.jpg		<p>
 Trending Topic	Jeffrey Ruffolo		Head of Protein Design, Profluent		Jeffrey Ruffolo.JPG		<p>Jeff Ruffolo is Head of Protein Design at Profluent Bio, where he develops machine learning methods for functional protein design. He obtained his PhD in biophysics at Johns Hopkins University, where he worked in the lab of Jeffrey Gray. During this time, he developed deep learning tools for antibody structure prediction, language modeling, and representation learning. At Profluent, he has contributed to the OpenCRISPR initiative and led the development of next-generation protein language models with atomistic control for function protein generation.</p>		https://www.linkedin.com/in/jeffreyruffolo/
 Trending Topic	Chong Duan		Director, AI Lead, Pfizer		Chong_Duan.jpg		<p>Chong Duan is a Director, Imaging AI Lead in the Translational Clinical Sciences group within Pfizer's Research & Development organization. Chong has a PhD degree in MRI Biophysics from Washington University in St. Louis and a master's degree in computer science from Georgia Institute of Technology. In his role at Pfizer, Chong leads research collaborations with academics, AI companies, and non-profit organizations for imaging AI initiatives in oncology, cardiology, and other therapeutic areas.</p>		https://www.linkedin.com/in/chongduan/
 Trending Topic	Dirk Tomandl		Co-Founder & CTO at InFocus Therapeutics		Dirk Tomandl.png		<p>Dirk Tomandl is Co-Founder & CTO at InFocus Therapeutics. Dirk holds a Ph.D. in Cheminformatics, Physics, Theoretical Chemistry, and Machine Learning from the University of Vienna (Austria) and the Institute of Molecular Biotechnology e.V. in Jena (Germany). He also earned a Masters in Physics, Biophysics from the University of Erlangen-Nuremberg, Germany. Dirk is a highly experienced cheminformatician with more than 20 years of experience at large pharmaceutical and agrochemical companies such as Eli Lily and Corteva, and biotechnology firms such Atomwise, building AI models and cheminformatic pipelines to support sophisticated and complex drug discovery programs.</p>		https://www.linkedin.com/in/dirktomandl/
-Career diagnosis roundtable	Hong-Ren Wang		President & CEO, PharmaEngine
-Career diagnosis roundtable	Lewis Lau		Associate Director CMC project management,Alkeus Pharmaceuticals
+Career diagnosis roundtable	Hong-Ren Wang		President & CEO, PharmaEngine		Hong-Ren Wang.jpeg
+Career diagnosis roundtable	Lewis Lau		Associate Director CMC project management,Alkeus Pharmaceuticals		Lewis Lau.jpg
 Career diagnosis roundtable	Zoey Chou		Senior Project Manager- AI and Data CoE, IDEXX
-Career diagnosis roundtable	Carolyn Hsu	許翠玲	Director of CMC operations, Aktis oncology
+Career diagnosis roundtable	Carolyn Hsu	許翠玲	Director of CMC operations, Aktis oncology		Carolyn_Hsu.jpg
 Career diagnosis roundtable	Shang-Chuen Wu	吳尚錞	Instructor, Harvard Medical School
 Career diagnosis roundtable	Daniel Chou	周宏杰	Associate Professor,Stanford University
-Career diagnosis roundtable	Ying-Ja Chen	陳映嘉	Solutions Architect, Healthcare & Life Sciences, NVIDIA
-Career diagnosis roundtable	Yan-Jhu Su	蘇彥竹	
-Career diagnosis roundtable	Ting-Wei Liao	廖庭尉
-Career diagnosis roundtable	Pei-Jung Wu	吳佩容	
+Career diagnosis roundtable	Ying-Ja Chen	陳映嘉	Solutions Architect, Healthcare & Life Sciences, NVIDIA		Ying-Ja_Chen.jfif
+Career diagnosis roundtable	Yan-Jhu Su	蘇彥竹			Yan Jhu Su.jpg
+Career diagnosis roundtable	Ting-Wei Liao	廖庭尉			Ting Wei Liao.jpeg
+Career diagnosis roundtable	Pei-Jung Wu	吳佩容			Pei-Jung_Wu.jpeg
 Career diagnosis roundtable	George Chan	詹喬智	Life & Career Coach / Facilitator		George_Chan.jpg		<p>George 是一位職涯教練，投注十年的時間在引導與教練上，擁有教練時數超過三千小時與七百場工作坊的經驗。曾從台灣跨洋轉職，拿到數個 Offer，包括新加坡 TikTok、英國 Mozilla、美國 BD 等多個職位。最後選擇到美國 Amazon 擔任軟體工程師，後續將這求職過程中的學習轉化為一套完整、可遵循的框架，自 2021 年以來協助超過 200 位 mentees （SWE/PM/Data Scientist/Date Engineer/Business Analyst） 在九個月內拿到理想國家的 Offer。</p>
-Career diagnosis roundtable		陳政儀	
+Career diagnosis roundtable	Cheng-Yi Chen 陳政儀			cheng-yi_chen.jpeg
 Career diagnosis roundtable	Liang-Yuan Chiu	邱亮源	
 Career diagnosis roundtable	Yvonne Hsieh		
 Career diagnosis roundtable	Jerry Lin		
