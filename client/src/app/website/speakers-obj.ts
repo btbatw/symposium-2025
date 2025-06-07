@@ -26,24 +26,24 @@ Trending Topic	Wei-Hung Weng		Research Scientist, Google DeepMind		weng.jpg		<p>
 Trending Topic	Jeffrey Ruffolo		Head of Protein Design, Profluent		Jeffrey Ruffolo.JPG		<p>Jeff Ruffolo is Head of Protein Design at Profluent Bio, where he develops machine learning methods for functional protein design. He obtained his PhD in biophysics at Johns Hopkins University, where he worked in the lab of Jeffrey Gray. During this time, he developed deep learning tools for antibody structure prediction, language modeling, and representation learning. At Profluent, he has contributed to the OpenCRISPR initiative and led the development of next-generation protein language models with atomistic control for function protein generation.</p>		https://www.linkedin.com/in/jeffreyruffolo/
 Trending Topic	Chong Duan		Director, AI Lead, Pfizer		Chong_Duan.jpg		<p>Chong Duan is a Director, Imaging AI Lead in the Translational Clinical Sciences group within Pfizer's Research & Development organization. Chong has a PhD degree in MRI Biophysics from Washington University in St. Louis and a master's degree in computer science from Georgia Institute of Technology. In his role at Pfizer, Chong leads research collaborations with academics, AI companies, and non-profit organizations for imaging AI initiatives in oncology, cardiology, and other therapeutic areas.</p>		https://www.linkedin.com/in/chongduan/
 Trending Topic	Dirk Tomandl		Co-Founder & CTO at InFocus Therapeutics		Dirk Tomandl.png		<p>Dirk Tomandl is Co-Founder & CTO at InFocus Therapeutics. Dirk holds a Ph.D. in Cheminformatics, Physics, Theoretical Chemistry, and Machine Learning from the University of Vienna (Austria) and the Institute of Molecular Biotechnology e.V. in Jena (Germany). He also earned a Masters in Physics, Biophysics from the University of Erlangen-Nuremberg, Germany. Dirk is a highly experienced cheminformatician with more than 20 years of experience at large pharmaceutical and agrochemical companies such as Eli Lily and Corteva, and biotechnology firms such Atomwise, building AI models and cheminformatic pipelines to support sophisticated and complex drug discovery programs.</p>		https://www.linkedin.com/in/dirktomandl/
-Career diagnosis roundtable	Hong-Ren Wang		President & CEO, PharmaEngine		Hong-Ren Wang.jpeg
-Career diagnosis roundtable	Lewis Lau		Associate Director CMC project management,Alkeus Pharmaceuticals		Lewis Lau.jpg
-Career diagnosis roundtable	Zoey Chou		Senior Project Manager- AI and Data CoE, IDEXX
-Career diagnosis roundtable	Carolyn Hsu	許翠玲	Director of CMC operations, Aktis oncology		Carolyn_Hsu.jpg
-Career diagnosis roundtable	Shang-Chuen Wu	吳尚錞	Instructor, Harvard Medical School
-Career diagnosis roundtable	Daniel Chou	周宏杰	Associate Professor,Stanford University
-Career diagnosis roundtable	Ying-Ja Chen	陳映嘉	Solutions Architect, Healthcare & Life Sciences, NVIDIA		Ying-Ja_Chen.jfif
-Career diagnosis roundtable	Yan-Jhu Su	蘇彥竹			Yan Jhu Su.jpg
-Career diagnosis roundtable	Ting-Wei Liao	廖庭尉			Ting Wei Liao.jpeg
-Career diagnosis roundtable	Pei-Jung Wu	吳佩容			Pei-Jung_Wu.jpeg
-Career diagnosis roundtable	George Chan	詹喬智	Life & Career Coach / Facilitator		George_Chan.jpg		<p>George 是一位職涯教練，投注十年的時間在引導與教練上，擁有教練時數超過三千小時與七百場工作坊的經驗。曾從台灣跨洋轉職，拿到數個 Offer，包括新加坡 TikTok、英國 Mozilla、美國 BD 等多個職位。最後選擇到美國 Amazon 擔任軟體工程師，後續將這求職過程中的學習轉化為一套完整、可遵循的框架，自 2021 年以來協助超過 200 位 mentees （SWE/PM/Data Scientist/Date Engineer/Business Analyst） 在九個月內拿到理想國家的 Offer。</p>
-Career diagnosis roundtable	Cheng-Yi Chen 陳政儀			cheng-yi_chen.jpeg
-Career diagnosis roundtable	Liang-Yuan Chiu	邱亮源	
-Career diagnosis roundtable	Yvonne Hsieh		
-Career diagnosis roundtable	Jerry Lin		
-Career diagnosis roundtable		余慈顏	
-Career diagnosis roundtable		蔡孟勳	
-Career diagnosis roundtable		羅世皓
+Career diagnosis roundtable	Hong-Ren Wang		President & CEO, PharmaEngine		Hong-Ren Wang.jpeg		<p>N/A</p>
+Career diagnosis roundtable	Lewis Lau		Associate Director CMC project management,Alkeus Pharmaceuticals		Lewis Lau.jpg	<p>N/A</p>
+Career diagnosis roundtable	Zoey Chou		Senior Project Manager- AI and Data CoE, IDEXX	N/A.jpg	<p>N/A</p>
+Career diagnosis roundtable	Carolyn Hsu		Director of CMC operations, Aktis oncology		Carolyn_Hsu.jpg		<p>N/A</p>
+Career diagnosis roundtable	Shang-Chuen Wu	Instructor, Harvard Medical School	N/A.jpg	<p>N/A</p>
+Career diagnosis roundtable	Daniel Chou		Associate Professor, Stanford University	N/A.jpg	<p>N/A</p>
+Career diagnosis roundtable	Ying-Ja Chen	 	Solutions Architect, Healthcare & Life Sciences, NVIDIA		Ying-Ja_Chen.jfif		<p>N/A</p>
+Career diagnosis roundtable	Yan-Jhu Su		Research Fellow, University of Massachusetts		Yan Jhu Su.jpg	<p>N/A</p>
+Career diagnosis roundtable	Ting-Wei Liao	Postdoctoral fellow, Broad Institute			Ting Wei Liao.jpeg	<p>N/A</p>
+Career diagnosis roundtable	Pei-Jung Wu		Senior Scientist and Team Manager, Be Biopharma		Pei-Jung_Wu.jpeg	<p>N/A</p>
+Career diagnosis roundtable	George Chan		Life & Career Coach / Facilitator		George_Chan.jpg		<p>George 是一位職涯教練，投注十年的時間在引導與教練上，擁有教練時數超過三千小時與七百場工作坊的經驗。曾從台灣跨洋轉職，拿到數個 Offer，包括新加坡 TikTok、英國 Mozilla、美國 BD 等多個職位。最後選擇到美國 Amazon 擔任軟體工程師，後續將這求職過程中的學習轉化為一套完整、可遵循的框架，自 2021 年以來協助超過 200 位 mentees （SWE/PM/Data Scientist/Date Engineer/Business Analyst） 在九個月內拿到理想國家的 Offer。</p>
+Career diagnosis roundtable	Cheng-Yi Chen		Senior Bioinformatics Application Scientist, Vizgen		cheng-yi_chen.jpeg		<p>Cheng-Yi Chen earned his PhD in Developmental Biology from the Stowers Institute for Medical Research in Kansas City, MO. His doctoral research centered on germline stem cell development and evolution. In the latter part of his PhD, Cheng-Yi developed a keen interest in big data analysis, prompting a career shift towards a hybrid of wet and dry lab methodologies. This led him to postdoctoral research in zebrafish transcriptomics at the NICHD/NIH, where he mastered the entire single-cell RNA sequencing workflow, from library preparation to bioinformatics data analysis.</p><p>After turning down the NIH Fi2 grant, an intramural counterpart of the F32 grant, Cheng-Yi joined Vizgen as a Bioinformatics Scientist. In this role, he contributes to customer project design, data quality control and management, R&D software development, and spatial omics analysis. With extensive experience in molecular biology, developmental biology, evolution, genetics, genomics, and bioinformatics, Cheng-Yi is passionate about sharing his journey from benchwork to computational roles and his transition from academia to industry.</p>	https://www.linkedin.com/in/penguinayee/
+Career diagnosis roundtable	Liang-Yuan Chiu		Research Scientist, Vertex Pharmaceuticals		Liang Yuan_Chiu.jpeg	<p>N/A</p>
+Career diagnosis roundtable	Sidney Hsieh		Assoc. Prin. Scientist, Merck		N/A.jpg		<p>N/A</p>
+Career diagnosis roundtable	Jerry Lin		Instructor, Massachusetts General Hospital and Harvard Medical School		Jerry_Lin.jpeg		<p>N/A</p>
+Career diagnosis roundtable	Tsyr-Yan Yu	Associate Research Fellow, Academia Sinica			N/A.jpeg		<p>N/A</p>
+Career diagnosis roundtable	Mong-Hsun Tsai		Director, Science and Tech Division, TECO in Boston		N/A.jpg		<p>N/A</p>
+Career diagnosis roundtable	Su Hao Lo		Professor, UC Davis		N/A.jpg		<p>N/A</p>
 Breakfast 	Liang-Hui Chu		Director, Clinical Pharmacology, Immunovant		N/A.jpg		<p>Dr. Liang-Hui Chu is currently the Director of Clinical pharmacology in Immunovant since 2024. He is currently the Member of ACCP (American college of clinical pharmacology) in the ACCP publication committee 2024-2026. Before working in Immunovant, he was the associate director of clinical pharmacology in Takeda Pharmaceuticals. He received his PhD degree in Biomedical Engineering at Johns Hopkins University in 2015.</p>		https://www.linkedin.com/in/liang-hui-chu/
 Breakfast 	Nelson Liu		Senior Medical Director, AztraZeneca 
 Breakfast 	Vincent Tseng		Senior Data Scientist, Verily
