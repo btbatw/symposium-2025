@@ -109,7 +109,11 @@ export const ttbaSymposium2017 = {
 			'sessionDescription': '',
 			'tags': [],
 			'rooms': [],
-			'speakers': []
+			'speakers': [],
+			'moderators': [
+				{'name': 'Yu-Ting Huang', 'link':''},
+				{'name': 'Chin-Yen (Jean) Lin', 'link': 'https://www.linkedin.com/in/chin-yen-lin-238698205'}
+			]
 		}, {
 			'from': new Date('2025/07/12 12:45 EDT'),
 			'to': new Date('2025/07/12 13:00 EDT'),
@@ -175,7 +179,10 @@ export const ttbaSymposium2017 = {
 				speakersObj['Anne Wyllie'],
 				speakersObj['Nicolas Alan Menzies'],
 			],
-			// 'moderators': []
+			'moderators': [
+				{'name': 'Hsin-Wen (Cindy) Liang', 'link': 'www.linkedin.com/in/hsin-wen-liang'},
+				{'name': 'Chia-Jung Li'}
+			]
 		}, {
 			'from': new Date('2025/07/12 15:30 EDT'),
 			'to': new Date('2025/07/12 17:00 EDT'),
@@ -187,10 +194,12 @@ export const ttbaSymposium2017 = {
 			'speakers': [
 				speakersObj['Pei-Ken Hsu'],
 				speakersObj['Liang-Bo Wang'],
+				speakersObj['Alan Gilbert']
 			],
-			'moderators': [{
-				'name': 'Ping-Wei Chen', 'link': 'https://www.linkedin.com/in/ping-wei-chen-b0ba78a6/'
-			}]
+			'moderators': [
+				{'name': 'Ping-Wei Chen', 'link': 'https://www.linkedin.com/in/ping-wei-chen-b0ba78a6/'},
+				{'name': 'Yen-Ting Kuang', 'link': 'https://www.linkedin.com/in/yentingkuang/'}
+			]
 		}, {
 			'from': new Date('2025/07/12 17:00 EDT'),
 			'to': new Date('2025/07/12 18:00 EDT'),
@@ -241,7 +250,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Kornelia Polyak']],
-			// 'moderators': []
+			'moderators': [{'name': 'Chun-Chen Yao', 'link': 'https://www.linkedin.com/in/chun-chen-yao-028944123/'}]
 		}, {
 			'from': new Date('2025/07/13 10:00 EDT'),
 			'to': new Date('2025/07/13 10:40 EDT'),
@@ -250,6 +259,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [speakersObj['Danny Chou']],
+			'moderators': [{'name': 'Yi-Yun Ho', 'link': 'https://www.linkedin.com/in/yi-yun-ho-476b995b/'}]
 		}, {
 			'from': new Date('2025/07/13 10:40 EDT'),
 			'to': new Date('2025/07/13 11:00 EDT'),
@@ -291,7 +301,10 @@ export const ttbaSymposium2017 = {
 				speakersObj['Ariel Yeh'],
 				speakersObj['Li-Chun Wang'],
 			],
-			// 'moderators': []
+			'moderators': [
+				{'name': 'Chun-Tien (Jimmy) Kuo', 'link': 'https://www.linkedin.com/in/chuntien-jimmy-kuo/'},
+				{'name': 'Shu-Yu Hsu', 'link': 'https://www.linkedin.com/in/shuyu-hsu/'}
+			]
 		}, {
 			'from': new Date('2025/07/13 12:30 EDT'),
 			'to': new Date('2025/07/13 12:50 EDT'),
