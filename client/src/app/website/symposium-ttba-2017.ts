@@ -304,6 +304,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Ting-Hui Wu'],
 				speakersObj['Ariel Yeh'],
 				speakersObj['Li-Chun Wang'],
+				speakersObj['Amy Shyu'],
 			],
 			'moderators': [
 				{'name': 'Chun-Tien (Jimmy) Kuo', 'link': 'https://www.linkedin.com/in/chuntien-jimmy-kuo/'},
