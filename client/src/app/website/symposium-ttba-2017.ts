@@ -283,7 +283,7 @@ export const ttbaSymposium2017 = {
 			'tags': [],
 			'rooms': [],
 			'speakers': [
-				speakersObj['Sheng-Hong Chen'],
+				speakersObj['Sheng-hong Chen'],
 				speakersObj['Kejun (Albert) Ying'],
 				speakersObj['Raghav Sehgal'],
 				speakersObj['Stan Wang'],
