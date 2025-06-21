@@ -153,7 +153,7 @@ export const ttbaSymposium2017 = {
 				speakersObj['Liang-Yuan Chiu'],
 				speakersObj['Cheng-Yi Chen'],
 				speakersObj['Shang-Chuen Wu'],
-				speakersObj['Daniel Chou'],
+				speakersObj['Danny Chou'],
 				speakersObj['Zoey Chou'],
 				speakersObj['Sidney Hsieh'],
 				speakersObj['Mong-Hsun Tsai'],
